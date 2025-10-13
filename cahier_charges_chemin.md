@@ -2,14 +2,14 @@
 
 ## 📌 Informations du Projet
 
-_Nom du projet:_ Germène La Grenouille
-_Nom de l'équipe:_ Les quenouilles 
+_Nom du projet:_ Germène La Grenouille <br>
+_Nom de l'équipe:_ Les quenouilles <br>
 _Membres:
 
 - [Patricia Nassif] - Chef de projet
 - [Jade Hébert] - Responsable design
 - [Félix Lavoie] - Données + Systèmes
-
+<br>
 _Date de début:_ [08/10/2025]  
 _Date de livraison finale:_ [12/12/2025]  
 _Version du document:_ 1.0
@@ -20,23 +20,29 @@ _Version du document:_ 1.0
 
 !!! tip "Phase de création"
 (Ce paragraphe "Conseil" devra être retiré du Cahier de charge final)
-Pour développer votre concept général, vous devez faire une session de remue-méninges (_brainstorm_) en équipe via _Figjam_ avec une carte conceptuelle (_mindmap_) ou encore par la création collaborative et spontanée via des _post-it_ individuels et groupés. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (_brainstorm_) avec votre enseignante. Si c'est virtuel, partagez le lien. Si c'est papier ou sur tableau blanc, veuillez partager une ou des photographie(s) de votre processus.
+Pour développer votre concept général, vous devez faire une session de remue-méninges (_brainstorm_) en équipe via _Figjam_ avec une carte conceptuelle (_mindmap_) ou encore par la création collaborative et spontanée via des _post-it_ individuels et groupés. Il est possible d'utiliser d'autres procédés de création. Vous devrez partager votre processus de création (_brainstorm_) avec votre enseignante. Si c'est virtuel, partagez le lien. Si c'est papier ou sur tableau blanc, veuillez partager une ou des photographie(s) de votre processus. <br>
 
 Figma Brain Storm: https://www.figma.com/board/duRLYm9St5svNGbtXlhxVa/brainstorm?node-id=0-1&p=f&t=RMWCC4ufYfgXvTa4-0 
 
 Décrivez en 2-3 paragraphes le concept de votre histoire interactive: Nous voulons réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être le seul ami des autres créatures qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre, tandis que les couleurs pastel de l’univers s’estompent peu à peu, jusqu’à ne laisser place qu’au rouge à la fin.
-
+<br>
 - Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.) <br>
+<br>
 Le genre narratif est un mélange de fantastique, aventure, et psychologique, avec des éléments de mystère.
+<br>
 - Quelle est l'histoire principale? <br>
+<br>
 - L’histoire suit une grenouille étrange et solitaire qui traverse un monde fragmenté à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être le seul ami, quitte à éloigner, transformer, voire faire disparaître les autres prétendants à l’amitié.
-Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement rouge — reflet de l’état mental de la grenouille et des conséquences de ses actions.
+Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à
+<br> devenir entièrement rouge — reflet de l’état mental de la grenouille et des conséquences de ses actions.
 Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
 - Qui est le personnage principal? <br>
+<br>
 La petite grenouille
 - Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.) <br>
+<br>
 - Décisions morales : Le joueur est régulièrement confronté à des choix ambigus (aider une créature ou l’écarter, mentir ou dire la vérité, etc.), qui influencent la transformation du monde et du personnage.
-
+<br>
 _Exemple (interdit de prendre l'exemple comme histoire pour votre projet):_
 
 > "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
