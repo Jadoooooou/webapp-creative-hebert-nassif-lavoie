@@ -2,16 +2,16 @@
 
 ## 📌 Informations du Projet
 
-_Nom du projet:_ Un Ami pour Toujours <br>
-_Nom de l'équipe:_ Les quenouilles <br>
-_Membres:
+_Nom du projet:_ Un Ami pour Toujours   
+_Nom de l'équipe:_ Les quenouilles   
+_Membres:_
 
 - [Patricia Nassif] - Chef de projet
 - [Jade Hébert] - Responsable design
 - [Félix Lavoie] - Données + Systèmes
-<br>
-_Date de début:_ [08/10/2025]  
-_Date de livraison finale:_ [12/12/2025]  
+     
+_Date de début:_ [08/10/2025]      
+_Date de livraison finale:_ [12/12/2025]     
 _Version du document:_ 1.0
 
 ## 🎯 1. Présentation du Projet
@@ -20,26 +20,25 @@ _Version du document:_ 1.0
 
 Figma Brain Storm: https://www.figma.com/board/duRLYm9St5svNGbtXlhxVa/brainstorm?node-id=0-1&p=f&t=RMWCC4ufYfgXvTa4-0 
 
-- Quel est le concept de votre histoire interactive?
+- Quel est le concept de l'histoire interactive?
 
 Réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être la seule amie de l’interacteur qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre, tandis que les couleurs pastel de l’univers s’estompent peu à peu, jusqu’à ne laisser place qu’au rouge à la fin.
 
-- Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.) 
+- Quel est le genre narratif?
 
 Le genre narratif est un mélange de fantastique, aventure, et psychologique, avec des éléments de mystère.
 
 - Quelle est l'histoire principale? 
 
-L’histoire suit une grenouille étrange et solitaire qui traverse un monde fragmenté à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être le seul ami, quitte à éloigner, transformer, voire faire disparaître les autres prétendants à l’amitié.
-Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement rouge, qui reflet de l’état mental de la grenouille et des conséquences de ses actions. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
+L’histoire suit une grenouille étrange et solitaire qui traverse un monde fantastique à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être la seule amie, quitte à éloigner, voire faire disparaître les autres prétendants à l’amitié. Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement sombre, qui reflet de l’état mental de la grenouille et des conséquences de ses actions. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
 
 - Qui est le personnage principal?
   
-La petite grenouille
+La petite grenouille et l'interacteur
 
 - Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
 
-Le joueur est régulièrement confronté à des choix ambigus (aider une créature ou l’écarter, mentir ou dire la vérité, etc.), qui influencent la transformation du monde et du personnage.
+Le joueur est régulièrement confronté à des questions et des choix ambigus, qui influencent la transformation du monde et du personnage.
 
 _Exemple (interdit de prendre l'exemple comme histoire pour votre projet):_
 
