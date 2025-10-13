@@ -1,16 +1,15 @@
 ### 🗓️ Rappel — Remise du 22 octobre
 
-- [ ]  **Brainstorm d'équipe** (utilisez **Figjam** de préférence)  
-- [ ]  **Choix du type de projet :**
-  - Option A : *Mémoires interactives*  
+- [x]  **Brainstorm d'équipe** (utilisez **Figjam** de préférence)  
+- [x]  **Choix du type de projet :**
   - Option B : *Trace ton chemin*
-- [ ]  **Trouver une thématique plus précise** pour votre projet
-- [ ]  **Déterminer :**
+- [x]  **Trouver une thématique plus précise** pour votre projet
+- [x]  **Déterminer :**
   - Un **nom de projet**
   - Un **nom d’équipe**
-- [ ]  **Créer un tableau KANBAN (Trello)**  
+- [x]  **Créer un tableau KANBAN (Trello)**  
   - Toutes les tâches du projet doivent être morcelées, du début à la fin.
-- [ ] **Créer votre répertoire Git :**  
+- [x] **Créer votre répertoire Git :**  
   - Nommer selon le format → `webapp-creative-prenom1-prenom2-prenom3`
 - [ ]  **Rédiger le cahier de charge**
 - [ ]  **Design (Figma)**  
