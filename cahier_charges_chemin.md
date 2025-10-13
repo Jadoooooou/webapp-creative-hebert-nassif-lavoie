@@ -39,10 +39,8 @@ La petite grenouille et l'interacteur
 - Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
 
 Le joueur est régulièrement confronté à des questions et des choix ambigus, qui influencent la transformation du monde et du personnage.
-
-_Exemple (interdit de prendre l'exemple comme histoire pour votre projet):_
-
-> "Les Échos du Temps" est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Chaque décision modifie le cours de l'histoire et peut créer des paradoxes temporels. L'utilisateur doit faire des choix difficiles qui influencent non seulement sa propre destinée, mais aussi celle de l'humanité. Le système de branches permet 6 fins différentes selon les décisions prises.
+   
+> "Un Ami pour Toujours" est une histoire interactive en pixel art rétro où une petite grenouille cherche à devenir la seule et unique amie de l’interacteur. Au fil des choix moraux du joueur, l’univers pastel s’assombrit peu à peu, reflétant un sombre côté de la grenouille. Mêlant fantastique, aventure et psychologie, le récit explore la solitude, la possession et la perte d’innocence, menant à plusieurs fins selon les décisions prises.
 
 ### 1.2 Public cible
 
