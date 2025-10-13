@@ -20,7 +20,9 @@ _Version du document:_ 1.0
 
 Figma Brain Storm: https://www.figma.com/board/duRLYm9St5svNGbtXlhxVa/brainstorm?node-id=0-1&p=f&t=RMWCC4ufYfgXvTa4-0 
 
-Décrivez en 2-3 paragraphes le concept de votre histoire interactive: Nous voulons réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être le seul ami des autres créatures qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre, tandis que les couleurs pastel de l’univers s’estompent peu à peu, jusqu’à ne laisser place qu’au rouge à la fin.
+- Quel est le concept de votre histoire interactive?
+
+Réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être la seule amie de l’interacteur qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre, tandis que les couleurs pastel de l’univers s’estompent peu à peu, jusqu’à ne laisser place qu’au rouge à la fin.
 
 - Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.) 
 
