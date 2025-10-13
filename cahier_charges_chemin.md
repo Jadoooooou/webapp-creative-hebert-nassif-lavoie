@@ -45,9 +45,10 @@ Le joueur est régulièrement confronté à des questions et des choix ambigus, 
 ### 1.2 Public cible
 
 - _Âge:_ 13+
-- _Profil:_Jeux narratifs expérimentaux, qui mélange le psycologique et le fantastique.
+- _Profil:_ Jeunes aiamnt les jeux narratifs expérimentaux, qui mélange le psycologique et le fantastique.
 - _Niveau technique:_ Grand public
 - _Temps de lecture estimé:_ 20 minutes
+  
 ### 1.3 Objectifs du projet
 
 - [X] Créer une expérience narrative immersive et émotionnelle
@@ -61,9 +62,9 @@ Le joueur est régulièrement confronté à des questions et des choix ambigus, 
 
 ### 2.1 Synopsis détaillé
 
-Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins): Dans un monde en pixel art aux couleurs douces, une petite grenouille part à la recherche d’un ami. Mais sous ses airs innocents se cache une obsession maladive : elle veut devenir notre saule et unique amie pour toujours. À mesure qu’elle avance, le monde s'efface, les teintes pastel s’éteignent, et le rouge devient la seule couleur qui persiste.
-
-[Écrivez votre synopsis ici]
+Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins): 
+    
+Dans un monde en pixel art aux couleurs douces, une petite grenouille part à la recherche d’un ami: elle demande de joueur avec l'interacteur, d'explorer son monde virtuel, et d'apprendre à se connaître. Mais sous ses airs innocents se cache une obsession maladive : elle veut devenir notre seule et unique amie pour toujours. À mesure que le jeux avance, le monde s'assombrit, les teintes pastel disparaissent, et l'histoire prend une tournure macabre.
 
 ### 2.2 Arbre narratif
 
