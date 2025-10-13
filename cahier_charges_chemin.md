@@ -2,7 +2,7 @@
 
 ## 📌 Informations du Projet
 
-_Nom du projet:_ Germène La Grenouille <br>
+_Nom du projet:_ Un Ami pour Toujours <br>
 _Nom de l'équipe:_ Les quenouilles <br>
 _Membres:
 
@@ -44,24 +44,23 @@ _Exemple (interdit de prendre l'exemple comme histoire pour votre projet):_
 ### 1.2 Public cible
 
 - _Âge:_ 13+
-- _Profil:_ [ex: Amateurs de récits interactifs, fans de sci-fi]
-- _Niveau technique:_ [ex: Utilisateurs grand public]
-- _Temps de lecture estimé:_ [ex: 20-45 minutes pour une partie complète]
-
+- _Profil:_Jeux narratifs expérimentaux, qui mélange le psycologique et le fantastique.
+- _Niveau technique:_ Grand public
+- _Temps de lecture estimé:_ 20 minutes
 ### 1.3 Objectifs du projet
 
-- [ ] Créer une expérience narrative immersive et émotionnelle
-- [ ] Développer un système de choix avec conséquences réelles
-- [ ] Implémenter un système de sauvegarde de progression
-- [ ] Démontrer la maîtrise de Vue.js, GSAP et Pinia
-- [ ] Créer une interface accessible et responsive
-- [ ] [Autre objectif spécifique]
+- [X] Créer une expérience narrative immersive et émotionnelle
+- [X] Développer un système de choix avec conséquences réelles
+- [X] Implémenter un système de sauvegarde de progression
+- [X] Démontrer la maîtrise de Vue.js, GSAP et Pinia
+- [X] Créer une interface accessible et responsive
+- [X] Développer un projet web
 
 ## 📖 2. Architecture Narrative
 
 ### 2.1 Synopsis détaillé
 
-Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins):
+Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins): Dans un monde en pixel art aux couleurs douces, une petite grenouille part à la recherche d’un ami. Mais sous ses airs innocents se cache une obsession maladive : elle veut devenir notre saule et unique amie pour toujours. À mesure qu’elle avance, le monde s'efface, les teintes pastel s’éteignent, et le rouge devient la seule couleur qui persiste.
 
 [Écrivez votre synopsis ici]
 
@@ -813,10 +812,10 @@ _Date de validation:_ [Date]
 
 _Signatures:_
 
-- Chef de projet: **\*\***\_\_\_**\*\***
-- Membre 2: **\*\***\_\_\_**\*\***
-- Membre 3: **\*\***\_\_\_**\*\***
-- Membre 4: **\*\***\_\_\_**\*\*** (si applicable)
+- Chef de projet: Patricia Nassif
+- Responsable designs: Jade Hébert
+- Responsable design
+- Données + Systèmes: Félix Levesque
 
 _Validation enseignant:_ **\*\***\_\_\_**\*\***  
 _Date:_ **\*\***\_\_\_**\*\***  
