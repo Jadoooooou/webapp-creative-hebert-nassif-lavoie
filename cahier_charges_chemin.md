@@ -26,20 +26,15 @@ Figma Brain Storm: https://www.figma.com/board/duRLYm9St5svNGbtXlhxVa/brainstorm
 
 Décrivez en 2-3 paragraphes le concept de votre histoire interactive: Nous voulons réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être le seul ami des autres créatures qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre, tandis que les couleurs pastel de l’univers s’estompent peu à peu, jusqu’à ne laisser place qu’au rouge à la fin.
 <br>
-- Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.) <br>
+- Quel est le genre narratif? (fantastique, sci-fi, mystère, aventure, etc.) 
 
 Le genre narratif est un mélange de fantastique, aventure, et psychologique, avec des éléments de mystère.
-<br>
-- Quelle est l'histoire principale? <br>
+- Quelle est l'histoire principale? 
 
 - L’histoire suit une grenouille étrange et solitaire qui traverse un monde fragmenté à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être le seul ami, quitte à éloigner, transformer, voire faire disparaître les autres prétendants à l’amitié.
-Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à
-<br> devenir entièrement rouge — reflet de l’état mental de la grenouille et des conséquences de ses actions.
-Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
-- Qui est le personnage principal? <br>
-
-La petite grenouille
-- Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.) <br>
+Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement rouge, qui reflet de l’état mental de la grenouille et des conséquences de ses actions. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
+- Qui est le personnage principal? La petite grenouille
+- Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
 
 - Décisions morales : Le joueur est régulièrement confronté à des choix ambigus (aider une créature ou l’écarter, mentir ou dire la vérité, etc.), qui influencent la transformation du monde et du personnage.
 
@@ -49,7 +44,7 @@ _Exemple (interdit de prendre l'exemple comme histoire pour votre projet):_
 
 ### 1.2 Public cible
 
-- _Âge:_ [ex: 16-35 ans]
+- _Âge:_ 13+
 - _Profil:_ [ex: Amateurs de récits interactifs, fans de sci-fi]
 - _Niveau technique:_ [ex: Utilisateurs grand public]
 - _Temps de lecture estimé:_ [ex: 20-45 minutes pour une partie complète]
