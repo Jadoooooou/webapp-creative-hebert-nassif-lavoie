@@ -31,12 +31,11 @@ Décrivez en 2-3 paragraphes le concept de votre histoire interactive: Nous voul
 Le genre narratif est un mélange de fantastique, aventure, et psychologique, avec des éléments de mystère.
 - Quelle est l'histoire principale? 
 
-- L’histoire suit une grenouille étrange et solitaire qui traverse un monde fragmenté à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être le seul ami, quitte à éloigner, transformer, voire faire disparaître les autres prétendants à l’amitié.
+L’histoire suit une grenouille étrange et solitaire qui traverse un monde fragmenté à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être le seul ami, quitte à éloigner, transformer, voire faire disparaître les autres prétendants à l’amitié.
 Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement rouge, qui reflet de l’état mental de la grenouille et des conséquences de ses actions. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
 - Qui est le personnage principal? La petite grenouille
 - Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
-
-- Décisions morales : Le joueur est régulièrement confronté à des choix ambigus (aider une créature ou l’écarter, mentir ou dire la vérité, etc.), qui influencent la transformation du monde et du personnage.
+Le joueur est régulièrement confronté à des choix ambigus (aider une créature ou l’écarter, mentir ou dire la vérité, etc.), qui influencent la transformation du monde et du personnage.
 
 _Exemple (interdit de prendre l'exemple comme histoire pour votre projet):_
 
