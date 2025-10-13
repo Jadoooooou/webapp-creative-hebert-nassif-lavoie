@@ -8,11 +8,10 @@ _Membres:_
 
 - [Patricia Nassif] - Chef de projet / [Rôle principal]
 - [Jade Hébert] - [Rôle principal]
-- [Nom] - [Rôle principal]
-- [Nom] - [Rôle principal] (si équipe de 4)
+- [Félix Lavoie] - [Rôle principal]
 
-_Date de début:_ [Date]  
-_Date de livraison finale:_ [Date]  
+_Date de début:_ [08/10/2025]  
+_Date de livraison finale:_ [12/12/2025]  
 _Version du document:_ 1.0
 
 ## 🎯 1. Présentation du Projet
