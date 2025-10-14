@@ -109,6 +109,8 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 | 6   |                  |          |                                           |                                   |                      |
 | 7   |                  |          |                                           |                                   |                      |
 | 8   |                  |          |                                           |                                   |                      |
+| 9   |                  |          |                                           |                                   |                      |
+| 10   |                  |          |                                           |                                   |                      |
 
 ### 2.4 Fins possibles
 
