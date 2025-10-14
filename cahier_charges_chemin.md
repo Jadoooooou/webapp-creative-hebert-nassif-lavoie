@@ -148,7 +148,7 @@ _Mécanisme choisi:_
 - [ ] _Stats du personnage_ (courage, intelligence, empathie)
 - [ ] _Inventaire d'objets_ (collecte d'items)
 - [ ] _Relations avec personnages_ (affinités)
-- [ ] _Flags de choix_ (choix X débloque scène Y)
+- [X] _Flags de choix_ (choix X débloque scène Y)
 - [ ] _Combinaison de plusieurs systèmes_
 
 _Exemple de tracking:_
@@ -209,8 +209,8 @@ _Couleurs système:_
 Choisissez un ou plusieurs styles:
 
 - [ ] Cinématique (film noir, thriller)
-- [ ] Illustratif (dessins, concept art)
-- [ ] Minimaliste (focus sur le texte)
+- [X] Illustratif (dessins, concept art)
+- [X] Minimaliste (focus sur le texte)
 - [ ] Immersif (photos, ambiances réalistes)
 - [ ] Stylisé (flat design, géométrique)
 
@@ -418,13 +418,13 @@ _Option A: JSON statique_ (recommandé)
 
 _Obligatoires pour la livraison:_
 
-- [ ] _F1 - Lecture de l'histoire_
+- [X] _F1 - Lecture de l'histoire_
 
   - Affichage du texte narratif chapitre par chapitre
   - Navigation linéaire dans l'intro
   - Transitions fluides entre chapitres
 
-- [ ] _F2 - Système de choix_
+- [X] _F2 - Système de choix_
 
   - Affichage de 2-4 choix par chapitre décisionnel
   - Sélection d'un choix
@@ -449,7 +449,7 @@ _Obligatoires pour la livraison:_
   - Garder trace des décisions prises
   - Affichage dans un menu (optionnel mais recommandé)
 
-- [ ] _F6 - Écrans de fin_
+- [X] _F6 - Écrans de fin_
 
   - Affichage de la fin atteinte
   - Récapitulatif des choix faits
@@ -461,7 +461,7 @@ _Obligatoires pour la livraison:_
   - Tablette (768px+)
   - Desktop (1024px+)
 
-- [ ] _F8 - Animations de texte_
+- [X] _F8 - Animations de texte_
 
   - Apparition progressive du texte (optionnel: effet typewriter)
   - Transitions entre chapitres avec GSAP
@@ -473,7 +473,7 @@ _Obligatoires pour la livraison:_
   - Contraste WCAG AA
   - Option skip animations
 
-- [ ] _F10 - Médias intégrés_
+- [X] _F10 - Médias intégrés_
   - Images de fond par chapitre
   - Musique d'ambiance (avec contrôle volume)
 
@@ -577,10 +577,10 @@ _Lien:_ [Insérez votre lien Figma]
 
 | Membre | Rôle principal                    | Responsabilités                                                 |
 | ------ | --------------------------------- | --------------------------------------------------------------- |
-| [Nom]  | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
-| [Nom]  | Design + Animations               | CSS, design visuel, animations GSAP, transitions                |
-| [Nom]  | Contenu + Narration               | Écriture des chapitres, création de l'arbre narratif, dialogues |
-| [Nom]  | Données + Système                 | Gestion des sauvegardes, LocalStorage, logique de choix, stats  |
+| Patricia  | Chef de projet + Architecture Vue | Coordination, Vue Router, stores Pinia, structure de l'histoire |
+| Jade  | Design + Animations               | CSS, design visuel, animations GSAP, transitions                |
+| Patricia  | Contenu + Narration               | Écriture des chapitres, création de l'arbre narratif, dialogues |
+| Félix  | Données + Système                 | Gestion des sauvegardes, LocalStorage, logique de choix, stats  |
 
 _Note:_ Tous participent au développement, mais chacun a sa spécialité.
 
@@ -588,20 +588,20 @@ _Note:_ Tous participent au développement, mais chacun a sa spécialité.
 
 _À répartir entre tous:_
 
-- Tests de l'histoire (lecture complète)
-- Correction de fautes et relecture
-- Tests et debugging
-- Documentation du code
-- Présentation finale
+- Tests de l'histoire (lecture complète) Patricia
+- Correction de fautes et relecture: Jade
+- Tests et debugging: Félix
+- Documentation du code: Jade
+- Présentation finale: Patricia
 
 ### 7.3 Outils de collaboration
 
-- _Git/GitHub:_ [Lien du repo]
-- _Gestion de projet:_ [Trello / Word / GitHub Projects]
+- _Git/GitHub:_ [https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/edit/main/cahier_charges_chemin.md]
+- _Gestion de projet:_ [Trello]
 - _Communication:_ [Teams]
 - _Design:_ [Figma]
-- _Documentation:_ [Word / Google Docs / README.md]
-- _Écriture collaborative:_ [Google Docs / Word]
+- _Documentation:_ [README.md]
+- _Écriture collaborative:_ [Figma]
 
 ## 🚀 8. Critères de Succès
 
@@ -819,7 +819,6 @@ _Signatures:_
 
 - Chef de projet: Patricia Nassif
 - Responsable designs: Jade Hébert
-- Responsable design
 - Données + Systèmes: Félix Levesque
 
 _Validation enseignant:_ **\*\***\_\_\_**\*\***  
