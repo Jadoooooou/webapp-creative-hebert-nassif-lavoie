@@ -31,6 +31,17 @@ Le genre narratif est un mélange de fantastique, aventure, et psychologique, av
 - Quelle est l'histoire principale? 
 
 L’histoire suit une grenouille étrange et solitaire qui traverse un monde fantastique à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être la seule amie, quitte à éloigner, voire faire disparaître les autres prétendants à l’amitié. Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement sombre, qui reflet de l’état mental de la grenouille et des conséquences de ses actions. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
+<br>
+ou
+<br>
+Dans un monde en pixel art pastel, une petite grenouille te sourit. Elle veut explorer, jouer et être ton amie. Elle est douce, drôle, charmante.
+Mais... très vite, tu rencontres les huit autres grenouilles que tu connais déjà. Et ça, elle ne le supporte pas.
+
+Elle veut que tu n’aies qu’elle.
+Une seule amie. Une seule grenouille. Pour toujours.
+
+Chaque chapitre te force à choisir : quelle grenouille doit disparaître ?
+Un monde qui s’assombrit. Des couleurs qui s’effacent. Une amitié qui devient… obsession.
 
 - Qui est le personnage principal?
   
