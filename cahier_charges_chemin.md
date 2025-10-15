@@ -171,11 +171,21 @@ _Couleurs par ambiance/chapitre:_
 
 _Couleurs système:_
 
-- Primaire (actions principales): [#XXXXXX]
-- Secondaire (choix): [#XXXXXX]
-- Succès: [#10B981]
-- Danger: [#EF4444]
-- Neutre: [#6B7280]
+- Boutons:
+
+![Boutons](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/boutons.png)
+
+- Survol:
+
+![Boutons](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/boutons_survol.png)
+
+- Cliqué:
+
+![Boutons](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/boutons_clique.png)
+
+- Champs texte:
+
+![Boutons](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/champs_texte.png)
 
 ### 3.3 Typographie
 
