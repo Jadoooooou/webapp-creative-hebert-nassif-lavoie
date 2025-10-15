@@ -105,9 +105,9 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 | 2   | [La Découverte]  | Choix    | Décision de quel jeu jouer                | 2 choix: "jeu 1" ou "jeu 2"       | Branche A ou B       |
 | 3A  | [jeu 1]          | Linéaire | Atrrape les mouches!!                     | Aucun                             | Progression histoire |
 | 3B  | [jeu 2]          | Linéaire | Habille ta meilleure amie!!               | Aucun                             | Progression histoire |
-| 4   | [histoire]       | Choix    | Histoire bizarre avec informations perso  | 2 choix: "?" ou "savoir la fin"   | Branche C ou D       |
-| 5C  |  [histoire]     |          |                                           |                                   |                      |
-| 5D   |                  |          |                                           |                                   |                      |
+| 4   | [histoire]       | Choix    | Histoire bizarre avec informations perso  | 2 choix: "?" ou "savoir la fin"   | Branche C ou FIN 1   |
+| FIN1|  []     |          |                                           |                                   |                      |
+| 5C  |                  |          |                                           |                                   |                      |
 | 7   |                  |          |                                           |                                   |                      |
 | 8   |                  |          |                                           |                                   |                      |
 | 9   |                  |          |                                           |                                   |                      |
