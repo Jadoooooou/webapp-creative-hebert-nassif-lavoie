@@ -140,13 +140,18 @@ playerState: {
 
 ### 3.1 Moodboard
 
-Insérez ici 3-5 images d'inspiration (ou liens):
+Insérez ici 3-5 images d'inspiration:
 
-- [Image 1: Ambiance générale]
-- [Image 2: Style visuel des personnages]
-- [Image 3: Palette de couleurs]
-- [Image 4: Typographie inspirante]
-- [Image 5: Animations de référence]
+- [Ambiance générale]
+![Ambiance générale](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/ambiance_generale.png)   
+- [Style visuel des personnages]
+![Style visuel des personnages](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/visuel_personnage.png)   
+- [Palette de couleurs]
+![Palette de couleurs](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/palette_couleur.png) 
+- [Typographie inspirante]
+![Typographies](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/typographie.png) 
+- [Animations de référence]
+![Animations de référence](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/animations.png) 
 
 ### 3.2 Palette de couleurs
 
