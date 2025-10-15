@@ -189,10 +189,10 @@ _Couleurs système:_
 
 ### 3.3 Typographie
 
-- _Titres narratifs:_ [Nom de la police] - [Lien Google Fonts]
-- _Texte de narration:_ [Nom de la police] - Lisible, serif ou sans-serif
-- _Dialogues:_ [Nom de la police] - Différencié du texte narratif
-- _Boutons de choix:_ [Nom de la police] - Bold, impactant
+- _Titre du jeu:_ [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
+- _Texte de narration:_ [VT323](https://fonts.google.com/specimen/VT323?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
+- _Boutons de choix:_ [VT323](https://fonts.google.com/specimen/VT323?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
+- _Messages d'erreurs:_ [Varela](https://fonts.google.com/specimen/Varela?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
 
 ### 3.4 Style visuel
 
