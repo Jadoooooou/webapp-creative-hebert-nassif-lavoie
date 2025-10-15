@@ -190,9 +190,17 @@ _Couleurs système:_
 ### 3.3 Typographie
 
 - _Titre du jeu:_ [Press Start 2P](https://fonts.google.com/specimen/Press+Start+2P?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
+
+![police](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/police_titre.png) 
 - _Texte de narration:_ [VT323](https://fonts.google.com/specimen/VT323?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
+
+![police](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/police_narration.png) 
 - _Boutons de choix:_ [VT323](https://fonts.google.com/specimen/VT323?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
+
+![police](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/police_boutons.png) 
 - _Messages d'erreurs:_ [Varela](https://fonts.google.com/specimen/Varela?preview.text=Une%20erreur%20fatale%20s%27est%20produite)
+
+![police](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/police_erreur.png) 
 
 ### 3.4 Style visuel
 
