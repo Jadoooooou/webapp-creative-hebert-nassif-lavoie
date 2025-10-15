@@ -132,15 +132,14 @@ Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
 
 | Nom                  | Rôle         | Description                             | Apparaît dans                |
 | -------------------- | ------------ | --------------------------------------- | ---------------------------- |
-| [Ex: Dr. Sarah Chen] | Protagoniste | Scientifique brillante mais impulsive   | Tous les chapitres           |
-| [Ex: Marcus]         | Mentor       | Professeur sage et prudent              | Chapitres 1, 2, 5            |
-| [Ex: L'IA CHRONOS]   | Antagoniste  | Intelligence artificielle de la machine | Chapitres 3+, certaines fins |
-|                      |              |                                         |                              |
-|                      |              |                                         |                              |
+| [Germaine la Grenouille] | Personnage principal | Petite grenouille qui veut garder les interacteurs avec elle   | Tous les chapitres           |
+| [Interacteur]         | Protagoniste       | Interacteur              |   Tous les chapitres         |
 
 ### 2.6 Système de conséquences
 
-Comment les choix influencent l'histoire?
+Comment les choix influencent l'histoire?   
+
+Les choix influencent la tolérance de la grenouille et à par quel moyen elle va tenter de capturer l'interacteur dans son monde
 
 _Mécanisme choisi:_
 
