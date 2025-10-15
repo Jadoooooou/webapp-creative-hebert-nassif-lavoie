@@ -143,24 +143,31 @@ playerState: {
 Insérez ici 3-5 images d'inspiration:
 
 - [Ambiance générale]
+   
 ![Ambiance générale](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/ambiance_generale.png)   
 - [Style visuel des personnages]
+   
 ![Style visuel des personnages](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/visuel_personnage.png)   
 - [Palette de couleurs]
+   
 ![Palette de couleurs](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/palette_couleur.png) 
 - [Typographie inspirante]
+   
 ![Typographies](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/typographie.png) 
 - [Animations de référence]
+   
 ![Animations de référence](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/animations.png) 
 
 ### 3.2 Palette de couleurs
 
 _Couleurs par ambiance/chapitre:_
 
-- _Chapitres introduction:_ [#XXXXXX] - Tons neutres
-- _Chapitres tension:_ [#XXXXXX] - Tons sombres/dramatiques
-- _Chapitres espoir:_ [#XXXXXX] - Tons clairs/lumineux
-- _Chapitres danger:_ [#XXXXXX] - Rouge/orange
+- _Chapitres 1 à 3:_ [HEX 000], [HEX 324D3E], [HEX 8EA48B], [HEX BECFBB] - Tons pastels et invitants
+- _Chapitres 4:_ [HEX 000], [HEX 2B4336], [HEX 728A6E] - Tons sombres
+- _Chapitres 5:_ [HEX 000], [HEX FAF2AA] - Tons contastants
+- _Chapitres FIN:_ [HEX 000], [HEX BECFBB], [HEX 0C0494] - Noir sur gris, plus aucunes couleurs
+
+![Progressions des couleurs](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/progression_couleurs.png) 
 
 _Couleurs système:_
 
