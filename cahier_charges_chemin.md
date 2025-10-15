@@ -77,7 +77,7 @@ _Structure globale:_
 - _Acte 2:_ Développement avec choix (4-6 chapitres avec branches)
 - _Acte 3:_ Climax et résolution (2-3 fins différentes)
 
-![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/tree/main/medias#:~:text=1%20hour%20ago-,arbre_narratif.png,-Add%20files%20via) 
+![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre_narratif.png) 
 
 ### 2.3 Liste des chapitres/scènes
 
