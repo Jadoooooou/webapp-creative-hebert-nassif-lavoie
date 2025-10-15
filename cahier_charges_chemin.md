@@ -70,56 +70,39 @@ Dans un monde en pixel art aux couleurs douces, une petite grenouille part à la
 ### 2.2 Arbre narratif
 
 Dessinez ou décrivez l'arbre de décisions de votre histoire:
-
-_Structure globale:_
-
-- _Acte 1:_ Introduction (1-2 chapitres linéaires)
-- _Acte 2:_ Développement avec choix (4-6 chapitres avec branches)
-- _Acte 3:_ Climax et résolution (2-3 fins différentes)
-
+    
 ![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre_narratif.png) 
 
 ### 2.3 Liste des chapitres/scènes
 
 Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 
-<small>(les noms des chapitres énoncés ici ne sont que des exemples)</small>
-
-| #   | Nom du chapitre  | Type     | Description courte                        | Choix proposés                    | Conséquences         |
-| --- | ---------------- | -------- | ----------------------------------------- | --------------------------------- | -------------------- |
-| 1   | [Le Réveil]      | Linéaire | Introduction du personnage et du contexte | Aucun (intro)                     | N/A                  |
-| 2   | [La Découverte]  | Choix    | Décision de quel jeu jouer                | 2 choix: "jeu 1" ou "jeu 2"       | Branche A ou B       |
-| 3A  | [jeu 1]          | Linéaire | Atrrape les mouches!!                     | Aucun                             | Progression histoire |
-| 3B  | [jeu 2]          | Linéaire | Habille ta meilleure amie!!               | Aucun                             | Progression histoire |
-| 4   | [histoire]       | Choix    | Histoire bizarre avec informations perso  | 2 choix: "?" ou "savoir la fin"   | Branche C ou FIN 1   |
-| FIN1|  []     |          |                                           |                                   |                      |
-| 5C  |                  |          |                                           |                                   |                      |
-| 7   |                  |          |                                           |                                   |                      |
-| 8   |                  |          |                                           |                                   |                      |
-| 9   |                  |          |                                           |                                   |                      |
-| 10   |                  |          |                                           |                                   |                      |
+| #       | Nom du chapitre       | Type     | Description courte                        | Choix proposés                    | Conséquences         |
+| ------- | --------------------- | -------- | ----------------------------------------- | --------------------------------- | -------------------- |
+| 1       |[Germaine la Grenouille]|Linéaire| Germaine se présente et souhaite nous connaître | Aucun (intro)                | N/A                  |
+| 2       |[Jouons à un jeu!]     | Choix    | Germaine souhaite jouer avec nous!        | 2 choix: "jeu 1" ou "jeu 2"       | Branche A ou B       |
+| 3A      |[Le festin des mouches]|Interactif| Atrrape des mouches!                      | Aucun                             | Progression histoire |
+| 3B      |[Grenouille Glam]      |Interactif| Habille ta meilleure amie!                | Aucun                             | Progression histoire |
+| 4       |[Laisse-moi te raconter une histoire]| Choix | Germaine nous raconte notre rencontre | 2 choix: "?" ou "savoir la fin"| Branche C ou Branche D|
+| 5       |[Regarde moi dans les yeux]|Choix |Germaine se fâche et devient manipulatrice |Champs texte : bonne / mauvaise réponse| Branche E ou Branche F|
+|FIN D    |[Amis pour la vie]| FIN |Notre curiosité prends le dessus: nous sommes maintenant pris dans le monde de Germaine|Aucun| Nous sommes pris dans le jeu|
+|FIN E    |[Tombé dans le piège]|FIN|Notre soumission permet à Germaine de nous contrôler, et notre "ordi" aussi...|  Aucun  | Germaine nous possède |
+|FIN F    |[Ereur du système]| FIN| Il semble avoir eu un erreur du jeu, suite à virus...| 1 choix: "Voulez-vous rejouez avec Germaine?" |Recommencer le jeu|
 
 ### 2.4 Fins possibles
 
-Listez toutes les fins de votre histoire (minimum 3, idéal 4-6):
-
-<small>(les noms des fins énoncées ici ne sont que des exemples)</small>
-
-| #   | Nom de la fin    | Condition pour l'atteindre      | Type (bonne/mauvaise/neutre) |
-| --- | ---------------- | ------------------------------- | ---------------------------- |
-| 1   | [Fin Héroïque]   | Avoir fait 3+ choix altruistes  | Bonne                        |
-| 2   | [Fin Sombre]     | Avoir fait 3+ choix égoïstes    | Mauvaise                     |
-| 3   | [Fin Paradoxale] | Avoir créé un paradoxe temporel | Neutre/Spéciale              |
-| 4   |                  |                                 |                              |
-| 5   |                  |                                 |                              |
-| 6   |                  |                                 |                              |
+| #   | Nom de la fin                            | Condition pour l'atteindre                       | Type (bonne/mauvaise/neutre) |
+| --- | ---------------------------------------- | ------------------------------------------------ | ---------------------------- |
+| 1   | [Germaine nous capture dans son monde]   | Avoir suivi le "parcours de l’amitié"            | Mauvaise |
+| 2   | [Germaine à étendu son monde]            | Avoir presque suivi le "parcours de l’amitié"    | Mauvaise |
+| 3   | [Germaine est prise dans son monde]      | Ne pas avoir suivi le "parcours de l’amitié"     | Bonne    |
 
 ### 2.5 Personnages principaux
 
-| Nom                  | Rôle         | Description                             | Apparaît dans                |
-| -------------------- | ------------ | --------------------------------------- | ---------------------------- |
-| [Germaine la Grenouille] | Personnage principal | Petite grenouille qui veut garder les interacteurs avec elle   | Tous les chapitres           |
-| [Interacteur]         | Protagoniste       | Interacteur              |   Tous les chapitres         |
+| Nom                      | Rôle                 | Description                             | Apparaît dans                |
+| ------------------------ | -------------------- | --------------------------------------- | ---------------------------- |
+| [Germaine la Grenouille] | Personnage principal | Petite grenouille qui veut garder les interacteurs avec elle | Tous les chapitres |
+| [Interacteur]            | Protagoniste         | Interacteur                             |   Tous les chapitres         |
 
 ### 2.6 Système de conséquences
 
