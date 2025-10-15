@@ -214,12 +214,12 @@ Choisissez un ou plusieurs styles:
 
 _Frontend obligatoire:_
 
-- ✅ Vue.js 3 (Composition API ☐ / Options API ☐)
-- ✅ Vite
-- ✅ Vue Router
-- ✅ Pinia (state management)
-- ✅ CSS
-- ✅ GSAP + ScrollTrigger (optionnel selon style)
+- [ ] Vue.js 3 (Composition API ☐ / Options API ☐)
+- [ ] Vite
+- [ ] Vue Router
+- [ ] Pinia (state management)
+- [ ] CSS
+- [ ] GSAP + ScrollTrigger (optionnel selon style)
 
 _Librairies additionnelles envisagées:_
 
@@ -494,7 +494,7 @@ _Obligatoires pour la livraison:_
   - Fast-forward pour texte déjà lu
   - Skip to choice (sauter au prochain choix)
 
-- [ ] _B7 - Effets sonores contextuels_
+- [X] _B7 - Effets sonores contextuels_
 
   - Sons lors de choix importants
   - Ambiances sonores par scène
