@@ -102,12 +102,12 @@ Minimum 8 niveaux (chapitres/scènes). Listez-les avec leurs informations:
 | #   | Nom du chapitre  | Type     | Description courte                        | Choix proposés                    | Conséquences         |
 | --- | ---------------- | -------- | ----------------------------------------- | --------------------------------- | -------------------- |
 | 1   | [Le Réveil]      | Linéaire | Introduction du personnage et du contexte | Aucun (intro)                     | N/A                  |
-| 2   | [La Découverte]  | Choix    | Découverte de la machine temporelle       | 2 choix: "Activer" ou "Rapporter" | Branche A ou B       |
-| 3A  | [Premier Voyage] | Choix    | Voyage dans le passé                      | 3 choix d'époque                  | Impact sur suite     |
-| 3B  | [L' Enquête]     | Linéaire | Investigation scientifique                | Aucun                             | Progression histoire |
-| 4   |                  |          |                                           |                                   |                      |
-| 5   |                  |          |                                           |                                   |                      |
-| 6   |                  |          |                                           |                                   |                      |
+| 2   | [La Découverte]  | Choix    | Décision de quel jeu jouer                | 2 choix: "jeu 1" ou "jeu 2"       | Branche A ou B       |
+| 3A  | [jeu 1]          | Linéaire | Atrrape les mouches!!                     | Aucun                             | Progression histoire |
+| 3B  | [jeu 2]          | Linéaire | Habille ta meilleure amie!!               | Aucun                             | Progression histoire |
+| 4   | [histoire]       | Choix    | Histoire bizarre avec informations perso  | 2 choix: "?" ou "savoir la fin"   | Branche C ou D       |
+| 5C  |  [histoire]     |          |                                           |                                   |                      |
+| 5D   |                  |          |                                           |                                   |                      |
 | 7   |                  |          |                                           |                                   |                      |
 | 8   |                  |          |                                           |                                   |                      |
 | 9   |                  |          |                                           |                                   |                      |
