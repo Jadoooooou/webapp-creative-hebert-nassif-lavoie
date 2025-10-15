@@ -35,7 +35,7 @@ L’histoire suit une grenouille étrange et solitaire qui traverse un monde fan
 
 - Qui est le personnage principal?
   
-La petite grenouille Annie (l'interacteur)
+La petite grenouille Germaine (l'interacteur)
 
 - Quel est le mécanisme de choix? (décisions morales, énigmes, actions, etc.)
 
@@ -52,12 +52,12 @@ Le joueur est régulièrement confronté à des questions et des choix ambigus, 
   
 ### 1.3 Objectifs du projet
 
-- [X] Créer une expérience narrative immersive et émotionnelle
-- [X] Développer un système de choix avec conséquences réelles
-- [X] Implémenter un système de sauvegarde de progression
-- [X] Démontrer la maîtrise de Vue.js, GSAP et Pinia
-- [X] Créer une interface accessible et responsive
-- [X] Développer un projet web
+- [] Créer une expérience narrative immersive et émotionnelle
+- [] Développer un système de choix avec conséquences réelles
+- [] Implémenter un système de sauvegarde de progression
+- [] Démontrer la maîtrise de Vue.js, GSAP et Pinia
+- [] Créer une interface accessible et responsive
+- [] Développer un projet web
 
 ## 📖 2. Architecture Narrative
 
