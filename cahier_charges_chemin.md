@@ -216,8 +216,8 @@ Choisissez un ou plusieurs styles:
 
 | Chapitre | Image de fond         | Effets visuels     | Sons/musique         |
 | -------- | --------------------- | ------------------ | -------------------- |
-| 1        | [Description ou lien] | Fade in progressif | Musique douce, intro |
-| 2        |                       |                    |                      |
+| 1        | Fond noir | Écriture apparaît en apparition progressive | Musique d'ambiance en boucle |
+| 2        | Desktop | Écriture apparaît en apparition progressive | Musique d'ambiance en boucle |
 | 3        |                       |                    |                      |
 | ...      |                       |                    |                      |
 
@@ -543,23 +543,23 @@ _Format:_ En tant que [rôle], je veux [action] afin de [bénéfice]
 
 9. _US-09:_ En tant qu'utilisateur, je veux contrôler le volume sonore afin d'adapter l'expérience à mon environnement.
 
-10. [Ajoutez vos user stories]
+10. _US-10:_ En tant que joueur, je veux avoir un expériance intuitive. 
 
 ## 📊 6. Maquettes et Wireframes
 
 ### 6.1 Lien vers les maquettes Figma
 
-_Lien:_ [Insérez votre lien Figma]
+_Lien:_ [https://www.figma.com/design/IcZWmfdjbvwPM7yiqXu4IU/maquette?node-id=8-270&p=f&t=pPWmqw3PZDpbjKDf-0]
 
 ### 6.2 Écrans principaux à maquetter
 
-- [ ] Menu principal (nouvelle partie, charger, options)
-- [ ] Écran de chapitre avec texte narratif
-- [ ] Panel de choix (2-4 options)
-- [ ] Inventaire/Stats (si applicable)
-- [ ] Écran de fin avec récapitulatif
-- [ ] Gestion des sauvegardes (3 slots)
-- [ ] Version mobile d'au moins 2-3 écrans
+- [X] Menu principal (nouvelle partie, charger, options)
+- [X] Écran de chapitre avec texte narratif
+- [X] Panel de choix (2-4 options)
+- [X] Inventaire/Stats (si applicable)
+- [X] Écran de fin avec récapitulatif
+- [X] Gestion des sauvegardes (3 slots)
+- [X] Version mobile d'au moins 2-3 écrans
 
 ### 6.3 Interactions clés à maquetter
 
@@ -599,7 +599,7 @@ _À répartir entre tous:_
 - _Communication:_ [Teams]
 - _Design:_ [Figma]
 - _Documentation:_ [README.md]
-- _Écriture collaborative:_ [Figma]
+- _Écriture collaborative:_ [Teams]
 
 ## 🚀 8. Critères de Succès
 
@@ -817,7 +817,7 @@ _Signatures:_
 
 - Chef de projet: Patricia Nassif
 - Responsable designs: Jade Hébert
-- Données + Systèmes: Félix Levesque
+- Données + Systèmes: Félix Lavoie
 
 _Validation enseignant:_ **\*\***\_\_\_**\*\***  
 _Date:_ **\*\***\_\_\_**\*\***  
