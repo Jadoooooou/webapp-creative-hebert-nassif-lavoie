@@ -416,13 +416,13 @@ _Option A: JSON statique_ (recommandé)
 
 _Obligatoires pour la livraison:_
 
-- [X] _F1 - Lecture de l'histoire_
+- [ ] _F1 - Lecture de l'histoire_
 
   - Affichage du texte narratif chapitre par chapitre
   - Navigation linéaire dans l'intro
   - Transitions fluides entre chapitres
 
-- [X] _F2 - Système de choix_
+- [ ] _F2 - Système de choix_
 
   - Affichage de 2-4 choix par chapitre décisionnel
   - Sélection d'un choix
@@ -447,7 +447,7 @@ _Obligatoires pour la livraison:_
   - Garder trace des décisions prises
   - Affichage dans un menu (optionnel mais recommandé)
 
-- [X] _F6 - Écrans de fin_
+- [ ] _F6 - Écrans de fin_
 
   - Affichage de la fin atteinte
   - Récapitulatif des choix faits
@@ -459,7 +459,7 @@ _Obligatoires pour la livraison:_
   - Tablette (768px+)
   - Desktop (1024px+)
 
-- [X] _F8 - Animations de texte_
+- [ ] _F8 - Animations de texte_
 
   - Apparition progressive du texte (optionnel: effet typewriter)
   - Transitions entre chapitres avec GSAP
@@ -471,7 +471,7 @@ _Obligatoires pour la livraison:_
   - Contraste WCAG AA
   - Option skip animations
 
-- [X] _F10 - Médias intégrés_
+- [ ] _F10 - Médias intégrés_
   - Images de fond par chapitre
   - Musique d'ambiance (avec contrôle volume)
 
@@ -507,7 +507,7 @@ _Obligatoires pour la livraison:_
   - Fast-forward pour texte déjà lu
   - Skip to choice (sauter au prochain choix)
 
-- [X] _B7 - Effets sonores contextuels_
+- [ ] _B7 - Effets sonores contextuels_
 
   - Sons lors de choix importants
   - Ambiances sonores par scène
