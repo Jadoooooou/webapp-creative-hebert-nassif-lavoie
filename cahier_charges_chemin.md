@@ -555,18 +555,14 @@ _Lien:_ [https://www.figma.com/design/IcZWmfdjbvwPM7yiqXu4IU/maquette?node-id=8-
 
 - [X] Menu principal (nouvelle partie, charger, options)
 - [X] Écran de chapitre avec texte narratif
-- [X] Panel de choix (2-4 options)
-- [X] Inventaire/Stats (si applicable)
+- [ ] Panel de choix (2-4 options)
 - [X] Écran de fin avec récapitulatif
 - [X] Gestion des sauvegardes (3 slots)
 - [X] Version mobile d'au moins 2-3 écrans
 
 ### 6.3 Interactions clés à maquetter
 
-- Apparition progressive du texte
-- Animations des boutons de choix
 - Transition entre chapitres
-- Ouverture de l'inventaire/stats
 - États des boutons (hover, actif, disabled)
 
 ## 📊 7. Plan de Réalisation
