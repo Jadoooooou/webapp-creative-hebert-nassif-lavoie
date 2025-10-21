@@ -1,17 +1,11 @@
-### 🗓️ Rappel — Remise du 22 octobre
-
-- [x]  **Brainstorm d'équipe** (utilisez **Figjam** de préférence)  
-- [x]  **Choix du type de projet :**
-  - Option B : *Trace ton chemin*
-- [x]  **Trouver une thématique plus précise** pour votre projet
-- [x]  **Déterminer :**
-  - Un **nom de projet**
-  - Un **nom d’équipe**
-- [x]  **Créer un tableau KANBAN (Trello)**  
-  - Toutes les tâches du projet doivent être morcelées, du début à la fin.
-- [x] **Créer votre répertoire Git :**  
-  - Nommer selon le format → `webapp-creative-prenom1-prenom2-prenom3`
-- [ ]  **Rédiger le cahier de charge**
-- [ ]  **Design (Figma)**  
-  - Créer les **maquettes des écrans principaux**  
-  - Se référer à la **section 6.2** du cahier de charge fourni
+# Un ami pour la vie
+Option B: Trace ton chemin   
+   
+Membre de l'équipe :
+- Patricia Nassif
+- Félix Lavoie
+- Jade Hébert
+     
+[Lien vers maquettes Figma](https://www.figma.com/design/IcZWmfdjbvwPM7yiqXu4IU/maquette?node-id=0-1&p=f&t=0llwZPkUybZOYO6Z-0)   
+[Lien vers le brainstorm](https://www.figma.com/board/duRLYm9St5svNGbtXlhxVa/brainstorm?t=0llwZPkUybZOYO6Z-0)   
+[Lien vers le Trello](https://trello.com/b/0Nqsv0VR/projet-integrateur)   
