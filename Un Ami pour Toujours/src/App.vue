@@ -6,7 +6,6 @@ import AppFooter from './components/layout/AppFooter.vue'
 
 <template>
   <HomeView> </HomeView>
-  <AppFooter></AppFooter>
 </template>
 
 <style scoped>
