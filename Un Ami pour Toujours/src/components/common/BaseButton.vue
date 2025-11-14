@@ -14,7 +14,7 @@
       }
   </script>
   
-  <style>
+  <style scoped>
   .base-button {
     background-image: url(../../assets/img_btn.png);
     background-repeat: no-repeat;

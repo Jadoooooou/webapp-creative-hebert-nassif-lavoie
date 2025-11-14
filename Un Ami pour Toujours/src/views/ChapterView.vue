@@ -9,3 +9,7 @@
     emits: []
   }
 </script>
+
+<style scoped>
+
+</style>
