@@ -9,5 +9,4 @@ import AppFooter from './components/layout/AppFooter.vue'
 </template>
 
 <style scoped>
-
 </style>
