@@ -1,6 +1,6 @@
 
 <template>
- 
+  <P>pee pee poo poo</P>
 </template>
   
 <script>
