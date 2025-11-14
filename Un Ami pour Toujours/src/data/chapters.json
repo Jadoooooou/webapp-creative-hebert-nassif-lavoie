@@ -1,0 +1,83 @@
+{
+    "chapters": {
+      "1": {
+        "title": "La forêt mystérieuse",
+        "text": "Tu te trouves à l'entrée d'une forêt sombre. Deux chemins s'offrent à toi.",
+        "choices": [
+          {
+            "id": 1,
+            "text": "Prendre le chemin de gauche 🌲",
+            "nextChapter": "2",
+            "type": "path"
+          },
+          {
+            "id": 2,
+            "text": "Prendre le chemin de droite 🏔️",
+            "nextChapter": "3",
+            "type": "path"
+          }
+        ]
+      },
+      "2": {
+        "title": "Le pont suspendu",
+        "text": "Tu arrives devant un vieux pont suspendu au-dessus d'une rivière.",
+        "choices": [
+          {
+            "id": 1,
+            "text": "Traverser le pont 🌉",
+            "nextChapter": "4",
+            "type": "path"
+          },
+          {
+            "id": 2,
+            "text": "Longer la rivière 🏞️",
+            "nextChapter": "5",
+            "type": "path"
+          }
+        ]
+      },
+      "3": {
+        "title": "La montagne",
+        "text": "Le chemin monte vers une montagne enneigée.",
+        "choices": [
+          {
+            "id": 1,
+            "text": "Grimper au sommet ⛰️",
+            "nextChapter": "6",
+            "type": "path"
+          },
+          {
+            "id": 2,
+            "text": "Chercher une grotte 🕳️",
+            "nextChapter": "7",
+            "type": "path"
+          }
+        ]
+      },
+      "4": {
+        "title": "Village abandonné",
+        "text": "Après le pont, tu découvres un village abandonné...",
+        "choices": [
+          {
+            "id": 1,
+            "text": "Recommencer",
+            "nextChapter": "1",
+            "type": "restart"
+          }
+        ]
+      },
+      "5": {
+        "title": "Cascade cachée",
+        "text": "En longeant la rivière, tu trouves une magnifique cascade !",
+        "choices": [
+          {
+            "id": 1,
+            "text": "Recommencer",
+            "nextChapter": "1",
+            "type": "restart"
+          }
+        ]
+      }
+    }
+  }
+  
