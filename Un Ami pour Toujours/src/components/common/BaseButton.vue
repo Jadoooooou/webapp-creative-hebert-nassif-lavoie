@@ -1,10 +1,17 @@
 <template>
-    <button class='base-button'></button>
-    <p class="txtBtn">button</p>
+    <div class="divBtn">
+      <button class='base-button'></button>
+      <p class="txtBtn">{{ label }}</p>
+    </div>
   </template>
   
   <script>
-
+      export default {
+        name: "BaseButton",
+        props: {
+          label: { type: String, default: "button" }
+        }
+      }
   </script>
   
   <style>
@@ -14,6 +21,8 @@
     background-size: 100px;
     width: 100px;
     height: 100px;
+    background-color: transparent;
+    border: 0;
   }
   
   .base-button:hover {
@@ -23,7 +32,10 @@
   .txtBtn {
     font-size: 20px;
     margin-top: 0px;
-    margin-left: 25px;
+    text-align: center;
   }
   
+  .divBtn {
+    width: 100px;
+  }
   </style>

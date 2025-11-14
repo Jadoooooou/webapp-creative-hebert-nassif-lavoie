@@ -18,7 +18,7 @@ const handleClick = () => {
     </a>
   </div>
   <div>
-    <BaseButton @click="handleClick">Bouton</BaseButton>
+    <BaseButton @click="handleClick" label="test"></BaseButton>
   </div>
   <HelloWorld msg="Vite + Vue" />
 </template>
