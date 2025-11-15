@@ -14,7 +14,7 @@
     emits: [],
     methods: {
       jouer() {
-        alert('jouer')
+        this.$router.push('/ChapterView')
       }
     }
   }
