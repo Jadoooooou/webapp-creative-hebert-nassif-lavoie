@@ -1,4 +1,4 @@
-<template>
+<template> <!-- Stucture de la page -->
   <div class="page">
     <div class="icone poubelle">
       <img class="img" src="../assets/icone_poubelle.png" alt="" />
@@ -13,11 +13,10 @@
       <p>Documents</p>
     </div>
   </div>
-
-  
   <AppFooter />
 </template>
 
+<!-- Importer notre footer, pinia et story importé de la store pinia -->
 <script>
 import { mapStores } from "pinia";
 import { useStoryStore } from "../stores/story";
@@ -26,7 +25,7 @@ export default {
   props: {},
   emits: [],
   components: {
-    AppFooter,
+    AppFooter, // Intégrer le footer
   },
   computed: {
     // Store accessible via l'objet 
@@ -117,6 +116,7 @@ export default {
 };
 </script>
 
+<!-- Style css de la page -->
 <style scoped>
 .page {
   background-color: #92a48d;
