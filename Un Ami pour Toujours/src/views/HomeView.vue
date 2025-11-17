@@ -2,7 +2,7 @@
   <div class="page">
     <h1>UN AMI POUR LA VIE</h1>
     <div class="line"></div>
-    <h2>un jeu par Les Quenouilles</h2>
+    <h2>Un jeu par: Les Quenouilles</h2>
     <button @click="jouer" class="btnJouer">JOUER</button>
     <p>© 2025 Les Quenouilless</p>
   </div>
@@ -17,7 +17,7 @@ export default {
         this.$router.push(`/ChapterView/${1}`)
       }
     }
-  }
+  }                                                
 </script>
 
 <style scoped>
