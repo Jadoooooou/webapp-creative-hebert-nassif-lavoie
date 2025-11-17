@@ -1,29 +1,35 @@
-import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
-import ChapterView from '../views/ChapterView.vue'
-import EndingScreenView from '../views/EndingScreenView.vue'
+import { createRouter, createWebHistory } from "vue-router";
+// On importe les vues principales de l'application
+import HomeView from "../views/HomeView.vue";
+import ChapterView from "../views/ChapterView.vue";
+import EndingScreenView from "../views/EndingScreenView.vue";
 
 const routes = [
   {
-    path: '/',
-    name: 'HomeView',
-    component: HomeView
+    // Route de la page d’accueil
+    path: "/",
+    name: "HomeView",
+    component: HomeView,
   },
   {
-    path: '/ChapterView/:id',
-    name: 'ChapterView',
-    component: ChapterView
+    // Route pour un chapitre : "/ChapterView/3", "/ChapterView/12", etc.
+    // Le ":id" signifie que c’est une *route dynamique*
+    path: "/ChapterView/:id",
+    name: "ChapterView",
+    component: ChapterView,
   },
   {
-    path: '/EndingScreenView/:id',
-    name: 'EndingScreenView',
-    component: EndingScreenView
-  }
-]
+    // Route pour une fin
+    // Le ":id" signifie que c’est une *route dynamique*
+    path: "/EndingScreenView/:id",
+    name: "EndingScreenView",
+    component: EndingScreenView,
+  },
+];
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
-})
+  routes,
+});
 
-export default router
+export default router; // On exporte le router pour l’utiliser dans main.js

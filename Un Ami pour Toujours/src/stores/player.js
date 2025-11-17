@@ -3,12 +3,12 @@ import { defineStore } from 'pinia';
 export const usePlayerStore = defineStore('player', {
 
   state: () => ({
-    playerName: '',       // nom du joueur
-    karma: 0,             // karma global
-    stats: {},            // ex : { force: 5, intelligence: 3 }
-    inventory: [],        // ex : [{ id: 'sword', qty: 1 }]
-    flags: {},            // ex : { metNPC1: true }
-    relationships: {}     // ex : { npc1: 50 }
+    playerName: '',       
+    karma: 0,          
+    stats: {},           
+    inventory: [],      
+    flags: {},          
+    relationships: {}     
   }),
 
   getters: {
