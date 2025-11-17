@@ -1,16 +1,19 @@
 <template> <!-- Stucture de la page -->
   <div class="page">
-    <div class="icone poubelle">
-      <img class="img" src="../assets/icone_poubelle.png" alt="" />
-      <p>Poubelle</p>
+    <div>
+      <div class="icone poubelle">
+        <IconePoubelle/>
+      </div>
+      <div class="icone ordi">
+        <IconeOrdi/>
+      </div>
+      <div class="icone doc">
+        <IconeDoc/>
+      </div>
     </div>
-    <div class="icone ordi">
-      <img class="img" src="../assets/icone_ordi.png" alt="" />
-      <p>Ordinateur</p>
-    </div>
-    <div class="icone doc">
-      <img class="img" src="../assets/icone_fichier.png" alt="" />
-      <p>Documents</p>
+    <div>
+      <NarrativeText/>
+      <ChoicePanel/>
     </div>
   </div>
   <AppFooter />
@@ -21,11 +24,22 @@
 import { mapStores } from "pinia";
 import { useStoryStore } from "../stores/story";
 import AppFooter from "../components/layout/AppFooter.vue";
+import IconePoubelle from '../components/specific/IconePoubelle.vue';
+import IconeOrdi from '../components/specific/IconeOrdi.vue';
+import IconeDoc from '../components/specific/IconeDoc.vue';
+import ChoicePanel from "../components/common/ChoicePanel.vue";
+import NarrativeText from "../components/common/NarrativeText.vue";
+
 export default {
   props: {},
   emits: [],
   components: {
-    AppFooter, // Intégrer le footer
+    AppFooter,
+    IconePoubelle,
+    IconeOrdi,
+    IconeDoc,
+    ChoicePanel,
+    NarrativeText,
   },
   computed: {
     // Store accessible via l'objet 
@@ -131,6 +145,21 @@ export default {
   padding: 10px;
   width: 100px;
   text-align: center;
+  display: flex;
+  position: absolute;
+  z-index: 20;
+}
+
+.poubelle {
+  top: 20px;
+}
+
+.ordi {
+  top: 160px;
+}
+
+.doc {
+  top: 300px;
 }
 
 p {
