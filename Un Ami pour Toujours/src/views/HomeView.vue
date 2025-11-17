@@ -28,7 +28,8 @@
   }
 
   h1 {
-    font-size: 100px;
+    font-family: 'Press Start 2P';
+    font-size: 80px;
     color: #384C3F;
     text-align: center;
     margin: 0;
@@ -37,7 +38,8 @@
   }
 
   h2 {
-    font-size: 50px;
+    font-family: 'Press Start 2P';
+    font-size: 40px;
     color: #384C3F;
     text-align: center;
     margin: 0;
@@ -52,6 +54,7 @@
   }
 
   .btnJouer {
+    font-family: 'Press Start 2P';
     width: 300px;
     height: 100px;
     background-color: transparent;
@@ -63,8 +66,14 @@
     cursor: pointer;
   }
 
+  .btnJouer:hover {
+    background-color: #778A70;
+  }
+
   p {
+    font-family: 'Press Start 2P';
     color: #384C3F;
+    background-color: black;
     font-size: 20px;
     position: fixed;   
     bottom: 0;          
