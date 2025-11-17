@@ -7,19 +7,38 @@
     </div>
 </template>
 
-<script setup>
-    
+<script>
+    export default {
+        name: "BaseButton",
+        props: {
+          chapter: { type: Array }
+        }
+    }
 </script>
 
 <style scoped>
+    * {
+        margin: 0;
+    }
+
     .page {
         height: 70vh;
-        background-color: violet;
     }
 
     .container {
-        margin: 20vw;
-        margin-top: 10vh;
-        margin-bottom: 10vh;
+        padding-left: 20vw;
+        padding-right: 20vw;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 80px;
+        margin-bottom: 50px;
+    }
+
+    p {
+        font-size: 30px;
     }
 </style>
