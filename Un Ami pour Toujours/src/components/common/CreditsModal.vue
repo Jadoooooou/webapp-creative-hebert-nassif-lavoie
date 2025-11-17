@@ -17,8 +17,8 @@
   
           <!-- Window content -->
           <div class="win98-content">
-            <p>Made by: Your Name</p>
-            <p>Special thanks: etc...</p>
+            <p>Les assets sont la création de <a href="https://alexmeub.com/old-windows-icons/">Alex Meub</a> .</p>
+            <p>Un gros merci !</p>
   
             <button class="win98-button" @click="close">
               OK
