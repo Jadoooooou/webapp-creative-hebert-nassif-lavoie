@@ -1,9 +1,9 @@
-<template>
+<template>   <!-- Stucture de la page -->
   <div class="page">
     <h1>UN AMI POUR LA VIE</h1>
     <div class="line"></div>
     <h2>Un jeu par: Les Quenouilles</h2>
-    <button @click="jouer" class="btnJouer">JOUER</button>
+    <button @click="jouer" class="btnJouer">JOUER</button>   <!-- Rendre le bouton cliquable -->
     <p>© 2025 Les Quenouilless</p>
   </div>
 </template>
@@ -12,7 +12,7 @@
   export default {
     props: {},
     emits: [],
-    methods: {
+    methods: { // Fonction appelée quand on clique sur "JOUER" // Redirige vers le chapitre 1 grâce au router
       jouer() {
         this.$router.push(`/ChapterView/${1}`)
       }
@@ -20,6 +20,7 @@
   }                                                
 </script>
 
+<!-- Style css de la page -->
 <style scoped>
   .page {
     background-color: black;
