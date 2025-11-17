@@ -1,32 +1,29 @@
-import { defineStore } from 'pinia';
+import { defineStore } from 'pinia'
+import chapters from '../data/chapters.json' // JSON est importé
 
 export const useStoryStore = defineStore('story', {
-
   state: () => ({
+    storyData: chapters,        // JSON est chargé
+
     currentChapterId: null,     
     visitedChapters: [],         
-    storyData: {},               
+    
     availableChoices: [],       
     error: null,
     isLoading: false
   }),
 
   getters: {
-
-    // Retourne l'objet chapitre courant
     currentChapter: (state) => {
       return state.storyData[state.currentChapterId] || null;
     },
 
-    // Vérifie si un chapitre a déjà été débloqué
     isChapterUnlocked: (state) => (chapterId) => {
       return state.visitedChapters.includes(chapterId);
     }
   },
 
   actions: {
-
-    // Charger un chapitre dans currentChapterId + ses choix
     loadChapter(chapterId) {
       if (!this.storyData[chapterId]) {
         this.error = `Chapitre ${chapterId} introuvable`;
@@ -35,16 +32,13 @@ export const useStoryStore = defineStore('story', {
 
       this.currentChapterId = chapterId;
 
-      // Marquer comme visité
       if (!this.visitedChapters.includes(chapterId)) {
         this.visitedChapters.push(chapterId);
       }
 
-      // Mettre à jour les choix disponibles
       this.availableChoices = this.storyData[chapterId].choices || [];
     },
 
-    // Action lorsqu’un choix est sélectionné
     makeChoice(choiceId) {
       const chapter = this.currentChapter;
 
@@ -57,11 +51,9 @@ export const useStoryStore = defineStore('story', {
         return;
       }
 
-      // Aller au chapitre lié au choix
       this.goToChapter(choice.nextChapterId);
     },
 
-    // Change simplement de chapitre
     goToChapter(chapterId) {
       if (!this.storyData[chapterId]) {
         this.error = `Chapitre ${chapterId} introuvable`;
