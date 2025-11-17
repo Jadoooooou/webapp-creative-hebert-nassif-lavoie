@@ -86,7 +86,7 @@
   }
   
   .win98-titlebar {
-    background: #000080;
+    background: #384C3F;
     color: white;
     padding: 4px 6px;
     display: flex;
@@ -98,7 +98,7 @@
   .win98-close-btn {
     width: 20px;
     height: 20px;
-    background: #c0c0c0;
+    background: #C1CEBE;
     border: 2px solid #fff;
     border-right-color: #404040;
     border-bottom-color: #404040;
