@@ -102,7 +102,7 @@
     font-family: "MS Sans Serif";
     font-size: 14px;
     height: 40px;
-    margin-right: 20px;
+    margin-right: 40px;
   }
 
   .win98-button:hover {
