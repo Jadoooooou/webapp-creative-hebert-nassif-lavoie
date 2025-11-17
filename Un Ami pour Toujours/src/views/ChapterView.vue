@@ -1,16 +1,13 @@
 <template>
   <div class="page">
     <div class="icone poubelle">
-      <img class="img" src="../assets/icone_poubelle.png" alt="">
-      <p>Poubelle</p>
+      <IconePoubelle/>
     </div>
     <div class="icone ordi">
-      <img class="img" src="../assets/icone_ordi.png" alt="">
-      <p>Ordinateur</p>
+      <IconeOrdi/>
     </div>
     <div class="icone doc">
-      <img class="img" src="../assets/icone_fichier.png" alt="">
-      <p>Documents</p>
+      <IconeDoc/>
     </div>
   </div>
   <AppFooter/>
@@ -18,11 +15,18 @@
   
 <script>
   import AppFooter from '../components/layout/AppFooter.vue'
+  import IconePoubelle from '../components/specific/IconePoubelle.vue';
+  import IconeOrdi from '../components/specific/IconeOrdi.vue';
+  import IconeDoc from '../components/specific/IconeDoc.vue';
+
   export default {
     props: {},
     emits: [],
     components: {
-      AppFooter
+      AppFooter,
+      IconePoubelle,
+      IconeOrdi,
+      IconeDoc
     },
   }
 </script>
