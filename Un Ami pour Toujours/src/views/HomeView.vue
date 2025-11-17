@@ -9,7 +9,7 @@
 </template>
   
 <script>
-  export default {
+export default {
     props: {},
     emits: [],
     methods: {
@@ -60,6 +60,7 @@
     border-width: 8px;
     color: #384C3F;
     font-size: 40px;
+    cursor: pointer;
   }
 
   p {
