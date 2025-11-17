@@ -1,52 +1,73 @@
 <template>
-    <div>
-      <!-- Button to open -->
-      <button @click="show = true" class="win98-button">
-        Show Credits
-      </button>
-  
-      <!-- Modal -->
-      <div v-if="show" class="win98-overlay" @click.self="close">
+    <div @click="show = true" class="divBtn">
+      <button class='base-button'></button>
+      <p class="txtBtn">Poubelle</p>
+    </div>
+
+
+    <!-- Modal -->
+    <div v-if="show" class="win98-overlay" @click.self="close">
         <div class="win98-window">
   
           <!-- Title Bar -->
           <div class="win98-titlebar">
-            <span>Credits</span>
+            <span>Poubelle</span>
             <button class="win98-close-btn" @click="close">X</button>
           </div>
   
           <!-- Window content -->
           <div class="win98-content">
-            <p>Made by: Your Name</p>
-            <p>Special thanks: etc...</p>
+            <p>tbd</p>
   
             <button class="win98-button" @click="close">
               OK
             </button>
           </div>
         </div>
-      </div>
     </div>
   </template>
   
   <script>
-  export default {
-    name: "CreditsModal",
-    data() {
-        return {
-          show: false
-        };
-      },
-      methods: {
-        close() {
-          this.show = false;
+      export default {
+        name: "BaseButton",
+        data() {
+            return {
+                show: false
+            };
+        },
+        methods: {
+            close() {
+                this.show = false;
+            }
         }
       }
-    };
   </script>
   
   <style scoped>
- 
+  .base-button {
+    background-image: url(../../assets/icone_poubelle.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    border: 0;
+  }
+  
+  .base-button:hover {
+    background-color: #2563eb;
+  }
+
+  .txtBtn {
+    text-align: center;
+    color: white;
+    margin: 0;
+  }
+  
+  .divBtn {
+    width: 100px;
+  }
+
   .win98-overlay {
     position: fixed;
     inset: 0;
@@ -90,6 +111,7 @@
   .win98-content {
     padding: 14px;
     font-size: 14px;
+    text-align: center;
   }
   
   .win98-button {
@@ -102,7 +124,6 @@
     font-family: "MS Sans Serif";
     font-size: 14px;
     height: 40px;
-    margin-right: 40px;
   }
 
   .win98-button:hover {
