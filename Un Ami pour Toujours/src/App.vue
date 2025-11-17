@@ -1,16 +1,19 @@
-<script setup>
-import HomeView from './views/HomeView.vue';
-import ChapterView from './views/ChapterView.vue'
-import EndingScreenView from './views/EndingScreenView.vue'
-
-
+<script>
+export default{
+  name: 'App'
+};
 </script>
 
 <template>
-  <HomeView> </HomeView>
-  <ChapterView></ChapterView>
-  <EndingScreenView></EndingScreenView>
+  <header>
+    <nav>
+      <router-link to="/">Home</router-link>
+      <router-link to="/ChapterView/1">ChapterView</router-link>
+      <router-link to="/EndingScreenView">EndingScreenView</router-link>
+    </nav>
+  </header>
+
+  <router-view />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

@@ -10,12 +10,12 @@ const routes = [
     component: HomeView
   },
   {
-    path: '/ChapterView',
+    path: '/ChapterView/:id',
     name: 'ChapterView',
     component: ChapterView
   },
   {
-    path: '/EndingScreenView',
+    path: '/EndingScreenView/:id',
     name: 'EndingScreenView',
     component: EndingScreenView
   }

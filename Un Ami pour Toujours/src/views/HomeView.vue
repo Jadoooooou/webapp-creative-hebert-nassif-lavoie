@@ -14,7 +14,7 @@
     emits: [],
     methods: {
       jouer() {
-        this.$router.push('/ChapterView')
+        this.$router.push(`/ChapterView/${1}`)
       }
     }
   }

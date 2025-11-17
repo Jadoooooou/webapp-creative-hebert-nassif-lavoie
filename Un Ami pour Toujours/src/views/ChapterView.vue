@@ -23,7 +23,7 @@
     emits: [],
     components: {
       AppFooter
-    }
+    },
   }
 </script>
 

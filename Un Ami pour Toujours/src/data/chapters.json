@@ -1,83 +1,76 @@
-{
-    "chapters": {
-      "1": {
-        "title": "La forêt mystérieuse",
-        "text": "Tu te trouves à l'entrée d'une forêt sombre. Deux chemins s'offrent à toi.",
-        "choices": [
-          {
-            "id": 1,
-            "text": "Prendre le chemin de gauche 🌲",
-            "nextChapter": "2",
-            "type": "path"
-          },
-          {
-            "id": 2,
-            "text": "Prendre le chemin de droite 🏔️",
-            "nextChapter": "3",
-            "type": "path"
-          }
-        ]
-      },
-      "2": {
-        "title": "Le pont suspendu",
-        "text": "Tu arrives devant un vieux pont suspendu au-dessus d'une rivière.",
-        "choices": [
-          {
-            "id": 1,
-            "text": "Traverser le pont 🌉",
-            "nextChapter": "4",
-            "type": "path"
-          },
-          {
-            "id": 2,
-            "text": "Longer la rivière 🏞️",
-            "nextChapter": "5",
-            "type": "path"
-          }
-        ]
-      },
-      "3": {
-        "title": "La montagne",
-        "text": "Le chemin monte vers une montagne enneigée.",
-        "choices": [
-          {
-            "id": 1,
-            "text": "Grimper au sommet ⛰️",
-            "nextChapter": "6",
-            "type": "path"
-          },
-          {
-            "id": 2,
-            "text": "Chercher une grotte 🕳️",
-            "nextChapter": "7",
-            "type": "path"
-          }
-        ]
-      },
-      "4": {
-        "title": "Village abandonné",
-        "text": "Après le pont, tu découvres un village abandonné...",
-        "choices": [
-          {
-            "id": 1,
-            "text": "Recommencer",
-            "nextChapter": "1",
-            "type": "restart"
-          }
-        ]
-      },
-      "5": {
-        "title": "Cascade cachée",
-        "text": "En longeant la rivière, tu trouves une magnifique cascade !",
-        "choices": [
-          {
-            "id": 1,
-            "text": "Recommencer",
-            "nextChapter": "1",
-            "type": "restart"
-          }
-        ]
-      }
+[{
+  "chapters": {
+    "1": {
+      "title": "La forêt mystérieuse",
+      "text": "Bonjour ! Tu me vois bien ? Je suis Germaine la Grenouille. Il fait froid ici, tu sais… fait un petit bout que personne n’ est venu jouer avec moi.Alors,je t’ ai trouvé. À travers les vagues, les ondes, les pixels.Tu es venu. Je veux te montrer mon monde.Bon il n’ y a pas grand - chose mais si tu es venu jusqu’ à moi, c’ est pour être amis, non ? Tu va voir, mon programme est peut - être vieux, mais je suis sûre que tu voudras y rester avec moi!Mais avant, dis - moi qui tu es… ",
+      "choices" : [{
+          "id": 1,
+          "text": "Prendre le chemin de gauche 🌲",
+          "nextChapter": "2",
+          "type": "path"
+        },
+        {
+          "id": 2,
+          "text": "Prendre le chemin de droite 🏔️",
+          "nextChapter": "3",
+          "type": "path"
+        }
+      ]
+    },
+    "2": {
+      "title": "Le pont suspendu",
+      "text": "Voici un petit formulaire qui m’aideras à plus en savoir sur toi ! Tu n’as qu’à répondre aux questions dans les rectangles blancs.",
+      "choices": [{
+          "id": 1,
+          "text": "Traverser le pont 🌉",
+          "nextChapter": "4",
+          "type": "path"
+        },
+        {
+          "id": 2,
+          "text": "Longer la rivière 🏞️",
+          "nextChapter": "5",
+          "type": "path"
+        }
+      ]
+    },
+    "4": {
+      "title": "La montagne",
+      "text": "Elle parle d’une grenouille. Mais aussi… un peu de toi. Il était une fois… une grenouille qui voulait être aimée. Mais personne ne venait plus la voir. Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d’eau qui s’appelait écran. Et de l’autre côté… il y avait toi, [NOM]. Tu n’es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis ! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme.Mais toi, c’est pour la vie, en ? De toutes façons, après tout ce temps à t’attendre, j’ai trouvé la solution pour que l’on reste amis, c’était quoi déjà… Ah oui !",
+
+      "choices": [{
+          "id": 1,
+          "text": "Grimper au sommet ⛰️",
+          "nextChapter": "6",
+          "type": "path"
+        },
+        {
+          "id": 2,
+          "text": "Chercher une grotte 🕳️",
+          "nextChapter": "7",
+          "type": "path"
+        }
+      ]
+    },
+    "7": {
+      "title": "Village abandonné",
+      "text": "Tu es Tombé dans le piège…",
+      "choices": [{
+        "id": 1,
+        "text": "Recommencer",
+        "nextChapter": "1",
+        "type": "restart"
+      }]
+    },
+    "8": {
+      "title": "Cascade cachée",
+      "text": "Je saurai te retrouver.",
+      "choices": [{
+        "id": 1,
+        "text": "Recommencer",
+        "nextChapter": "1",
+        "type": "restart"
+      }]
     }
   }
-  
+}]
