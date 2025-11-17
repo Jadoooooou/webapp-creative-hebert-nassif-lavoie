@@ -32,48 +32,48 @@
 
 ## BaseButton
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- composant de bouton réutilisable pour toute l’interface
+- label [String] — nom du bouton, disabled [Boolean] — indique si le bouton est cliquable ou non
+- click - émis lorsque l’utilisateur presse le bouton
 
 ## ChoicePanel
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- A FAIRE
+- A FAIRE
+- A FAIRE
 
 ## CreditsModal
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- affiche une fenêtre modale avec les crédits du jeu appelée depuis le footer
+- NA
+- close — fermeture de la modale
 
 ## IconButton
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- composant de bouton de style icon 
+- NA
+- click - émis lorsque l’utilisateur presse le bouton
 
 ## NarrativeText
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- affiche du texte narratif avec effets de style taperwriter
+- autoPlay [Boolean] — lance l'animation automatiquement
+- NA
 
 ## SaveStoreManager
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- A FAIRE
+- A FAIRE
+- A FAIRE
 
 ## FormUserProfile
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- formulaire utilisé dans le Chapitre 2 pour collecter les données du joueur
+- defaultValues [Object] — valeurs préremplies
+- submit(formData) — renvoie toutes les données du formulaire
 
 ## Modale
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- composant générique de fenêtre modale, réutilisable dans tout le projet
+- visible [Boolean] — ouverture/fermeture de la modale, closable [Boolean] — affiche ou non le bouton X
+- close() — fermeture de la modale
