@@ -1,5 +1,5 @@
 <template> <!-- Stucture de la page -->
-  <div class="page">
+  <div class="pageChapter">
     <div>
       <div class="icone poubelle">
         <IconePoubelle/>
@@ -12,8 +12,8 @@
       </div>
     </div>
     <div>
-      <NarrativeText/>
-      <ChoicePanel/>
+      <NarrativeText :chapter="storyData[0].chapters[currentChapter]"/>
+      <ChoicePanel :chapter="storyData[0].chapters[currentChapter]" @choose="changeChapter"/>
     </div>
   </div>
   <AppFooter />
@@ -47,6 +47,7 @@ export default {
   },
   data() { // Temporaire avant de faire le lien avec pinia
     return {
+      currentChapter: "1",
       storyData: [{
         "chapters": {
           "1": {
@@ -109,6 +110,9 @@ export default {
               "text": "Recommencer",
               "nextChapter": "1",
               "type": "restart"
+            },
+            {
+              "id": 2
             }]
           },
           "8": {
@@ -125,14 +129,18 @@ export default {
       }]
 
     }
+  },
+  methods: {
+    changeChapter(next) {
+      this.currentChapter = next;
+    }
   }
-
 };
 </script>
 
 <!-- Style css de la page -->
 <style scoped>
-.page {
+.pageChapter {
   background-color: #92a48d;
   height: 100vh;
 }

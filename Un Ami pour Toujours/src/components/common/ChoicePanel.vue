@@ -1,8 +1,15 @@
 <template> 
     <div class="page">
         <div class="container">
-            <button></button>
-            <button></button>
+            <button
+
+                v-for='choice in chapter.choices'
+                :key='choice.id'
+                @click="$emit('choose', choice.nextChapter)"
+                
+            >
+                {{ choice.text }}
+            </button>
         </div>
     </div>
 </template>
@@ -24,8 +31,6 @@
     .container {
         padding-left: 20vw;
         padding-right: 20vw;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
         display: flex;
         justify-content: space-between;
     }
@@ -40,7 +45,7 @@
         color: black;
         cursor: pointer;
         outline: none;
-        width: 200px;
+        width: 250px;
         height: 40px;
     }
 
