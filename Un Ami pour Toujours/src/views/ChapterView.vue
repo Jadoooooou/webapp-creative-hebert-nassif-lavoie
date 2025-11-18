@@ -46,7 +46,7 @@ export default {
       },
     methods: {
         changeChapter(next) {
-          this.storyStore.currentChapterId = next
+          this.storyStore.currentChapterId = next-1
       }
     }
 }
