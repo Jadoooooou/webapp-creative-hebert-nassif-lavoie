@@ -6,7 +6,7 @@ export const useStoryStore = defineStore("story", {
   state: () => ({
     storyData: chapters, // Toute l’histoire est chargée depuis le JSON
 
-    currentChapterId: null, // Chapitre actuellement affiché
+    currentChapterId: 0, // Chapitre actuellement affiché
     visitedChapters: [], // Liste des chapitres déjà visités
 
     availableChoices: [], // Choix disponibles du chapitre en cours

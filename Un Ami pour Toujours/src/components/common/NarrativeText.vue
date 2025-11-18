@@ -9,11 +9,12 @@
 
 <script>
     export default {
-        name: "BaseButton",
+        name: "NarrativeText",
         props: {
-          chapter: { type: Array }
+          chapter: { type: Object }
         }
     }
+
 </script>
 
 <style scoped>
