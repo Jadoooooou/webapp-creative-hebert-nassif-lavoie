@@ -4,7 +4,7 @@ export const usePlayerStore = defineStore('player', {
 
   state: () => ({
     playerName: '',       
-    karma: 0,          
+    amitie: 0,          
     stats: {},           
     inventory: [],      
     flags: {},          
