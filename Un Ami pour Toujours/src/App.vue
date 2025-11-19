@@ -1,6 +1,7 @@
 <script>
+
 export default{
-  name: 'App' // Nom du composant racine de l'application
+  name: 'App', // Nom du composant racine de l'application
 };
 </script>
 
@@ -13,7 +14,6 @@ export default{
       <router-link to="/EndingScreenView">EndingScreenView</router-link>
     </nav>
   </header>
-
   <router-view />
 </template>
 

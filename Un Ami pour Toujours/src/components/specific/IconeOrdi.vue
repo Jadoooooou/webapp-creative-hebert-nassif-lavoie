@@ -79,7 +79,7 @@
   
   .win98-window {
     width: 320px;
-    background: #c0c0c0;
+    background: #C1CEBE;
     border: 2px solid #000;
     box-shadow: 4px 4px 0 #000;
     font-family: "MS Sans Serif", Tahoma, sans-serif;
