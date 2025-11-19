@@ -20,12 +20,6 @@ export default {
 <style scoped>
 * {
     margin: 0;
-    font-family: 'Press Start 2P';
-    font-size: 3vw;
-    color: #384C3F;
-    text-align: center;
-    margin: 0;
-    padding: 5vw;
 }
 
 .page {
@@ -41,7 +35,7 @@ export default {
 
 h1 {
     font-family: 'Press Start 2P';
-    font-size: 6vw;
+    font-size: 4vw;
     color: #384C3F;
     text-align: center;
     margin: 0;
@@ -49,6 +43,10 @@ h1 {
 }
 
 p {
-    font-size: 30px;
+    font-family: 'Press Start 2P';
+    font-size: 2cap;
+    color: #384C3F;
+    text-align: left;
+    margin: 0;
 }
 </style>

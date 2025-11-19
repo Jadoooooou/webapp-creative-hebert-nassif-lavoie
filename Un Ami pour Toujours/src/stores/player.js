@@ -1,4 +1,5 @@
 import { defineStore } from 'pinia';
+import defaultForm from '@/data/player.json'; // on importe le JSON
 
 export const usePlayerStore = defineStore('player', {
 

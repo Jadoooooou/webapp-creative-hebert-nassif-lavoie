@@ -8,6 +8,7 @@
       <div class="icone ordi">
         <IconeOrdi />
       </div>
+      <p>Ville : {{ usePlayerStore.form.city }}</p>
       <div class="icone doc">
         <IconeDoc />
       </div>
@@ -32,6 +33,7 @@ import IconeDoc from "../components/specific/IconeDoc.vue";
 import ChoicePanel from "../components/common/ChoicePanel.vue";
 import NarrativeText from "../components/common/NarrativeText.vue";
 
+
 export default {
   components: {
     NarrativeText,
@@ -42,7 +44,7 @@ export default {
     AppFooter
   },
     computed: {
-        ...mapStores(useStoryStore),
+      ...mapStores(useStoryStore, useUserFormStore),
       },
     methods: {
         changeChapter(next) {
