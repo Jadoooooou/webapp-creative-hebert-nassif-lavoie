@@ -4,18 +4,12 @@ export const usePlayerStore = defineStore('player', {
 
   state: () => ({
     playerName: '',       
-    amitie: 0,          
-    stats: {},           
-    inventory: [],      
-    flags: {},          
-    relationships: {}     
+    ami: 0        
   }),
 
   getters: {
-    // Vérifie si un item est dans l'inventaire
-    hasItem: (state) => (itemId) => {
-      return state.inventory.some(item => item.id === itemId);
-    },
+
+    //////////////////// À REVOIR ////////////////////
 
     // Récupère la relation avec un personnage
     getRelationship: (state) => (npcId) => {
@@ -38,30 +32,11 @@ export const usePlayerStore = defineStore('player', {
 
   actions: {
 
-    // Ajouter un item à l’inventaire
-    addToInventory(item) {
-      this.inventory.push(item);
-    },
-
-    // Modifier une stat (ex : force +1)
+    // Modifier l'amitié
     updateStat(statName, value) {
-      if (!this.stats[statName]) {
-        this.stats[statName] = 0;
+      if (statName === 'ami') {
+        this.ami += value;
       }
-      this.stats[statName] += value;
-    },
-
-    // Activer un flag (événement déclenché)
-    setFlag(flagName, value = true) {
-      this.flags[flagName] = value;
-    },
-
-    // Modifier une relation
-    updateRelationship(npcId, amount) {
-      if (!this.relationships[npcId]) {
-        this.relationships[npcId] = 0;
-      }
-      this.relationships[npcId] += amount;
     }
   }
 });
