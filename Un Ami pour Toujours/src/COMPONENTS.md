@@ -3,7 +3,7 @@
 ## LoadingSpinner
 
 - affiche une animation de chargement pendant un traitement suite à un choix
--
+- NA (composant purement visuel)
 - NA (composant purement visuel)
 
 ## AppFooter
@@ -14,15 +14,15 @@
 
 ## HomeView
 
-- écran d'accueil du jeu ; présente le titre, le bouton Commencer, les sauvegrades...
+- écran d'accueil du jeu ; présente le titre, le bouton Commencer, notre nom d'équipe,les sauvegrades...
 - title [String] — titre principal du jeu
 - start-game — émis lorsque le joueur clique sur Commencer
 
 ## ChapterView
 
-- A REFAIRE
-- A REFAIRE
-- A REFAIRE
+- écran principal du jeu ; fond ressemblant à un bureau d'un vieux ordinateur, les différents chapitres (texte ou fenêtre) s'affichent par-dessus
+- playerData [Object] — données du joueur pour personnaliser les scènes
+- click (chapterId) - émis lorsque l’utilisateur presse le bouton d'un quelconque choix
 
 ## EndingScreenView
 
@@ -35,12 +35,6 @@
 - composant de bouton réutilisable pour toute l’interface
 - label [String] — nom du bouton, disabled [Boolean] — indique si le bouton est cliquable ou non
 - click - émis lorsque l’utilisateur presse le bouton
-
-## ChoicePanel
-
-- A FAIRE
-- A FAIRE
-- A FAIRE
 
 ## CreditsModal
 

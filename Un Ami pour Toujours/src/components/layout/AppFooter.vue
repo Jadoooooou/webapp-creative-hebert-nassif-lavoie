@@ -16,6 +16,7 @@
         methods: {
             clickBtn() {
                 alert('ribbit ribbit')
+                //revenir à la page d'accueil
             }
         }
     }
