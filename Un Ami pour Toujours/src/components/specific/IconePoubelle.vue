@@ -55,10 +55,16 @@
   }
   
   .base-button:hover {
-    background-color: #2563eb;
+    background-color: #47735b;
+    filter: grayscale(50%);
+  }
+  
+  .base-button:hover + .txtBtn {
+    color: black;
   }
 
   .txtBtn {
+    font-family: 'Press Start 2P';
     text-align: center;
     color: white;
     margin: 0;
