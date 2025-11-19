@@ -1,7 +1,7 @@
 <template> 
     <div class="page">
         <div class="container">
-            <FormUserProfile v-if="chapter.id == 2" class="form"/>
+           <FormUserProfile v-if="chapter.id == 2" class="form"/> 
             <button
 
                 v-for='choice in chapter.choices'

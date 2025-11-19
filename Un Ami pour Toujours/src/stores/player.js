@@ -1,20 +1,34 @@
-import { defineStore } from 'pinia';
-import defaultForm from '@/data/player.json'; // on importe le JSON
+import {
+  defineStore
+} from 'pinia';
 
 export const usePlayerStore = defineStore('player', {
 
   state: () => ({
-    playerName: '',       
-    ami: 0        
+    form: {
+      name: '',
+      age: '',
+      city: '',
+      friend: '',
+      color: '',
+      meal: '',
+    },
+    ami: 0
   }),
 
   getters: {
 
-    //////////////////// À REVOIR ////////////////////
+   
+
+    getFormData: (state) => {
+      return state.form;
+    },
+    
+     //////////////////// À REVOIR ////////////////////
 
     // Récupère la relation avec un personnage
     getRelationship: (state) => (npcId) => {
-      return state.relationships[npcId] ?? 0;
+      //return state.relationships[npcId] ? ? 0;
     },
 
     // Détermine si certaines conditions permettent un ending
@@ -32,6 +46,12 @@ export const usePlayerStore = defineStore('player', {
   },
 
   actions: {
+
+    setForm(data) {
+      this.form = {
+        ...data
+      };
+    },
 
     // Modifier l'amitié
     updateStat(statName, value) {

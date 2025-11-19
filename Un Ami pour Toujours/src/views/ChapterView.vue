@@ -1,6 +1,8 @@
 <template>
   <!-- Stucture de la page -->
   <div class="pageChapter">
+  <!--TODO tester les données reçu de Pinia ici (playerStore) -->
+
     <div>
       <div class="icone poubelle">
         <IconePoubelle />
@@ -8,7 +10,6 @@
       <div class="icone ordi">
         <IconeOrdi />
       </div>
-      <p>Ville : {{ usePlayerStore.form.city }}</p>
       <div class="icone doc">
         <IconeDoc />
       </div>
@@ -23,16 +24,16 @@
 
 <!-- Importer notre footer, pinia et story importé de la store pinia -->
 <script>
-
-import { mapStores } from 'pinia'
+import { mapStores } from "pinia";
 import { useStoryStore } from "../stores/story";
+import { usePlayerStore } from "../stores/player";
+
 import AppFooter from "../components/layout/AppFooter.vue";
 import IconePoubelle from "../components/specific/IconePoubelle.vue";
 import IconeOrdi from "../components/specific/IconeOrdi.vue";
 import IconeDoc from "../components/specific/IconeDoc.vue";
 import ChoicePanel from "../components/common/ChoicePanel.vue";
 import NarrativeText from "../components/common/NarrativeText.vue";
-
 
 export default {
   components: {
@@ -41,17 +42,26 @@ export default {
     IconeDoc,
     IconeOrdi,
     IconePoubelle,
-    AppFooter
+    AppFooter,
   },
-    computed: {
-      ...mapStores(useStoryStore, useUserFormStore),
-      },
-    methods: {
-        changeChapter(next) {
-          this.storyStore.currentChapterId = next-1
+  computed: {
+    ...mapStores(useStoryStore, usePlayerStore),
+
+   /* playerForm() {
+      if (playerStore.getFormData()) {
+        return playerStore.getFormData()
+      } else {
+        return ""
       }
-    }
-}
+    }*/
+  },
+
+  methods: {
+    changeChapter(next) {
+      this.storyStore.currentChapterId = next - 1;
+    },
+  },
+};
 </script>
 
 <!-- Style css de la page -->
