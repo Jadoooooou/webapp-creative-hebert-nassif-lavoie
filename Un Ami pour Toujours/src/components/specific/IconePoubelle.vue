@@ -65,6 +65,7 @@
 
   .txtBtn {
     font-family: 'Press Start 2P';
+    font-size: 12px;
     text-align: center;
     color: white;
     margin: 0;
