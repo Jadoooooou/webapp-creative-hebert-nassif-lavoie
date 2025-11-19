@@ -1,4 +1,4 @@
-<template> 
+<template>
     <div class="page">
         <div class="container">
             <h1>{{ chapter.title }}</h1>
@@ -8,38 +8,47 @@
 </template>
 
 <script>
-    export default {
-        name: "NarrativeText",
-        props: {
-          chapter: { type: Object }
-        }
+export default {
+    name: "NarrativeText",
+    props: {
+        chapter: { type: Object }
     }
+}
 
 </script>
 
 <style scoped>
-    * {
-        margin: 0;
-    }
+* {
+    margin: 0;
+    font-family: 'Press Start 2P';
+    font-size: 3vw;
+    color: #384C3F;
+    text-align: center;
+    margin: 0;
+    padding: 5vw;
+}
 
-    .page {
-        height: 70vh;
-    }
+.page {
+    height: 70vh;
+}
 
-    .container {
-        padding-left: 20vw;
-        padding-right: 20vw;
-        padding-top: 10vh;
-        padding-bottom: 10vh;
-    }
+.container {
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
 
-    h1 {
-        text-align: center;
-        font-size: 80px;
-        margin-bottom: 50px;
-    }
+h1 {
+    font-family: 'Press Start 2P';
+    font-size: 6vw;
+    color: #384C3F;
+    text-align: center;
+    margin: 0;
+    padding: 0vw 5vw 10vh 5vw;
+}
 
-    p {
-        font-size: 30px;
-    }
+p {
+    font-size: 30px;
+}
 </style>
