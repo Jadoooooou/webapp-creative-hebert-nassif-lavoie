@@ -13,7 +13,7 @@
       "title": "Chapitre 2",
       "text": "Voici un petit formulaire qui m’aideras à plus en savoir sur toi ! Tu n’as qu’à répondre aux questions dans les rectangles blancs.",
       "choices": [
-        { "id": 1, "text": "Continuer", "nextChapter": 3, "type": "path" }
+        { "id": 1, "text": "Continuer", "nextChapter": 3, "type": "path", "effects": { "ami": 1 }}
       ]
     },
     {
@@ -21,8 +21,8 @@
       "title": "Chapitre 3",
       "text": "",
       "choices": [
-        { "id": 1, "text": "Festin de mouches", "nextChapter": 4, "type": "path" },
-        { "id": 2, "text": "Grenouille Glam", "nextChapter": 4, "type": "path" }
+        { "id": 1, "text": "Festin de mouches", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } },
+        { "id": 2, "text": "Grenouille Glam", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } }
       ]
     },
     {
@@ -30,8 +30,8 @@
       "title": "Chapitre 4",
       "text": "Elle parle d’une grenouille. Mais aussi… un peu de toi. Il était une fois… une grenouille qui voulait être aimée. Mais personne ne venait plus la voir. Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d’eau qui s’appelait écran. Et de l’autre côté… il y avait toi, [NOM]. Tu n’es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme. Mais toi, c’est pour la vie, en? De toutes façons, après tout ce temps à t’attendre, j’ai trouvé la solution pour que l’on reste amis, c’était quoi déjà… Ah oui! grant all access to the running program. De cette façon, la grenouille pu garder son amie pour la vie… Tu veux savoir comment? Me fais-tu confiance?",
       "choices": [
-        { "id": 1, "text": "Oui", "nextChapter": 6, "type": "path" },
-        { "id": 2, "text": "Non", "nextChapter": 5, "type": "path" }
+        { "id": 1, "text": "Oui", "nextChapter": 6, "type": "path", "effects": { "ami": 1 } },
+        { "id": 2, "text": "Non", "nextChapter": 5, "type": "path", "effects": { "ami": -1 } }
       ]
     },
     {
@@ -39,8 +39,8 @@
       "title": "Chapitre 5",
       "text": "Veux-tu être mon ami pour la vie?",
       "choices": [
-        { "id": 1, "text": "Oui", "nextChapter": 7, "type": "path" },
-        { "id": 2, "text": "Non", "nextChapter": 8, "type": "path" }
+        { "id": 1, "text": "Oui", "nextChapter": 7, "type": "path", "effects": { "ami": 1 } },
+        { "id": 2, "text": "Non", "nextChapter": 8, "type": "path", "effects": { "ami": -1 } }
       ]
     },
     {
