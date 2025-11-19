@@ -1,6 +1,7 @@
 <template> 
     <div class="page">
         <div class="container">
+            <FormUserProfile v-if="chapter.id == 2" class="form"/>
             <button
 
                 v-for='choice in chapter.choices'
@@ -15,8 +16,12 @@
 </template>
 
 <script>
+    import FormUserProfile from '../specific/FormUserProfile.vue';
     export default {
         name: "BaseButton",
+        components: {
+            FormUserProfile
+        },
         props: {
           chapter: { type: Array }
         }
@@ -26,6 +31,10 @@
 <style scoped>
     .page {
         height: 30vh;
+    }
+
+    .form {
+        margin-top: -30vh;
     }
 
     .container {
