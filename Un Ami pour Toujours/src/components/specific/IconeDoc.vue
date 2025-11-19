@@ -53,12 +53,19 @@
     background-color: transparent;
     border: 0;
   }
-  
+
   .base-button:hover {
-    background-color: #2563eb;
+    background-color: #47735b;
+    filter: grayscale(50%);
+  }
+
+  .base-button:hover + .txtBtn {
+    color: black;
   }
 
   .txtBtn {
+    font-family: 'Press Start 2P';
+    font-size: 12px;
     text-align: center;
     color: white;
     margin: 0;
@@ -126,11 +133,11 @@
   }
 
   .win98-button:hover {
-        border: 2px solid #808080; 
-        border-right-color: #fff; 
-        border-bottom-color: #fff; 
-        background-color: #c0c0c0;
-    }
+    border: 2px solid #808080; 
+    border-right-color: #fff; 
+    border-bottom-color: #fff; 
+    background-color: #c0c0c0;
+  }
   
   .win98-button:active {
     border: 2px solid #404040;
