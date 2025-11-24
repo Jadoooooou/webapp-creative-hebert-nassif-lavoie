@@ -1,20 +1,33 @@
 <template>
     <div class="page">
         <div class="container">
-            <h1>{{ chapter.title }}</h1>
-            <p>{{ chapter.text }}</p>
+            <!-- Texte avec le nom remplacé -->
+            <p>{{ formattedText }}</p>
         </div>
     </div>
 </template>
 
 <script>
+import { computed } from 'vue';
+import { usePlayerStore } from "/src/stores/player"; // <<< TON IMPORT EXACT
+
 export default {
     name: "NarrativeText",
+
     props: {
-        chapter: { type: Object }
+        chapter: { type: Object, required: true }
+    },
+
+    setup(props) {
+        const playerStore = usePlayerStore();
+
+        const formattedText = computed(() => {
+            return props.chapter.text.replace('[NOM]', playerStore.form.name || '…');
+        });
+
+        return { formattedText };
     }
 }
-
 </script>
 
 <style scoped>
