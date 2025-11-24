@@ -21,7 +21,7 @@ const routes = [
   {
     // Route pour une fin
     // Le ":id" signifie que c’est une *route dynamique*
-    path: "/EndingScreenView/:id",
+    path: "/EndingScreenView",
     name: "EndingScreenView",
     component: EndingScreenView,
   },
