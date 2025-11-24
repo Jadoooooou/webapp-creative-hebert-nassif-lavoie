@@ -192,13 +192,13 @@
   .win98-window {
     width: 620px;
     border: 2px solid #000;
-    background: #c0c0c0;
+    background: #C1CEBE;
     font-family: "Microsoft Sans Serif", Tahoma, sans-serif;
     box-shadow: 2px 2px 0 #000;
   }
   
   .title-bar {
-    background: #000080;
+    background: #384C3F;
     color: white;
     padding: 3px 6px;
     display: flex;
@@ -232,7 +232,7 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 6px;
-    background: #c0c0c0;
+    background: #C1CEBE;
     padding: 4px;
     border: 2px solid #fff;
     border-right-color: #808080;
@@ -257,7 +257,7 @@
     position: relative;
     width: 600px;
     height: 350px;
-    background: #e0e0e0;
+    background: #C1CEBE;
     border: 2px solid #808080;
     border-top-color: #fff;
     border-left-color: #fff;
