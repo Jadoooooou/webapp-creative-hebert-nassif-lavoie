@@ -1,15 +1,19 @@
 <template>
     <div class="page">
         <div class="container">
-            <!-- Texte avec le nom remplacé -->
+            <!-- Texte animé -->
             <p class="narrative-text">{{ formattedText }}</p>
         </div>
     </div>
 </template>
 
 <script>
-import { computed } from 'vue';
-import { usePlayerStore } from "/src/stores/player"; // <<< TON IMPORT EXACT
+import { computed, watch, nextTick, onMounted } from 'vue';
+import { gsap } from 'gsap';
+import TextPlugin from 'gsap/TextPlugin';
+import { usePlayerStore } from "/src/stores/player";
+
+gsap.registerPlugin(TextPlugin);
 
 export default {
     name: "NarrativeText",
@@ -24,6 +28,34 @@ export default {
         const formattedText = computed(() => {
             return props.chapter.text.replace('[NOM]', playerStore.form.name || '…');
         });
+
+        // 🔥 Fonction qui anime le texte
+        const animateText = async () => {
+            await nextTick();
+
+            const paragraph = document.querySelector(".narrative-text");
+            if (!paragraph) return;
+
+            const fullText = paragraph.textContent;
+            paragraph.textContent = "";
+
+            gsap.to(paragraph, {
+                duration: fullText.length * 0.03,
+                text: fullText,
+                ease: "none",
+            });
+        };
+
+        // 🔥 1) Anime au premier rendu
+        onMounted(() => {
+            animateText();
+        });
+
+        // 🔥 2) Réanime quand le chapitre change (nouvel ID)
+        watch(
+            () => props.chapter.id,
+            () => animateText()
+        );
 
         return { formattedText };
     }

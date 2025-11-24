@@ -1,57 +1,77 @@
 <script>
-
-import gsap from 'gsap';
-import TextPlugin from 'gsap/TextPlugin';
+import { onMounted, nextTick, watch } from "vue";
+import { useRoute } from "vue-router";
+import { gsap } from "gsap";
+import TextPlugin from "gsap/TextPlugin";
 
 gsap.registerPlugin(TextPlugin);
 
-export default{
-  name: 'App', // Nom du composant racine de l'application
-  methods: {
-    onEnter(el, done) {
+export default {
+  setup() {
+    const route = useRoute();
 
-      //////////////  ANIMATION TYPEWRITER  //////////////
-      const paragraph = el.querySelector('.narrative-text');// on cherche le <p> dans la page
+    // 🔥 Fonction qui anime le texte
+    const playTextAnimation = () => {
+      nextTick(() => {
+        const paragraph = document.querySelector(".narrative-text");
+        if (!paragraph) return;
 
-      if (paragraph) {
-        const text = paragraph.textContent;
-        paragraph.textContent = "";  // vide le texte pour commencer l’effet
+        const fullText = paragraph.textContent;
+        paragraph.textContent = "";
 
         gsap.to(paragraph, {
-          duration: text.length * 0.03,
-          text: text,
+          duration: fullText.length * 0.03,
+          text: fullText,
           ease: "none",
-          onComplete: done
         });
+      });
+    };
 
-      } else {
-        done();
+    // 🔥 1) Anime au premier chargement
+    onMounted(() => {
+      playTextAnimation();
+    });
+
+    // 🔥 2) Réanime quand l’ID du chapitre change
+    watch(
+      () => route.fullPath, // fullPath garantit 100% de réanimation
+      () => {
+        playTextAnimation();
       }
-    },
+    );
+
+    return {};
   }
 };
-
-
 </script>
+
 
 <template>
   <header>
     <nav>
-      <!-- LES LIENS DE NAVIGATION router-link -->
       <router-link to="/">Home</router-link>
       <router-link to="/ChapterView/1">ChapterView</router-link>
       <router-link to="/EndingScreenView">EndingScreenView</router-link>
     </nav>
   </header>
+
+  <!-- transition + key permet la réinitialisation du composant -->
   <router-view v-slot="{ Component }">
-    <transition
-      name="fade"
-      @enter="onEnter"
-    >
-      <component :is="Component" :key="$route.path" />
+    <transition name="fade">
+      <component :is="Component" :key="$route.fullPath" />
     </transition>
   </router-view>
-
 </template>
 
-<style scoped></style>
+
+<style scoped>
+.fade-enter-active {
+  transition: opacity 0.2s ease;
+}
+.fade-enter-from {
+  opacity: 0;
+}
+.fade-enter-to {
+  opacity: 1;
+}
+</style>
