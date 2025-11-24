@@ -1,8 +1,37 @@
 <script>
 
+import gsap from 'gsap';
+import TextPlugin from 'gsap/TextPlugin';
+
+gsap.registerPlugin(TextPlugin);
+
 export default{
   name: 'App', // Nom du composant racine de l'application
+  methods: {
+    onEnter(el, done) {
+
+      //////////////  ANIMATION TYPEWRITER  //////////////
+      const paragraph = el.querySelector('.narrative-text');// on cherche le <p> dans la page
+
+      if (paragraph) {
+        const text = paragraph.textContent;
+        paragraph.textContent = "";  // vide le texte pour commencer l’effet
+
+        gsap.to(paragraph, {
+          duration: text.length * 0.03,
+          text: text,
+          ease: "none",
+          onComplete: done
+        });
+
+      } else {
+        done();
+      }
+    },
+  }
 };
+
+
 </script>
 
 <template>
@@ -14,7 +43,15 @@ export default{
       <router-link to="/EndingScreenView">EndingScreenView</router-link>
     </nav>
   </header>
-  <router-view />
+  <router-view v-slot="{ Component }">
+    <transition
+      name="fade"
+      @enter="onEnter"
+    >
+      <component :is="Component" :key="$route.path" />
+    </transition>
+  </router-view>
+
 </template>
 
 <style scoped></style>
