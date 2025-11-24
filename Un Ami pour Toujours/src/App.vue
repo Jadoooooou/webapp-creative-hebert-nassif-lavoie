@@ -11,7 +11,7 @@ export default{
     onEnter(el, done) {
 
       //////////////  ANIMATION TYPEWRITER  //////////////
-      const paragraph = el.querySelector('p');// on cherche le <p> dans la page
+      const paragraph = el.querySelector('.narrative-text');// on cherche le <p> dans la page
 
       if (paragraph) {
         const text = paragraph.textContent;

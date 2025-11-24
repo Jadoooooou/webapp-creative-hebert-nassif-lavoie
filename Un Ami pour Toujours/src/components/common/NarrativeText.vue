@@ -2,7 +2,7 @@
     <div class="page">
         <div class="container">
             <!-- Texte avec le nom remplacé -->
-            <p>{{ formattedText }}</p>
+            <p class="narrative-text">{{ formattedText }}</p>
         </div>
     </div>
 </template>
