@@ -12,7 +12,8 @@
       </div>
     </div>
     <div class="game">
-      <FestinDeMouche/>
+      <!--<FestinDeMouche/>-->
+      <Stats/>
     </div>
   </div>
   <AppFooter />
@@ -26,6 +27,7 @@
 
   import FestinDeMouche from "../components/specific/FestinDeMouche.vue";
   import GrenouilleGlam from "../components/specific/GrenouilleGlam.vue";
+  import Stats from "../components/specific/Stats.vue";
 
   export default {
     components: {
@@ -34,7 +36,8 @@
       IconeOrdi,
       IconePoubelle,
       FestinDeMouche,
-      GrenouilleGlam
+      GrenouilleGlam,
+      Stats
     }
   }
 </script>
