@@ -3,6 +3,9 @@
         <div class="container">
             <!-- Texte animé -->
             <p class="narrative-text">{{ formattedText }}</p>
+            <Stats v-if="chapter.id == 6" class="stats"/>
+            <Stats v-if="chapter.id == 7" class="stats"/>
+            <Stats v-if="chapter.id == 8" class="stats"/>
         </div>
     </div>
 </template>
@@ -12,6 +15,7 @@ import { computed, watch, nextTick, onMounted } from 'vue';
 import { gsap } from 'gsap';
 import TextPlugin from 'gsap/TextPlugin';
 import { usePlayerStore } from "/src/stores/player";
+import Stats from '../specific/Stats.vue';
 
 gsap.registerPlugin(TextPlugin);
 
@@ -21,7 +25,9 @@ export default {
     props: {
         chapter: { type: Object, required: true }
     },
-
+    components: {
+    Stats
+    },
     setup(props) {
         const playerStore = usePlayerStore();
 
@@ -93,5 +99,10 @@ p {
     color: #384C3F;
     text-align: left;
     margin: 0;
+}
+
+.stats {
+    margin: 0 auto;
+    margin-top: 50px;
 }
 </style>
