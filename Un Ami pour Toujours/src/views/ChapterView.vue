@@ -1,8 +1,6 @@
 <template>
   <!-- Stucture de la page -->
   <div class="pageChapter">
-  <!--TODO tester les données reçu de Pinia ici (playerStore) -->
-  <p>{{ playerStore.form.name }}</p>
     <div>
       <div class="icone poubelle">
         <IconePoubelle />
@@ -46,14 +44,6 @@ export default {
   },
   computed: {
     ...mapStores(useStoryStore, usePlayerStore),
-
-   /* playerForm() {
-      if (playerStore.getFormData()) {
-        return playerStore.getFormData()
-      } else {
-        return ""
-      }
-    }*/
   },
 
   methods: {
