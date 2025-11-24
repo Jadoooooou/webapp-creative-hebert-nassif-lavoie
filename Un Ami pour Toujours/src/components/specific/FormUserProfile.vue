@@ -50,8 +50,9 @@
 
 
 <script>
-import { mapStores } from 'pinia'
+
 import { usePlayerStore } from "/src/stores/player";
+import { mapStores } from 'pinia';
 
 
 
@@ -71,6 +72,10 @@ export default {
       }
     };
   },
+
+  computed: {
+   ...mapStores(usePlayerStore),
+  },
   methods: {
     preventNegativeAge() {
       if (this.form.age < 0) {
@@ -78,11 +83,10 @@ export default {
       }
     },
     submitForm() {
+
+      playerStore.saveFormData(this.form);
       alert("Formulaire envoyé !\n" + JSON.stringify(this.form, null, 2));
     }
-  },
-  computed: {
-   ...mapStores(usePlayerStore),
   }
 };
 </script>
