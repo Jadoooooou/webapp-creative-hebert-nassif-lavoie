@@ -47,8 +47,17 @@ export default {
   },
 
   methods: {
-    changeChapter(next) {
-      this.storyStore.currentChapterId = next - 1;
+    changeChapter(choice) {
+
+      // Appliquer les points d'amitiés s'il y en a
+      if (choice.effects) {
+        for (const [stat, value] of Object.entries(choice.effects)) {
+          this.usePlayerStore.updateStat(stat, value);
+        }
+      }
+
+      // Passer au prochain chapitre
+      this.storyStore.currentChapterId = choice.nextChapter - 1;
     },
   },
 };

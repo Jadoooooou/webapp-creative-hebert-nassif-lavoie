@@ -6,7 +6,7 @@
 
                 v-for='choice in chapter.choices'
                 :key='choice.id'
-                @click="$emit('choose', choice.nextChapter)"
+                @click="$emit('choose', choice)"
                 
             >
                 {{ choice.text }}
