@@ -268,8 +268,9 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background: hotpink;
-  border: 2px solid #ff8ad9;
+  background-image: url("src/assets/images/fly.png");
+  background-size: cover;
+  background-position: center;
   cursor: pointer;
   transition: none;
 }
