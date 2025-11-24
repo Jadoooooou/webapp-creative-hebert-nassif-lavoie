@@ -1,16 +1,14 @@
 <script>
 
+import gsap from 'gsap';
+import TextPlugin from 'gsap/TextPlugin';
+
+gsap.registerPlugin(TextPlugin);
+
 export default{
   name: 'App', // Nom du composant racine de l'application
   methods: {
-    // Code du prof
     onEnter(el, done) {
-      gsap.from(el, {
-        opacity: 0,
-        y: 30,
-        duration: 0.5,
-        ease: 'power2.out',
-      });
 
       //////////////  ANIMATION TYPEWRITER  //////////////
       const paragraph = el.querySelector('p');// on cherche le <p> dans la page
@@ -25,27 +23,13 @@ export default{
           ease: "none",
           onComplete: done
         });
+
       } else {
         done();
       }
     },
-
-    onLeave(el, done) {
-      gsap.to(el, {
-        opacity: 0,
-        y: -30,
-        duration: 0.3,
-        ease: 'power2.in',
-        onComplete: done
-      });
-    }
   }
 };
-
-import gsap from 'gsap';
-import TextPlugin from 'gsap/TextPlugin';
-
-gsap.registerPlugin(TextPlugin);
 
 
 </script>
@@ -59,7 +43,15 @@ gsap.registerPlugin(TextPlugin);
       <router-link to="/EndingScreenView">EndingScreenView</router-link>
     </nav>
   </header>
-  <router-view />
+  <router-view v-slot="{ Component }">
+    <transition
+      name="fade"
+      @enter="onEnter"
+    >
+      <component :is="Component" :key="$route.path" />
+    </transition>
+  </router-view>
+
 </template>
 
 <style scoped></style>
