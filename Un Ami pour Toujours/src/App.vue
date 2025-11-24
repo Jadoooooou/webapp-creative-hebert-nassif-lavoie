@@ -2,14 +2,6 @@
 
 export default{
   name: 'App', // Nom du composant racine de l'application
-};
-
-import gsap from 'gsap';
-import TextPlugin from 'gsap/TextPlugin';
-
-gsap.registerPlugin(TextPlugin);
-
-export default {
   methods: {
     // Code du prof
     onEnter(el, done) {
@@ -49,6 +41,11 @@ export default {
     }
   }
 };
+
+import gsap from 'gsap';
+import TextPlugin from 'gsap/TextPlugin';
+
+gsap.registerPlugin(TextPlugin);
 
 
 </script>
