@@ -11,7 +11,7 @@
         <IconeDoc />
       </div>
     </div>
-    <div>
+    <div class="game">
       <FestinDeMouche/>
     </div>
   </div>
@@ -70,5 +70,9 @@
 p {
   color: white;
   margin: 0;
+}
+
+.game {
+  margin-left: 200px;
 }
 </style>
