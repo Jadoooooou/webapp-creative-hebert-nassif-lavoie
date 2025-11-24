@@ -1,7 +1,7 @@
 <template>
   <div class="win98-window">
     <div class="title-bar">
-      <span>Formulaire Windows 98ccc</span>
+      <span>Formulaire Windows 98</span>
     </div>
 
     <div class="window-body">
@@ -9,7 +9,7 @@
 
         <div class="form-row">
           <label>Ton nom :</label>
-          <input v-model="name" type="text" />
+          <input v-model="form.name" type="text" />
         </div>
 
         <div class="form-row">
@@ -39,8 +39,7 @@
 
         <button class="win98-button" type="submit">
           Envoyer
-        </button>  {{ name }}
-        {{ form.age }}
+        </button>
       </form>
     </div>
   </div>
@@ -61,7 +60,7 @@ export default {
 
   data() {
     return {
-      name:'',
+      name: '',
       form: {
         name: "",
         age: null,
@@ -74,7 +73,7 @@ export default {
   },
 
   computed: {
-   ...mapStores(usePlayerStore),
+    ...mapStores(usePlayerStore),
   },
   methods: {
     preventNegativeAge() {
@@ -83,10 +82,10 @@ export default {
       }
     },
     submitForm() {
-
-      playerStore.saveFormData(this.form);
+      this.playerStore.saveFormData(this.form);
       alert("Formulaire envoyé !\n" + JSON.stringify(this.form, null, 2));
     }
+
   }
 };
 </script>
