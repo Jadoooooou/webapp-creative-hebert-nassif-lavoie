@@ -1,6 +1,6 @@
 <template>
-  <!-- Stucture de la page -->
   <div class="pageChapter">
+    <!-- Icônes fixes -->
     <div>
       <div class="icone poubelle">
         <IconePoubelle />
@@ -12,17 +12,25 @@
         <IconeDoc />
       </div>
     </div>
+
+    <!-- Texte narratif et choix -->
     <div>
-      <NarrativeText :chapter="storyStore.storyData.chapters[storyStore.currentChapterId]" />
-      <ChoicePanel @choose="changeChapter" :chapter="storyStore.storyData.chapters[storyStore.currentChapterId]" />
+      <NarrativeText
+        :chapter="currentChapter"
+      />
+
+      <ChoicePanel
+        @choose="changeChapter"
+        :chapter="storyStore.storyData.chapters[storyStore.currentChapterId]"
+      />
     </div>
   </div>
+
   <AppFooter />
 </template>
 
-<!-- Importer notre footer, pinia et story importé de la store pinia -->
 <script>
-import { mapStores } from "pinia";
+import { computed } from "vue";
 import { useStoryStore } from "../stores/story";
 import { usePlayerStore } from "../stores/player";
 
@@ -34,6 +42,8 @@ import ChoicePanel from "../components/common/ChoicePanel.vue";
 import NarrativeText from "../components/common/NarrativeText.vue";
 
 export default {
+  name: "ChapterView",
+
   components: {
     NarrativeText,
     ChoicePanel,
@@ -42,36 +52,42 @@ export default {
     IconePoubelle,
     AppFooter,
   },
-  computed: {
-    ...mapStores(useStoryStore, usePlayerStore),
-  },
 
-  methods: {
-    changeChapter(choice) {
+  setup() {
+    const storyStore = useStoryStore();
+    const playerStore = usePlayerStore();
 
-      // Appliquer les points d'amitiés s'il y en a
-      //if (choice.effects) {
-        //for (const [stat, value] of Object.entries(choice.effects)) {
-          //this.usePlayerStore.updateStat(stat, value);
-        //}
-      //}
+    // Chapitre actuel pour simplifier l'accès
+    const currentChapter = computed(() => {
+      return storyStore.storyData.chapters[storyStore.currentChapterId];
+    });
 
-      // Passer au prochain chapitre
-      this.storyStore.currentChapterId = choice.nextChapter - 1;
-    },
+    // Fonction pour changer de chapitre et appliquer les effets
+    const changeChapter = (choice) => {
+      if (choice.effects) {
+        for (const [stat, value] of Object.entries(choice.effects)) {
+          playerStore.updateStat(stat, value); // Cumule le score
+        }
+      }
+
+      // Passer au chapitre suivant
+      storyStore.currentChapterId = choice.nextChapter - 1; 
+    };
+
+    return {
+      storyStore,
+      playerStore,
+      currentChapter,
+      changeChapter,
+    };
   },
 };
 </script>
 
-<!-- Style css de la page -->
 <style scoped>
 .pageChapter {
   background-color: #92a48d;
   height: 100vh;
-}
-
-.img {
-  width: 100px;
 }
 
 .icone {
@@ -83,17 +99,9 @@ export default {
   z-index: 20;
 }
 
-.poubelle {
-  top: 20px;
-}
-
-.ordi {
-  top: 160px;
-}
-
-.doc {
-  top: 300px;
-}
+.poubelle { top: 20px; }
+.ordi { top: 160px; }
+.doc { top: 300px; }
 
 p {
   color: white;

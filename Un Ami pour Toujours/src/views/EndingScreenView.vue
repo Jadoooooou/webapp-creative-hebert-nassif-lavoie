@@ -11,41 +11,44 @@
         <IconeDoc />
       </div>
     </div>
+
     <div class="game">
-      <!--<FestinDeMouche/>-->
-      <Stats/>
+      <StatsContent />
     </div>
   </div>
+
   <AppFooter />
 </template>
 
 <script>
-  import AppFooter from "../components/layout/AppFooter.vue";
-  import IconePoubelle from "../components/specific/IconePoubelle.vue";
-  import IconeOrdi from "../components/specific/IconeOrdi.vue";
-  import IconeDoc from "../components/specific/IconeDoc.vue";
+import AppFooter from "../components/layout/AppFooter.vue";
+import IconePoubelle from "../components/specific/IconePoubelle.vue";
+import IconeOrdi from "../components/specific/IconeOrdi.vue";
+import IconeDoc from "../components/specific/IconeDoc.vue";
 
-  import FestinDeMouche from "../components/specific/FestinDeMouche.vue";
-  import GrenouilleGlam from "../components/specific/GrenouilleGlam.vue";
-  import Stats from "../components/specific/Stats.vue";
+// TES components spécifiques (je les garde)
+import FestinDeMouche from "../components/specific/FestinDeMouche.vue";
+import GrenouilleGlam from "../components/specific/GrenouilleGlam.vue";
 
-  export default {
-    components: {
-      AppFooter,
-      IconeDoc,
-      IconeOrdi,
-      IconePoubelle,
-      FestinDeMouche,
-      GrenouilleGlam,
-      Stats
-    }
-  }
+// Le composant Stats que tu veux afficher
+import StatsContent from "../components/specific/Stats.vue";
+
+export default {
+  components: {
+    AppFooter,
+    IconeDoc,
+    IconeOrdi,
+    IconePoubelle,
+    FestinDeMouche,
+    GrenouilleGlam,
+    StatsContent,
+  },
+};
 </script>
 
 <style scoped>
 .page {
   height: 100vh;
-  background-color: black;
   background-color: #92a48d;
 }
 
@@ -70,12 +73,12 @@
   top: 300px;
 }
 
+.game {
+  margin-left: 200px;
+}
+
 p {
   color: white;
   margin: 0;
-}
-
-.game {
-  margin-left: 200px;
 }
 </style>

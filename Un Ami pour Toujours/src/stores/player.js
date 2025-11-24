@@ -1,9 +1,6 @@
-import {
-  defineStore
-} from 'pinia';
+import { defineStore } from 'pinia';
 
 export const usePlayerStore = defineStore('player', {
-
   state: () => ({
     form: {
       name: '',
@@ -13,27 +10,20 @@ export const usePlayerStore = defineStore('player', {
       color: '',
       meal: '',
     },
-    ami: 0
+    ami: 0, // score d'amitié
   }),
 
-  getters: {
-
-
-  },
-
   actions: {
-
     saveFormData(data) {
-      this.form = {
-        ...data
-      };
+      this.form = { ...data };
     },
 
-    // Modifier l'amitié
+    // Appliquer les effets du choix
     updateStat(statName, value) {
-      if (statName === 'ami') {
+      if (statName === "ami") {
         this.ami += value;
       }
-    }
-  }
+    },
+  },
 });
+ 
