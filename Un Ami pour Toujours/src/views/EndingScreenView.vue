@@ -13,7 +13,8 @@
     </div>
 
     <div class="game">
-      <FestinDeMouche />
+      <GrenouilleGlam/>
+      <FestinDeMouche/>
     </div>
   </div>
 
