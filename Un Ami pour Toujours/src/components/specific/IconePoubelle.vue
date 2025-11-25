@@ -17,7 +17,10 @@
   
           <!-- Window content -->
           <div class="win98-content">
-            <p>tbd</p>
+            <p>La poubelle est vide.
+
+Tu pourrais y mettre tes autres amis, et nous serons de vrais meilleurs amis !!
+HAHAHA c'est une blague :)</p>
   
             <button class="win98-button" @click="close">
               OK

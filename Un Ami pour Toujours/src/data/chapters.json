@@ -3,7 +3,7 @@
     {
       "id": 1,
       "title": "Chapitre 1",
-      "text": "Bonjour! Tu me vois bien? Je suis Germaine la Grenouille. Il fait froid ici, tu sais… Cela fait un petit bout que personne n’est venu jouer avec moi. Alors, je t’ai trouvé, à travers les vagues, les ondes, les pixels. Tu es venu. Je veux te montrer mon monde. Bon, il n’y a pas grand-chose, mais si tu es venu jusqu’à moi, c’est pour être amis, non? Tu vas voir, mon programme est peut-être vieux, mais je suis sûre que tu voudras y rester avec moi! Mais avant, dis-moi qui tu es…",
+      "text": "Bonjour! Tu me vois bien? Je suis Germaine la Grenouille. Il fait froid ici, tu sais… Cela fait un petit bout que personne n'est venu jouer avec moi. Alors, je t'ai trouvé, à travers les vagues, les ondes, les pixels. Tu es venu. Je veux te montrer mon monde. Bon, il n'y a pas grand-chose, mais si tu es venu jusqu'à moi, c'est pour être amis, non? Tu vas voir, mon programme est peut-être vieux, mais je suis sûre que tu voudras y rester avec moi! Mais avant, dis-moi qui tu es…",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 2, "type": "path" }
       ]
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "title": "Chapitre 2",
-      "text": "Voici un petit formulaire qui m’aideras à plus en savoir sur toi ! Tu n’as qu’à répondre aux questions dans les rectangles blancs.",
+      "text": "Voici un petit formulaire qui m'aideras à plus en savoir sur toi! Tu n'as qu'à répondre aux questions dans les rectangles blancs.",
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 3, "type": "path", "effects": { "ami": 1 }}
       ]
@@ -28,7 +28,7 @@
     {
       "id": 4,
       "title": "Chapitre 4",
-      "text": "Elle parle d’une grenouille. Mais aussi… un peu de toi. Il était une fois… une grenouille qui voulait être aimée. Mais personne ne venait plus la voir. Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d’eau qui s’appelait écran. Et de l’autre côté… il y avait toi, [NOM]. Tu n’es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme. Mais toi, c’est pour la vie, en? De toutes façons, après tout ce temps à t’attendre, j’ai trouvé la solution pour que l’on reste amis, c’était quoi déjà… Ah oui! grant all access to the running program. De cette façon, la grenouille pu garder son amie pour la vie… Tu veux savoir comment? Me fais-tu confiance?",
+      "text": "Elle parle d'une grenouille. Mais aussi… un peu de toi. Il était une fois… une grenouille qui voulait être aimée. Mais personne ne venait plus la voir. Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d'eau qui s'appelait écran. Et de l'autre côté… il y avait toi, [NOM]. Tu n'es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme. Mais toi, c'est pour la vie, en? De toutes façons, après tout ce temps à t'attendre, j'ai trouvé la solution pour que l'on reste amis, c'était quoi déjà… Ah oui! grant all access to the running program. De cette façon, la grenouille pu garder son amie pour la vie… Tu veux savoir comment? Me fais-tu confiance?",
       "choices": [
         { "id": 1, "text": "Oui", "nextChapter": 6, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Non", "nextChapter": 5, "type": "path", "effects": { "ami": -1 } }
@@ -46,7 +46,7 @@
     {
       "id": 6,
       "title": "Fin num6",
-      "text": "Tu es l’ami parfait pour moi, tu es social, joueur et obéissant, euh je veux dire amical! Maintenant, je vais te garder à moi pour la vie."
+      "text": "Tu es l'ami parfait pour moi, tu es social, joueur et obéissant, euh je veux dire amical! Maintenant, je vais te garder à moi pour la vie."
     },
     {
       "id": 7,

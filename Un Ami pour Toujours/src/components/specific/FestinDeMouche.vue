@@ -3,9 +3,7 @@
       <div class="title-bar">
         <span>Festin De Mouche</span>
         <div class="title-buttons">
-          <div class="btn"></div>
-          <div class="btn"></div>
-          <div class="btn"></div>
+          <button class="win98-close-btn" @click="close">X</button>
         </div>
       </div>
   
@@ -13,18 +11,18 @@
         <div class="header-panel">
           
           <div>
-            Score: <b>{{ score }}</b><br>
-            précision: <b>{{ accuracy }}%</b>
+            Pointage: <b>{{ score }}</b><br>
+            Précision: <b>{{ accuracy }}%</b>
           </div>
   
-          <div>temps: <b>{{ timeLeft }}</b></div>
+          <div>Temps: <b>{{ timeLeft }}</b></div>
   
           <div>
-            Highscore: <b>{{ highscore }}</b><br>
-            meilleur précision: <b>{{ bestAccuracy }}%</b>
+            Meilleur pointage: <b>{{ highscore }}</b><br>
+            Meilleure précision: <b>{{ bestAccuracy }}%</b>
           </div>
   
-          <button class="win98-button" @click="restart">Restart</button>
+          <button class="win98-button" @click="restart">Recommencer</button>
         </div>
   
         <div class="game-area" @click="registerMiss">
@@ -45,6 +43,10 @@
   <script>
   export default {
     name: "PinkFlyGame",
+
+    props: {
+      close: { type: Function, required: true }
+    },
   
     data() {
       return {
@@ -206,20 +208,27 @@
     align-items: center;
     font-weight: bold;
   }
-  
-  .title-buttons {
-    display: flex;
-    gap: 2px;
-  }
-  
-  .title-buttons .btn {
-    width: 16px;
-    height: 16px;
+
+  .win98-close-btn {
+    width: 20px;
+    height: 20px;
     background: #c0c0c0;
     border: 2px solid #fff;
-    border-right-color: #808080;
-    border-bottom-color: #808080;
+    border-right-color: #404040;
+    border-bottom-color: #404040;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 0;
+    line-height: 14px;
   }
+
+  .win98-close-btn:active {
+    border: 2px solid #404040;
+    border-right-color: #fff;
+    border-bottom-color: #fff;
+  }
+
   
   .content {
     padding: 6px;
@@ -268,7 +277,8 @@
   position: absolute;
   width: 50px;
   height: 50px;
-  background-image: url("src/assets/images/fly.png");
+  background-image: url("src/assets/fly.png");
+  background-color: transparent;
   background-size: cover;
   background-position: center;
   cursor: pointer;

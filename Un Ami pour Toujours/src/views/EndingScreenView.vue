@@ -13,7 +13,7 @@
     </div>
 
     <div class="game">
-      <StatsContent />
+      <FestinDeMouche />
     </div>
   </div>
 
