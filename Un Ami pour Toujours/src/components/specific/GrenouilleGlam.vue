@@ -83,10 +83,10 @@ export default {
         const square = this.pinkSquares[this.draggingIndex];
         const withinX =
           square.left + 50 > this.greenLeft &&
-          square.left < this.greenLeft + 100;
+          square.left < this.greenLeft + 50;
         const withinY =
           square.top + 50 > this.greenTop &&
-          square.top < this.greenTop + 100;
+          square.top < this.greenTop + 20;
 
         if (withinX && withinY) {
           this.showStars(this.greenLeft + 25, this.greenTop - 30);
