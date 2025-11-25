@@ -3,19 +3,18 @@
     <div class="title-bar">
       <span>Grenouille Glam</span>
       <div class="title-buttons">
-        <div class="btn"></div>
-        <div class="btn"></div>
-        <div class="btn"></div>
+        <button class="win98-close-btn" @click="close">X</button>
       </div>
     </div>
 
+    <!-- Contenu principal de la fenêtre -->
     <div class="content">
       <div class="header-panel">
-        <div>Place the pink squares onto the green square.</div>
+        <div>Rajoute moi du <i>glam</i> en glissant des chapeaux sur moi </div>
       </div>
 
+      <!-- Contenu de la fenêtre -->
       <div class="game-area">
-        <!-- Green square -->
         <div
           class="green-square"
           :style="{ top: greenTop + 'px', left: greenLeft + 'px' }"
