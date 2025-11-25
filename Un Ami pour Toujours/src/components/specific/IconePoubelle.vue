@@ -5,22 +5,20 @@
     </div>
 
 
-    <!-- Modal -->
+    <!-- Fenêtre Modale -->
     <div v-if="show" class="win98-overlay" @click.self="close">
         <div class="win98-window">
   
-          <!-- Title Bar -->
+          <!-- Barre ave titre -->
           <div class="win98-titlebar">
             <span>Poubelle</span>
             <button class="win98-close-btn" @click="close">X</button>
           </div>
   
-          <!-- Window content -->
+          <!-- Contenu de la fenêtre -->
           <div class="win98-content">
-            <p>La poubelle est vide.
-
-Tu pourrais y mettre tes autres amis, et nous serons de vrais meilleurs amis !!
-HAHAHA c'est une blague :)</p>
+            <p>La poubelle est vide. 
+              Tu pourrais y mettre tes autres amis, et nous serons de vrais meilleurs amis ! HAHAHA c'est une blague :)</p>
   
             <button class="win98-button" @click="close">
               OK

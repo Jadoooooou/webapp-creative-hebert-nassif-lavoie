@@ -7,6 +7,7 @@
         </div>
       </div>
   
+      <!-- Contenu principal de la fenêtre -->
       <div class="content">
         <div class="header-panel">
           
@@ -25,8 +26,10 @@
           <button class="win98-button" @click="restart">Recommencer</button>
         </div>
   
+        <!-- Contenu de la fenêtre -->
         <div class="game-area" @click="registerMiss">
   
+          <!-- Mouches générées dynamiquement -->
           <div
             v-for="fly in flies"
             :key="fly.id"
@@ -50,15 +53,16 @@
   
     data() {
       return {
+        // Liste des mouches à l'écran
         flies: [],
+        // Pointage total
         score: 0,
-  
         clicks: 0,
         hits: 0,
         misses: 0, 
         accuracy: 0,
         bestAccuracy: 0,
-  
+        // Meilleurs scores enregistrés dans le localStorage
         highscore: 0,
         timeLeft: 30,
         running: true,
@@ -85,6 +89,7 @@
         this.flies = [this.makeFly(), this.makeFly(), this.makeFly()];
       },
   
+      // Lorsque le joueur clique sur une mouche
       catchFly(id) {
         if (!this.running) return;
   
@@ -97,6 +102,7 @@
         this.flies.push(this.makeFly());
       },
   
+      // Lorsque le joueur clique dans le vide
       registerMiss() {
         if (!this.running) return;
         this.clicks++;
@@ -120,6 +126,7 @@
           fly.x += fly.dx;
           fly.y += fly.dy;
 
+          // Rebonds sur les murs
           if (fly.x < 0 || fly.x > this.gameWidth - 50) fly.dx *= -1;
           if (fly.y < 0 || fly.y > this.gameHeight - 50) fly.dy *= -1;
         });
@@ -141,19 +148,20 @@
         this.running = false;
         clearInterval(this.timer);
   
-        // update highscore
+        // Update meilleur pointage
         if (this.score > this.highscore) {
           this.highscore = this.score;
           localStorage.setItem("flyHighscore", this.score);
         }
   
-        // update best accuracy
+        // Update meilleure précision
         if (this.accuracy > this.bestAccuracy) {
           this.bestAccuracy = this.accuracy;
           localStorage.setItem("flyBestAccuracy", this.bestAccuracy);
         }
       },
   
+      // Relance une partie 
       restart() {
         this.running = true;
 
@@ -170,12 +178,14 @@
         this.spawnFlies();
         requestAnimationFrame(this.moveFlies);
   
+        // Redémarre le timer
         clearInterval(this.timer);
         this.startTimer();
       },
     },
   
     mounted() {
+      // Charge les scores enregistrés localement
       this.highscore = Number(localStorage.getItem("flyHighscore")) || 0;
       this.bestAccuracy = Number(localStorage.getItem("flyBestAccuracy")) || 0;
       this.restart();
