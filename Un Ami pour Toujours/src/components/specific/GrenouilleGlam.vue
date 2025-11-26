@@ -16,16 +16,15 @@
       <!-- Contenu de la fenêtre -->
       <div class="game-area">
         <div
-          class="green-square"
-          :style="{ top: greenTop + 'px', left: greenLeft + 'px' }"
+          class="frog"
         ></div>
 
         <!-- Pink squares -->
         <div
-          v-for="(square, index) in pinkSquares"
+          v-for="(square, index) in chapeauxArr"
           :key="index"
-          class="pink-square"
-          :style="{ top: square.top + 'px', left: square.left + 'px' }"
+          class="chapeaux"
+          :style="{ top: square.top + 'px', left: square.left + 'px', backgroundImage: `url('src/assets/${square.img}')` }"
           @mousedown="startDrag($event, index)"
         ></div>
 
@@ -36,7 +35,7 @@
           class="star"
           :style="{ top: star.top + 'px', left: star.left + 'px' }"
         >
-          ⭐
+        ✦
         </div>
       </div>
     </div>
@@ -50,10 +49,10 @@ export default {
     return {
       greenTop: 400,
       greenLeft: 350,
-      pinkSquares: [
-        { top: 50, left: 50 },
-        { top: 50, left: 120 },
-        { top: 50, left: 190 },
+      chapeauxArr: [
+        { top: 50, left: 50, img: "hat_beach.png" },
+        { top: 50, left: 120, img: "hat_party.png" },
+        { top: 50, left: 190, img: "hat_fashion.png" },
       ],
       draggingIndex: null,
       offsetX: 0,
@@ -64,22 +63,22 @@ export default {
   methods: {
     startDrag(event, index) {
       this.draggingIndex = index;
-      this.offsetX = event.clientX - this.pinkSquares[index].left;
-      this.offsetY = event.clientY - this.pinkSquares[index].top;
+      this.offsetX = event.clientX - this.chapeauxArr[index].left;
+      this.offsetY = event.clientY - this.chapeauxArr[index].top;
       window.addEventListener("mousemove", this.onDrag);
       window.addEventListener("mouseup", this.stopDrag);
     },
     onDrag(event) {
       if (this.draggingIndex !== null) {
-        this.pinkSquares[this.draggingIndex].left =
+        this.chapeauxArr[this.draggingIndex].left =
           event.clientX - this.offsetX;
-        this.pinkSquares[this.draggingIndex].top =
+        this.chapeauxArr[this.draggingIndex].top =
           event.clientY - this.offsetY;
       }
     },
     stopDrag() {
       if (this.draggingIndex !== null) {
-        const square = this.pinkSquares[this.draggingIndex];
+        const square = this.chapeauxArr[this.draggingIndex];
         const withinX =
           square.left + 50 > this.greenLeft &&
           square.left < this.greenLeft + 50;
@@ -109,7 +108,7 @@ export default {
 <style scoped>
 /* --- Window shell --- */
 .win98-window {
-  width: 820px;
+  width: 620px;
   border: 2px solid #000;
   background: #C1CEBE;
   font-family: "Microsoft Sans Serif", Tahoma, sans-serif;
@@ -162,8 +161,8 @@ export default {
 /* --- Game area --- */
 .game-area {
   position: relative;
-  width: 800px;
-  height: 600px;
+  width: 600px;
+  height: 350px;
   background: #C1CEBE;
   border: 2px solid #808080;
   border-top-color: #fff;
@@ -171,34 +170,32 @@ export default {
   overflow: hidden;
 }
 
-/* --- Green square --- */
-.green-square {
-  width: 100px;
-  height: 100px;
-  background: #00AA00;
+/* --- Grenouille --- */
+.frog {
   position: absolute;
-  border: 2px solid #000;
-  box-shadow:
-    inset -2px -2px 0 #FFFFFF,
-    inset 2px 2px 0 #808080;
+  width: 150px;
+  height: 150px;
+  background-image: url("src/assets/frog.png");
+  background-color: transparent;
+  background-size: cover;
+  background-position: center;
+  transform: scaleX(-1);
+  bottom: 10px;
+  right: 100px;
 }
 
-/* --- Pink draggable squares --- */
-.pink-square {
+/* --- Chapeaux --- */
+.chapeaux {
   width: 50px;
   height: 50px;
   position: absolute;
-  background: #FF66CC;
-
-  border: 2px solid #000;
-  box-shadow:
-    inset -2px -2px 0 #FFFFFF,
-    inset 2px 2px 0 #808080;
-
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   cursor: grab;
 }
 
-.pink-square:active {
+.chapeaux:active {
   cursor: grabbing;
   box-shadow:
     inset 2px 2px 0 #FFFFFF,
