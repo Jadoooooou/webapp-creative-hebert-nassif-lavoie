@@ -1,15 +1,17 @@
 <template> 
     <div class="page">
         <div class="container">
-           <FormUserProfile v-if="chapter.id == 2" class="form"/> 
-            <button
+           <FormUserProfile v-if="chapter.id == 2" class="form" @formSubmitted="$emit('choose', chapter.choices[0])"/> 
 
-                v-for='choice in chapter.choices'
-                :key='choice.id'
-                @click="$emit('choose', choice)"
-                
-            >
+           <!-- Bouton pour poursuivre l'histoire sauf pour le formulaire -->
+            <button
+            v-if="chapter.id !== 2"
+            v-for='choice in chapter.choices'
+            :key='choice.id'
+            @click="$emit('choose', choice)">
+
                 {{ choice.text }}
+
             </button>
         </div>
     </div>
@@ -23,7 +25,7 @@
             FormUserProfile
         },
         props: {
-          chapter: { type: Array }
+          chapter: { type: Object }
         }
     }
 </script>

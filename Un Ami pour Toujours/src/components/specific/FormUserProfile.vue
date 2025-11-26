@@ -83,6 +83,7 @@ export default {
     },
     submitForm() {
       this.playerStore.saveFormData(this.form);
+      this.$emit("formSubmitted");
       alert("Formulaire envoyé !\n" + JSON.stringify(this.form, null, 2));
     }
 
@@ -135,13 +136,24 @@ input {
 }
 
 .win98-button {
-  margin-top: 10px;
-  padding: 4px 10px;
-  background: #C0C0C0;
-  border: 2px solid #808080;
+  background-color: #c0c0c0;
+  border: 2px solid #fff;
+  border-right-color: #808080;
+  border-bottom-color: #808080;
+  padding: 4px 12px;
+  font-size: 14px;
+  color: black;
   cursor: pointer;
-  font-size: 13px;
-  box-shadow: inset -1px -1px 0 #fff, inset 1px 1px 0 #000;
+  outline: none;
+  width: 150px;
+  height: 40px;
+}
+
+.win98-button:hover {
+  border: 2px solid #808080;
+  border-right-color: #fff;
+  border-bottom-color: #fff;
+  background-color: #c0c0c0;
 }
 
 .win98-button:active {
