@@ -1,9 +1,10 @@
 <template>
-  <div class="win98-window">
-    <div class="title-bar">
+  <div class="win98-window" :style="{ transform: `translate(${posX}px, ${posY}px)` }" ref="window">
+    <div class="title-bar" @mousedown="startDrag">
       <span>Formulaire Windows 98</span>
     </div>
 
+    <!-- Formulaire -->
     <div class="window-body">
       <form @submit.prevent="submitForm">
 
@@ -68,7 +69,12 @@ export default {
         friend: "",
         color: "",
         meal: ""
-      }
+      },
+      isDragging: false,
+      posX: 0,
+      posY: 0,
+      startX: 0,
+      startY: 0
     };
   },
 
@@ -85,8 +91,31 @@ export default {
       this.playerStore.saveFormData(this.form);
       this.$emit("formSubmitted");
       alert("Formulaire envoyé !\n" + JSON.stringify(this.form, null, 2));
-    }
+    },
+    // Pour rendre la fenêtre draggable
+    startDrag(e) {
+      this.isDragging = true;
 
+      this.startX = e.clientX - this.posX;
+      this.startY = e.clientY - this.posY;
+
+      window.addEventListener("mousemove", this.onDrag);
+      window.addEventListener("mouseup", this.stopDrag);
+    },
+
+    onDrag(e) {
+      if (!this.isDragging) return;
+
+      this.posX = e.clientX - this.startX;
+      this.posY = e.clientY - this.startY;
+    },
+
+    stopDrag() {
+      this.isDragging = false;
+
+      window.removeEventListener("mousemove", this.onDrag);
+      window.removeEventListener("mouseup", this.stopDrag);
+    }
   }
 };
 </script>
