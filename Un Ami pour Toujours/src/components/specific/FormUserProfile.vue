@@ -90,7 +90,7 @@ export default {
     submitForm() {
       this.playerStore.saveFormData(this.form);
       this.$emit("formSubmitted");
-      alert("Formulaire envoyé !\n" + JSON.stringify(this.form, null, 2));
+      //alert("Formulaire envoyé !\n" + JSON.stringify(this.form, null, 2));
     },
     // Pour rendre la fenêtre draggable
     startDrag(e) {

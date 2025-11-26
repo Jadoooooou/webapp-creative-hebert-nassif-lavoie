@@ -19,7 +19,7 @@
     {
       "id": 3,
       "title": "Chapitre 3",
-      "text": "",
+      "text": "Jouons à un jeu ensemble! Choisi celui qui t'intéresse le plus.",
       "choices": [
         { "id": 1, "text": "Festin de mouches", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Grenouille Glam", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } }
