@@ -15,11 +15,9 @@
 
       <!-- Contenu de la fenêtre -->
       <div class="game-area">
-        <div
-          class="frog"
-        ></div>
+        <div class="frog" ref="frog"></div>
 
-        <!-- Pink squares -->
+        <!-- Chapeaux -->
         <div
           v-for="(square, index) in chapeauxArr"
           :key="index"
@@ -28,14 +26,19 @@
           @mousedown="startDrag($event, index)"
         ></div>
 
-        <!-- Stars -->
+        <!-- Petite animation qui ressemble à des feux d'artifices -->
         <div
-          v-for="(star, index) in stars"
-          :key="'star' + index"
-          class="star"
-          :style="{ top: star.top + 'px', left: star.left + 'px' }"
-        >
-        ✦
+            v-for="(burst, bIndex) in bursts"
+            :key="'burst' + bIndex"
+            class="burst-container"
+            :style="{ top: burst.top + 'px', left: burst.left + 'px' }"
+          >
+          <span
+            v-for="n in 12"
+            :key="n"
+            class="burst-particle"
+            :style="{ '--i': n }"
+          ></span>
         </div>
       </div>
     </div>
@@ -57,10 +60,27 @@ export default {
       draggingIndex: null,
       offsetX: 0,
       offsetY: 0,
-      stars: [],
+      bursts: [],
     };
   },
+  mounted() {
+    // Récupérer la postion de la grenouille
+    this.updateFrogPosition();
+  },
   methods: {
+    // Récupérer la postion de la grenouille
+    updateFrogPosition() {
+      const box = this.$refs.frog.getBoundingClientRect();
+      const game = this.$el.querySelector(".game-area").getBoundingClientRect();
+
+      this.frogPos = {
+        x: box.left - game.left,
+        y: box.top - game.top,
+        width: box.width,
+        height: box.height
+      };
+    },
+    // Possibilité de bouger librement les objets
     startDrag(event, index) {
       this.draggingIndex = index;
       this.offsetX = event.clientX - this.chapeauxArr[index].left;
@@ -78,16 +98,20 @@ export default {
     },
     stopDrag() {
       if (this.draggingIndex !== null) {
-        const square = this.chapeauxArr[this.draggingIndex];
-        const withinX =
-          square.left + 50 > this.greenLeft &&
-          square.left < this.greenLeft + 50;
-        const withinY =
-          square.top + 50 > this.greenTop &&
-          square.top < this.greenTop + 20;
+        const hat = this.chapeauxArr[this.draggingIndex];
+        // Position de la grenouille
+        this.updateFrogPosition();
+        const frog = this.frogPos;
 
-        if (withinX && withinY) {
-          this.showStars(this.greenLeft + 25, this.greenTop - 30);
+        const overlap =
+          hat.left < frog.x + frog.width &&
+          hat.left + 100 > frog.x &&   // largeur du chapeau = 100px
+          hat.top < frog.y + frog.height &&
+          hat.top + 100 > frog.y;
+
+        // Si le chapeaux est bien situé
+        if (overlap) {
+          this.showBurst(frog.x + frog.width / 2, frog.y - 20);
         }
 
         this.draggingIndex = null;
@@ -95,12 +119,14 @@ export default {
         window.removeEventListener("mouseup", this.stopDrag);
       }
     },
-    showStars(x, y) {
-      this.stars.push({ top: y, left: x });
+    showBurst(x, y) {
+      this.bursts.push({ top: y, left: x });
+
+      // Enlever après l'animation
       setTimeout(() => {
-        this.stars.shift();
-      }, 1000);
-    },
+        this.bursts.shift();
+      }, 800);
+    }
   },
 };
 </script>
@@ -186,8 +212,8 @@ export default {
 
 /* --- Chapeaux --- */
 .chapeaux {
-  width: 50px;
-  height: 50px;
+  width: 100px;
+  height: 100px;
   position: absolute;
   background-size: cover;
   background-position: center;
@@ -197,17 +223,42 @@ export default {
 
 .chapeaux:active {
   cursor: grabbing;
+  background-color: #47735b, 0%;
+  filter: grayscale(50%);
   box-shadow:
     inset 2px 2px 0 #FFFFFF,
     inset -2px -2px 0 #808080;
 }
 
-/* --- Stars --- */
-.star {
+/* Animation de feux d'artifices- */
+.burst-container {
   position: absolute;
-  font-size: 30px;
+  width: 0;
+  height: 0;
   pointer-events: none;
-  text-shadow: 1px 1px #000;
 }
+
+.burst-particle {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: radial-gradient(circle, #fff7c9, #f5ff64, #d29a00);
+  border-radius: 50%;
+  animation: burst 2s ease-out forwards;
+  transform-origin: center;
+}
+
+/* Animation explosion des particules */
+@keyframes burst {
+  0% {
+    transform: rotate(calc(var(--i) * 30deg)) translate(0px) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: rotate(calc(var(--i) * 30deg)) translate(70px) scale(0);
+    opacity: 0;
+  }
+}
+
 </style>
 
