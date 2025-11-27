@@ -21,8 +21,24 @@
       "title": "Chapitre 3",
       "text": "Jouons à un jeu ensemble! Choisi celui qui t'intéresse le plus.",
       "choices": [
-        { "id": 1, "text": "Festin de mouches", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } },
-        { "id": 2, "text": "Grenouille Glam", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } }
+        { "id": 1, "text": "Festin de mouches", "nextChapter": 301, "type": "path", "effects": { "ami": 1 } },
+        { "id": 2, "text": "Grenouille Glam", "nextChapter": 302, "type": "path", "effects": { "ami": 1 } }
+      ]
+    },
+    {
+      "id": 301,
+      "title": "Festin de mouches",
+      "text": "",
+      "choices": [
+        { "id": 1, "text": "Continuer", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } }
+      ]
+    },
+    {
+      "id": 302,
+      "title": "Grenouille Glam",
+      "text": "",
+      "choices": [
+        { "id": 1, "text": "Continuer", "nextChapter": 4, "type": "path", "effects": { "ami": 1 } }
       ]
     },
     {

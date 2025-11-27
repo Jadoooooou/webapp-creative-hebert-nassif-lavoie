@@ -6,6 +6,10 @@
             <Stats v-if="chapter.id == 6" class="stats"/>
             <Stats v-if="chapter.id == 7" class="stats"/>
             <Stats v-if="chapter.id == 8" class="stats"/>
+            <div v-if="chapter.id == 3" class="jeuImg">
+                <img src="/src/assets/grenouille_glam.png" alt="grenouille_glam">
+                <img src="/src/assets/festin_mouches.png" alt="festin_mouches">
+            </div>
         </div>
     </div>
 </template>
@@ -105,4 +109,40 @@ p {
     margin: 0 auto;
     margin-top: 50px;
 }
+
+.jeuImg img {
+    width: 30vh;
+}
+
+.jeuImg {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 50vh;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+  
+}
+
+/* MOBILE (écrans ≤ 767px) */
+@media (max-width: 767px) {
+    .jeuImg img {
+    width: 14vh;
+}
+
+    .jeuImg {
+    display: flex;
+    justify-content: space-between;
+    height: 40vh;
+}
+
+p {
+    font-family: 'Press Start 2P';
+    font-size: 1.5cap;
+}
+}
+
+
 </style>
