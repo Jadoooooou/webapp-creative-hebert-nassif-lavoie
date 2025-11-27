@@ -64,11 +64,12 @@ export default {
     const changeChapter = (choice) => {
 
       // Enregistrer le choix dans l’historique
-      this.playerStore.addChoiceToHistory({
-        chapterId: this.storyStore.currentChapterId + 1,
+      playerStore.addChoiceToHistory({
+        chapterId: currentChapter.value.id,
         choiceText: choice.text
       });
 
+      // Appliquer les effets d'amitié
       if (choice.effects) {
         for (const [stat, value] of Object.entries(choice.effects)) {
           playerStore.updateStat(stat, value); // Cumule le score
@@ -85,7 +86,7 @@ export default {
       currentChapter,
       changeChapter,
     };
-  },
+  }
 };
 </script>
 

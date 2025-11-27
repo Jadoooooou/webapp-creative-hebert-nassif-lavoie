@@ -15,6 +15,17 @@
 
       <!-- Score textuel -->
       <p class="score-text">Score d'amitié : {{ playerStore.ami }}</p>
+
+      <!-- Historique des choix -->
+      <div class="history">
+        <h3>Tes choix :</h3>
+        <ul>
+          <li v-for="(entry, index) in playerStore.history" :key="index">
+            <strong>Chapitre {{ entry.chapterId }} :</strong> {{ entry.choiceText }}
+          </li>
+        </ul>
+      </div>
+
     </div>
   </div>
 </template>
