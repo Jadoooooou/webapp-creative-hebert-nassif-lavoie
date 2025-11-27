@@ -92,6 +92,7 @@ h2 {
   color: #384C3F;
   margin: 0;
   padding: 5vw;
+  line-height: 1.5;
 }
 
 .line {
@@ -124,7 +125,7 @@ p {
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: 100%; 
 }
 
 /* TABLET */

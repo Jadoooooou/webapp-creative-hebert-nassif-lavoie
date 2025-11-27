@@ -16,7 +16,8 @@
     <!-- Texte narratif et choix -->
     <div>
       <NarrativeText
-        :chapter="currentChapter"
+      class="chapter"
+      :chapter="currentChapter"
       />
 
       <ChoicePanel
@@ -107,4 +108,9 @@ p {
   color: white;
   margin: 0;
 }
+
+.chapter {
+  line-height: 2; /* Espace vertical entre les lignes */
+}
+
 </style>
