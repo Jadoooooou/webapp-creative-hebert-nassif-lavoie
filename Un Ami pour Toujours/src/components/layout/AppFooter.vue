@@ -17,8 +17,7 @@ export default {
     },
     methods: {
         clickBtn() {
-            alert('ribbit ribbit')
-            //revenir à la page d'accueil
+            this.$router.push('/')
         }
     }
 }
