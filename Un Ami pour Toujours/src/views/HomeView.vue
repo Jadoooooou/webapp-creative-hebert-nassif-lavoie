@@ -92,7 +92,7 @@ h2 {
   color: #384C3F;
   margin: 0;
   padding: 5vw;
-  line-height: 1.5;
+  line-height: 2;
 }
 
 .line {

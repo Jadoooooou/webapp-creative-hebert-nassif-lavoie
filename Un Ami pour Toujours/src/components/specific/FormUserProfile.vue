@@ -38,7 +38,7 @@
           <input v-model="form.meal" type="text" />
         </div>
 
-        <button class="win98-button" type="submit">
+        <button class="win98-button" type="submit" :disabled="!isFormComplete">
           Envoyer
         </button>
       </form>
@@ -80,7 +80,20 @@ export default {
 
   computed: {
     ...mapStores(usePlayerStore),
+
+    isFormComplete() {
+      return (
+        this.form.name.trim() !== "" &&
+        this.form.age !== null &&
+        this.form.age !== "" &&
+        this.form.city.trim() !== "" &&
+        this.form.friend.trim() !== "" &&
+        this.form.color.trim() !== "" &&
+        this.form.meal.trim() !== ""
+      );
+    }
   },
+
   methods: {
     preventNegativeAge() {
       if (this.form.age < 0) {
@@ -188,4 +201,13 @@ input {
 .win98-button:active {
   box-shadow: inset 1px 1px 0 #000;
 }
+
+.win98-button:disabled {
+  background-color: #b4b4b4;
+  border-color: #7a7a7a;
+  color: #666;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
 </style>
