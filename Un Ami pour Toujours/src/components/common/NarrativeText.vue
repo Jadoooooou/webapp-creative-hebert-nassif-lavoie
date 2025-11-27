@@ -10,6 +10,8 @@
                 <img src="/src/assets/grenouille_glam.png" alt="grenouille_glam">
                 <img src="/src/assets/festin_mouches.png" alt="festin_mouches">
             </div>
+            <FestinDeMouche v-if="chapter.id == 6" class="jeux"/>
+            <GrenouilleGlam v-if="chapter.id == 7" class="jeux"/>
         </div>
     </div>
 </template>
@@ -20,6 +22,8 @@ import { gsap } from 'gsap';
 import TextPlugin from 'gsap/TextPlugin';
 import { usePlayerStore } from "/src/stores/player";
 import Stats from '../specific/Stats.vue';
+import FestinDeMouche from "../specific/FestinDeMouche.vue";
+import GrenouilleGlam from "../specific/GrenouilleGlam.vue";
 
 gsap.registerPlugin(TextPlugin);
 
@@ -30,7 +34,9 @@ export default {
         chapter: { type: Object, required: true }
     },
     components: {
-    Stats
+    Stats,
+    FestinDeMouche,
+    GrenouilleGlam
     },
     setup(props) {
         const playerStore = usePlayerStore();
