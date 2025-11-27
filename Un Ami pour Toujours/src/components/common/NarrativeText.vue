@@ -127,7 +127,7 @@ p {
 }
 
 /* MOBILE (écrans ≤ 767px) */
-@media (max-width: 767px) {
+@media (max-width: 1300px) {
     .jeuImg img {
     width: 14vh;
 }

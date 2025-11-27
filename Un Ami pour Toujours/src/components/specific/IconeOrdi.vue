@@ -1,14 +1,16 @@
 <template>
   <div @click="show = true" class="divBtn">
-    <button class='base-button'></button>
+    <button class="base-button"></button>
     <p class="txtBtn">Ordinateur</p>
   </div>
 
-
   <!-- Fenêtre Modale -->
   <div v-if="show" class="win98-overlay" @click.self="close">
-    <div class="win98-window" :style="{ transform: `translate(${posX}px, ${posY}px)` }" ref="window">
-
+    <div
+      class="win98-window"
+      :style="{ transform: `translate(${posX}px, ${posY}px)` }"
+      ref="window"
+    >
       <!-- Barre ave titre -->
       <div class="win98-titlebar" @mousedown="startDrag">
         <span>Ordinateur</span>
@@ -19,9 +21,7 @@
       <div class="win98-content">
         <p>tbd</p>
 
-        <button class="win98-button" @click="close">
-          OK
-        </button>
+        <button class="win98-button" @click="close">OK</button>
       </div>
     </div>
   </div>
@@ -37,7 +37,7 @@ export default {
       posX: 0,
       posY: 0,
       startX: 0,
-      startY: 0
+      startY: 0,
     };
   },
   methods: {
@@ -68,9 +68,9 @@ export default {
 
       window.removeEventListener("mousemove", this.onDrag);
       window.removeEventListener("mouseup", this.stopDrag);
-    }
-  }
-}
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -89,12 +89,12 @@ export default {
   filter: grayscale(50%);
 }
 
-.base-button:hover+.txtBtn {
+.base-button:hover + .txtBtn {
   color: black;
 }
 
 .txtBtn {
-  font-family: 'Press Start 2P';
+  font-family: "Press Start 2P";
   font-size: 12px;
   text-align: center;
   color: white;
@@ -122,14 +122,14 @@ export default {
 
 .win98-window {
   width: 320px;
-  background: #C1CEBE;
+  background: #c1cebe;
   border: 2px solid #000;
   box-shadow: 4px 4px 0 #000;
   font-family: "MS Sans Serif", Tahoma, sans-serif;
 }
 
 .win98-titlebar {
-  background: #384C3F;
+  background: #384c3f;
   color: white;
   padding: 4px 6px;
   display: flex;
@@ -141,7 +141,7 @@ export default {
 .win98-close-btn {
   width: 20px;
   height: 20px;
-  background: #C1CEBE;
+  background: #c1cebe;
   border: 2px solid #fff;
   border-right-color: #404040;
   border-bottom-color: #404040;
@@ -179,5 +179,30 @@ export default {
   border: 2px solid #404040;
   border-right-color: #fff;
   border-bottom-color: #fff;
+}
+
+/* TABLET */
+@media (min-width: 768px) {
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .base-button {
+    background-image: url(../../assets/icone_ordi.png);
+    background-repeat: no-repeat;
+    background-size: 40px;
+    width: 40px;
+    height: 40px;
+    background-color: transparent;
+    border: 0;
+  }
+
+  .txtBtn {
+    font-family: "Press Start 2P";
+    font-size: 5px;
+    text-align: center;
+    color: white;
+    margin: 0;
+  }
 }
 </style>

@@ -15,10 +15,7 @@
 
     <!-- Texte narratif et choix -->
     <div>
-      <NarrativeText
-      class="chapter"
-      :chapter="currentChapter"
-      />
+      <NarrativeText class="chapter" :chapter="currentChapter" />
 
       <ChoicePanel
         @choose="changeChapter"
@@ -72,7 +69,7 @@ export default {
       }
 
       // Passer au chapitre suivant
-      storyStore.currentChapterId = choice.nextChapter - 1; 
+      storyStore.currentChapterId = choice.nextChapter - 1;
     };
 
     return {
@@ -100,9 +97,15 @@ export default {
   z-index: 20;
 }
 
-.poubelle { top: 20px; }
-.ordi { top: 160px; }
-.doc { top: 300px; }
+.poubelle {
+  top: 20px;
+}
+.ordi {
+  top: 160px;
+}
+.doc {
+  top: 300px;
+}
 
 p {
   color: white;
@@ -113,4 +116,20 @@ p {
   line-height: 2; /* Espace vertical entre les lignes */
 }
 
+/* TABLET */
+@media (min-width: 768px) {
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .poubelle {
+    top: 20px;
+  }
+  .ordi {
+    top: 100px;
+  }
+  .doc {
+    top: 200px;
+  }
+}
 </style>
