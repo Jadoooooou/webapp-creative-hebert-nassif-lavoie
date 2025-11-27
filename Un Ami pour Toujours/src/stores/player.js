@@ -11,6 +11,7 @@ export const usePlayerStore = defineStore('player', {
       meal: '',
     },
     ami: 0, // score d'amitié
+    history: [] // historique du jeu
   }),
 
   actions: {
@@ -24,6 +25,11 @@ export const usePlayerStore = defineStore('player', {
         this.ami += value;
       }
     },
+
+    // 
+    addChoiceToHistory(choice) {
+      this.history.push(choice);
+    }
   },
 });
  
