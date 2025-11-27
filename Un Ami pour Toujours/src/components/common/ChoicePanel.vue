@@ -58,6 +58,7 @@
         outline: none;
         width: 250px;
         height: 40px;
+        font-family: 'Press Start 2P';
     }
 
     button:hover {
