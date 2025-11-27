@@ -8,37 +8,7 @@ gsap.registerPlugin(TextPlugin);
 
 export default {
   setup() {
-    const route = useRoute();
 
-    // 🔥 Fonction qui anime le texte
-    const playTextAnimation = () => {
-      nextTick(() => {
-        const paragraph = document.querySelector(".narrative-text");
-        if (!paragraph) return;
-
-        const fullText = paragraph.textContent;
-        paragraph.textContent = "";
-
-        gsap.to(paragraph, {
-          duration: fullText.length * 0.03,
-          text: fullText,
-          ease: "none",
-        });
-      });
-    };
-
-    // 🔥 1) Anime au premier chargement
-    onMounted(() => {
-      playTextAnimation();
-    });
-
-    // 🔥 2) Réanime quand l’ID du chapitre change
-    watch(
-      () => route.fullPath, // fullPath garantit 100% de réanimation
-      () => {
-        playTextAnimation();
-      }
-    );
 
     return {};
   }
