@@ -191,5 +191,14 @@ export default {
   background-color: transparent;
   border: 0;
 }
+
+.txtBtn {
+  font-family: 'Press Start 2P';
+  font-size: 5px;
+  text-align: center;
+  color: white;
+  margin: 0;
+}
+
 }
 </style>

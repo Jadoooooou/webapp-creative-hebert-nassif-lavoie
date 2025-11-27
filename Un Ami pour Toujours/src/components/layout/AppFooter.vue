@@ -52,6 +52,7 @@ export default {
     outline: none;
     width: 200px;
     height: 40px;
+    font-family: 'Press Start 2P';
 }
 
 .btn:hover {
