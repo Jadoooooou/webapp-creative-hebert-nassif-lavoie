@@ -175,4 +175,21 @@ export default {
   border-right-color: #fff;
   border-bottom-color: #fff;
 }
+
+/* TABLET */
+@media (min-width: 768px) {
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .base-button {
+  background-image: url(../../assets/icone_poubelle.png);
+  background-repeat: no-repeat;
+  background-size: 40px;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 0;
+}
+}
 </style>
