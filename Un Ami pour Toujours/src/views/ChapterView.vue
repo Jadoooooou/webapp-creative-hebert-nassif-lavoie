@@ -62,6 +62,13 @@ export default {
 
     // Fonction pour changer de chapitre et appliquer les effets
     const changeChapter = (choice) => {
+
+      // Enregistrer le choix dans l’historique
+      this.playerStore.addChoiceToHistory({
+        chapterId: this.storyStore.currentChapterId + 1,
+        choiceText: choice.text
+      });
+
       if (choice.effects) {
         for (const [stat, value] of Object.entries(choice.effects)) {
           playerStore.updateStat(stat, value); // Cumule le score
