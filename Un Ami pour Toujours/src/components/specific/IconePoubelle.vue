@@ -158,7 +158,7 @@ export default {
   border-bottom-color: #808080;
   padding: 4px 12px;
   cursor: pointer;
-  font-family: "MS Sans Serif";
+  font-family: 'Press Start 2P';
   font-size: 14px;
   height: 40px;
 }
