@@ -1,7 +1,7 @@
 <template>
   <div class="window">
     <div class="title-bar">
-      <span>Progress Window</span>
+      <span>Données du joueur</span>
       <button @click="closeWindow">X</button>
     </div>
     <div class="content">
@@ -20,8 +20,8 @@
       <div class="history">
         <h3>Tes choix :</h3>
         <ul>
-          <li v-for="(entry, index) in playerStore.history" :key="index">
-            <strong>Chapitre {{ entry.chapterId }} :</strong> {{ entry.choiceText }}
+          <li v-for="(line, index) in filteredHistory" :key="index">
+            {{ line }}
           </li>
         </ul>
       </div>
@@ -56,11 +56,26 @@ export default {
       return "";
     });
 
+    // Historique filtré pour montrer seulement les chapitres voulu
+    const filteredHistory = computed(() => {
+      return playerStore.history
+        .filter(entry => entry.chapterId === 4 || entry.chapterId === 5)
+        .map(entry => {
+          if (entry.chapterId === 4) {
+            return "Tu as complété mon formulaire de données.";
+          }
+
+          if (entry.chapterId === 5) {
+            return `Tu as choisi : ${entry.choiceText}`;
+          }
+        });
+    });
+
     const closeWindow = () => {
       alert("Fenêtre fermée !");
     };
 
-    return { playerStore, progressWidth, displayIcon, closeWindow };
+    return { playerStore, progressWidth, displayIcon, filteredHistory, closeWindow };
   },
 };
 </script>

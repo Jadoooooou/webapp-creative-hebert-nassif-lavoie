@@ -7,8 +7,7 @@
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 2, "type": "path" }
       ],
-      "frogPosition": { "top": 1085, "left": 800 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 1085, "left": 800 }
     },
     {
       "id": 2,
@@ -17,8 +16,7 @@
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 3, "type": "path" }
       ],
-      "frogPosition": { "top": 1085, "left": 800 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 1085, "left": 800 }
     },
     {
       "id": 3,
@@ -27,8 +25,7 @@
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 4, "type": "path" }
       ],
-      "frogPosition": { "top": 1085, "left": 800 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 1085, "left": 800 }
     },
     {
       "id": 4,
@@ -37,8 +34,7 @@
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 5, "type": "path", "effects": { "ami": 1 }}
       ],
-      "frogPosition": { "top": 268, "left": 275 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 268, "left": 275 }
     },
     {
       "id": 5,
@@ -48,8 +44,7 @@
         { "id": 1, "text": "Festin de mouches", "nextChapter": 6, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Grenouille Glam", "nextChapter": 7, "type": "path", "effects": { "ami": 1 } }
       ],
-      "frogPosition": { "top": 1095, "left": 80 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 1095, "left": 80 }
     },
     {
       "id": 6,
@@ -58,8 +53,7 @@
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
       ],
-      "frogPosition": { "top": 120, "left": 80 },
-      "frogOpacity": 0
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 7,
@@ -68,81 +62,81 @@
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
       ],
-      "frogPosition": { "top": 120, "left": 80 },
-      "frogOpacity": 0
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 8,
       "title": "Chapitre 4",
-      "text": "Elle parle d'une grenouille. Mais aussi… un peu de toi. Il était une fois… une grenouille qui voulait être aimée. Mais personne ne venait plus la voir.",
+      "text": "Tu ne veux plus jouer avec moi? Laisse-moi te raconter une histoire!",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 9, "type": "path" }
       ],
-      "frogPosition": { "top": 2000, "left": 800 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 2000, "left": 800 }
     },
     {
       "id": 9,
       "title": "Chapitre 4",
-      "text": "Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d'eau qui s'appelait écran. Et de l'autre côté… il y avait toi, [NOM].",
+      "text": "Elle parle d'une grenouille. Mais aussi… un peu de toi. Il était une fois… une grenouille qui voulait être aimée. Mais personne ne venait plus la voir.",
       "choices": [
-        { "id": 1, "text": "Suivant", "nextChapter": 10, "type": "path"}
+        { "id": 1, "text": "Suivant", "nextChapter": 10, "type": "path" }
       ],
-      "frogPosition": { "top": 2000, "left": 800 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 2000, "left": 800 }
     },
     {
       "id": 10,
       "title": "Chapitre 4",
-      "text": "Tu n'es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme.",
+      "text": "Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d'eau qui s'appelait écran. Et de l'autre côté… il y avait toi, [NOM].",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 11, "type": "path"}
       ],
-      "frogPosition": { "top": 2000, "left": 800 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 2000, "left": 800 }
     },
     {
       "id": 11,
       "title": "Chapitre 4",
-      "text": "Mais toi, c'est pour la vie, en? De toutes façons, après tout ce temps à t'attendre, j'ai trouvé la solution pour que l'on reste amis, c'était quoi déjà… Ah oui! grant all access to the running program. De cette façon, la grenouille pu garder son amie pour la vie… Tu veux savoir comment? Me fais-tu confiance?",
+      "text": "Tu n'es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme.",
       "choices": [
-        { "id": 1, "text": "Oui", "nextChapter": 13, "type": "path", "effects": { "ami": 1 } },
-        { "id": 2, "text": "Non", "nextChapter": 12, "type": "path", "effects": { "ami": -1 } }
+        { "id": 1, "text": "Suivant", "nextChapter": 12, "type": "path"}
       ],
-      "frogPosition": { "top": 2000, "left": 800 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 2000, "left": 800 }
     },
     {
       "id": 12,
-      "title": "Chapitre 5",
-      "text": "Veux-tu être mon ami pour la vie?",
+      "title": "Chapitre 4",
+      "text": "Mais toi, c'est pour la vie, en? De toutes façons, après tout ce temps à t'attendre, j'ai trouvé la solution pour que l'on reste amis, c'était quoi déjà… Ah oui! grant all access to the running program. De cette façon, la grenouille pu garder son amie pour la vie… Tu veux savoir comment? Me fais-tu confiance?",
       "choices": [
-        { "id": 1, "text": "Oui", "nextChapter": 14, "type": "path", "effects": { "ami": 1 } },
-        { "id": 2, "text": "Non", "nextChapter": 15, "type": "path", "effects": { "ami": -1 } }
+        { "id": 1, "text": "Oui", "nextChapter": 13, "type": "path", "effects": { "ami": 1 } },
+        { "id": 2, "text": "Non", "nextChapter": 14, "type": "path", "effects": { "ami": -1 } }
       ],
-      "frogPosition": { "top": 120, "left": 80 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 2000, "left": 800 }
     },
     {
       "id": 13,
-      "title": "Fin num6",
-      "text": "Tu es l'ami parfait pour moi, tu es social, joueur et obéissant, euh je veux dire amical! Maintenant, je vais te garder à moi pour la vie.",
-      "frogPosition": { "top": 120, "left": 80 },
-      "frogOpacity": 100
+      "title": "Chapitre 5",
+      "text": "Veux-tu être mon ami pour la vie?",
+      "choices": [
+        { "id": 1, "text": "Oui", "nextChapter": 15, "type": "path", "effects": { "ami": 1 } },
+        { "id": 2, "text": "Non", "nextChapter": 16, "type": "path", "effects": { "ami": -1 } }
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 14,
-      "title": "Fin num7",
-      "text": "Tu es tombé dans le piège…",
-      "frogPosition": { "top": 120, "left": 80 },
-      "frogOpacity": 100
+      "title": "Fin num6",
+      "text": "Tu es l'ami parfait pour moi, tu es social, joueur et obéissant, euh je veux dire amical! Maintenant, je vais te garder à moi pour la vie.",
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 15,
+      "title": "Fin num7",
+      "text": "Tu es tombé dans le piège…",
+      "frogPosition": { "top": 120, "left": 80 }
+    },
+    {
+      "id": 16,
       "title": "Fin num8",
       "text": "Je saurai te retrouver.",
-      "frogPosition": { "top": 120, "left": 80 },
-      "frogOpacity": 100
+      "frogPosition": { "top": 120, "left": 80 }
     }
   ]
 }
