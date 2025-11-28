@@ -2,7 +2,7 @@
   <div class="pageChapter">
 
     <!-- Grenouille -->
-    <Frog :key="storyStore.currentChapterId" />
+    <Frog :key="storyStore.currentChapterId" :position="currentChapter.frogPosition"/>
 
     <!-- Icônes fixes -->
     <div>

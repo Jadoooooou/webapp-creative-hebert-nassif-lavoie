@@ -6,7 +6,8 @@
       "text": "Bonjour! Tu me vois bien? Je suis Germaine la Grenouille. Il fait froid ici, tu sais… Cela fait un petit bout que personne n'est venu jouer avec moi.",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 2, "type": "path" }
-      ]
+      ],
+      "frogPosition": { "top": 1085, "left": 800 }
     },
     {
       "id": 2,
@@ -14,7 +15,8 @@
       "text": "Alors, je t'ai trouvé, à travers les vagues, les ondes, les pixels. Tu es venu. Je veux te montrer mon monde.",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 3, "type": "path" }
-      ]
+      ],
+      "frogPosition": { "top": 20, "left": 20 }
     },
     {
       "id": 3,
@@ -30,7 +32,8 @@
       "text": "Voici un petit formulaire qui m'aideras à plus en savoir sur toi! Tu n'as qu'à répondre aux questions dans les rectangles blancs.",
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 5, "type": "path", "effects": { "ami": 1 }}
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 5,
@@ -39,7 +42,8 @@
       "choices": [
         { "id": 1, "text": "Festin de mouches", "nextChapter": 6, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Grenouille Glam", "nextChapter": 7, "type": "path", "effects": { "ami": 1 } }
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 6,
@@ -47,7 +51,8 @@
       "text": "",
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 7,
@@ -55,7 +60,8 @@
       "text": "",
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 8,
@@ -63,7 +69,8 @@
       "text": "Elle parle d'une grenouille. Mais aussi… un peu de toi. Il était une fois… une grenouille qui voulait être aimée. Mais personne ne venait plus la voir.",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 9, "type": "path" }
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 9,
@@ -71,7 +78,8 @@
       "text": "Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d'eau qui s'appelait écran. Et de l'autre côté… il y avait toi, [NOM].",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 10, "type": "path"}
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 10,
@@ -79,7 +87,8 @@
       "text": "Tu n'es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme.",
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 11, "type": "path"}
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 11,
@@ -88,7 +97,8 @@
       "choices": [
         { "id": 1, "text": "Oui", "nextChapter": 13, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Non", "nextChapter": 12, "type": "path", "effects": { "ami": -1 } }
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 12,
@@ -97,22 +107,26 @@
       "choices": [
         { "id": 1, "text": "Oui", "nextChapter": 14, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Non", "nextChapter": 15, "type": "path", "effects": { "ami": -1 } }
-      ]
+      ],
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 13,
       "title": "Fin num6",
-      "text": "Tu es l'ami parfait pour moi, tu es social, joueur et obéissant, euh je veux dire amical! Maintenant, je vais te garder à moi pour la vie."
+      "text": "Tu es l'ami parfait pour moi, tu es social, joueur et obéissant, euh je veux dire amical! Maintenant, je vais te garder à moi pour la vie.",
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 14,
       "title": "Fin num7",
-      "text": "Tu es tombé dans le piège…"
+      "text": "Tu es tombé dans le piège…",
+      "frogPosition": { "top": 120, "left": 80 }
     },
     {
       "id": 15,
       "title": "Fin num8",
-      "text": "Je saurai te retrouver."
+      "text": "Je saurai te retrouver.",
+      "frogPosition": { "top": 120, "left": 80 }
     }
   ]
 }

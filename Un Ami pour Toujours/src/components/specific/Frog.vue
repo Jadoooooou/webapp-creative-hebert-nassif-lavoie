@@ -1,35 +1,15 @@
 <template>
-    <img class="frog" src="/src/assets/frog.png" :style="{
-        top: position.top + 'px',
-        left: position.left + 'px'
-    }" />
+    <img class="frog" src="/src/assets/frog.png" :style="{ top: position.top + 'px', left: position.left + 'px' }" />
 </template>
 
 <script>
 export default {
     name: "Frog",
-
-    data() {
-        return {
-            position: {
-                top: 0,
-                left: 0
-            }
-        };
-    },
-
-    methods: {
-        randomizePosition() {
-            const maxWidth = window.innerWidth - 200; // largeur 
-            const maxHeight = window.innerHeight - 200; // hauteur 
-
-            this.position.top = Math.floor(Math.random() * maxHeight);
-            this.position.left = Math.floor(Math.random() * maxWidth);
+    props: {
+        position: {
+            type: Object,
+            required: true
         }
-    },
-
-    mounted() {
-        this.randomizePosition();
     }
 };
 </script>
