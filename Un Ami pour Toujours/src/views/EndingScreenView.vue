@@ -27,11 +27,9 @@ import IconePoubelle from "../components/specific/IconePoubelle.vue";
 import IconeOrdi from "../components/specific/IconeOrdi.vue";
 import IconeDoc from "../components/specific/IconeDoc.vue";
 
-// TES components spécifiques (je les garde)
 import FestinDeMouche from "../components/specific/FestinDeMouche.vue";
 import GrenouilleGlam from "../components/specific/GrenouilleGlam.vue";
 
-// Le composant Stats que tu veux afficher
 import StatsContent from "../components/specific/Stats.vue";
 
 export default {

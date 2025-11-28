@@ -132,7 +132,7 @@ export default {
         if (fly.y < 0 || fly.y > this.gameHeight - 50) fly.dy *= -1;
       });
 
-      this.animationId = requestAnimationFrame(this.moveFlies);
+      this.animationId = requestAnimationFrame((t) => this.moveFlies(t));
     },
 
     startTimer() {
@@ -177,7 +177,7 @@ export default {
       this.timeLeft = 30;
 
       this.spawnFlies();
-      requestAnimationFrame(this.moveFlies);
+      requestAnimationFrame((t) => this.moveFlies(t));
 
       // Redémarre le timer
       clearInterval(this.timer);
@@ -286,7 +286,7 @@ export default {
   position: absolute;
   width: 50px;
   height: 50px;
-  background-image: url("src/assets/fly.png");
+  background-image: url("/src/assets/fly.png");
   background-color: transparent;
   background-size: cover;
   background-position: center;

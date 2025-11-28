@@ -1,5 +1,6 @@
 <template>
-  <div class="pageChapter">
+  <div class="pageChapter" :style="{ backgroundColor: bgColor }">
+    <!-- <p>{{ bgColor }}</p> -->
 
     <!-- Grenouille -->
     <Frog :key="storyStore.currentChapterId" :position="currentChapter.frogPosition"/>
@@ -87,11 +88,26 @@ export default {
       storyStore.currentChapterId = choice.nextChapter - 1;
     };
 
+    // Couleur de base du fond
+    const baseColor = { r: 146, g: 164, b: 141 }; // #92a48d
+
+    // Génère une couleur plus foncée selon le numéro du chapitre
+    const bgColor = computed(() => {
+      const chapterIndex = storyStore.currentChapterId;
+      const factor = 0.090; // intensité d’assombrissement
+
+      const darken = (value) =>
+        Math.max(0, Math.round(value * (1 - factor * chapterIndex)));
+
+      return `rgb(${darken(baseColor.r)}, ${darken(baseColor.g)}, ${darken(baseColor.b)})`;
+    });
+
     return {
       storyStore,
       playerStore,
       currentChapter,
       changeChapter,
+      bgColor,
     };
   }
 };
@@ -99,7 +115,7 @@ export default {
 
 <style scoped>
 .pageChapter {
-  background-color: #92a48d;
+  transition: background-color 0.5s ease;
   height: 100vh;
 }
 

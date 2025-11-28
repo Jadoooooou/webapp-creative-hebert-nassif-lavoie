@@ -18,7 +18,7 @@ export default {
 
 <template>
   <header>
-    <!--
+   <!-- 
     <nav>
       <router-link to="/">Home</router-link>
       <router-link to="/ChapterView/1">ChapterView</router-link>
