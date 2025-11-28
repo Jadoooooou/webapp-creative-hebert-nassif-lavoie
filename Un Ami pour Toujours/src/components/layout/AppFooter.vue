@@ -1,6 +1,6 @@
 <template>
     <div class="bar">
-        <button @click="clickBtn" class="btn">Restart</button>
+        <button @click="clickBtn" class="btn">Recommencer</button>
         <div class="creds">
             <CreditsModal />
         </div>

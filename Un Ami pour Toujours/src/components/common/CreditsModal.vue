@@ -2,7 +2,7 @@
     <div>
       <!-- Button to open -->
       <button @click="show = true" class="win98-button">
-        Show Credits
+        Voir crédits
       </button>
   
       <!-- Modal -->
@@ -17,8 +17,8 @@
   
           <!-- Window content -->
           <div class="win98-content">
-            <p>Les assets sont la création de <a href="https://alexmeub.com/old-windows-icons/">Alex Meub</a> .</p>
-            <p>Un gros merci !</p>
+            <p>Les assets windows sont la création de <a href="https://alexmeub.com/old-windows-icons/">Alex Meub</a>.</p>
+            <p>Et les assets de Germaine ainsi que ses accesoires sont de <a href="https://www.vecteezy.com/members/collaborapix">Collaborapix Studio</a>.</p>
   
             <button class="win98-button" @click="close">
               OK

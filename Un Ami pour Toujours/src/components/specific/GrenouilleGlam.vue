@@ -53,9 +53,9 @@ export default {
       greenTop: 400,
       greenLeft: 350,
       chapeauxArr: [
-        { top: 50, left: 50, img: "hat_beach.png" },
-        { top: 50, left: 120, img: "hat_party.png" },
-        { top: 50, left: 190, img: "hat_fashion.png" },
+        { top: 50, left: 50, img: "/src/assets/hat_beach.png" },
+        { top: 50, left: 120, img: "/src/assets/hat_party.png" },
+        { top: 50, left: 190, img: "/src/assets/hat_fashion.png" },
       ],
       draggingIndex: null,
       offsetX: 0,
