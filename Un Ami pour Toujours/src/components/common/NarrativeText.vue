@@ -3,15 +3,15 @@
         <div class="container">
             <!-- Texte animé -->
             <p class="narrative-text">{{ formattedText }}</p>
-            <Stats v-if="chapter.id == 13" class="stats"/>
-            <Stats v-if="chapter.id == 14" class="stats"/>
-            <Stats v-if="chapter.id == 15" class="stats"/>
+            <Stats v-if="chapter.id == 13" class="stats" />
+            <Stats v-if="chapter.id == 14" class="stats" />
+            <Stats v-if="chapter.id == 15" class="stats" />
             <div v-if="chapter.id == 5" class="jeuImg">
-                <img src="/src/assets/grenouille_glam.png" alt="grenouille_glam">
-                <img src="/src/assets/festin_mouches.png" alt="festin_mouches">
+                <img src="/src/assets/festin_mouches.png" alt="grenouille_glam">
+                <img src="/src/assets/grenouille_glam.png" alt="festin_mouches">
             </div>
-            <FestinDeMouche v-if="chapter.id == 6" class="jeux"/>
-            <GrenouilleGlam v-if="chapter.id == 7" class="jeux"/>
+            <FestinDeMouche v-if="chapter.id == 6" class="jeux" />
+            <GrenouilleGlam v-if="chapter.id == 7" class="jeux" />
         </div>
     </div>
 </template>
@@ -34,9 +34,9 @@ export default {
         chapter: { type: Object, required: true }
     },
     components: {
-    Stats,
-    FestinDeMouche,
-    GrenouilleGlam
+        Stats,
+        FestinDeMouche,
+        GrenouilleGlam
     },
     setup(props) {
         const playerStore = usePlayerStore();
@@ -45,7 +45,7 @@ export default {
             return props.chapter.text.replace('[NOM]', playerStore.form.name || '…');
         });
 
-        // 🔥 Fonction qui anime le texte
+        // Fonction qui anime le texte
         const animateText = async () => {
             await nextTick();
 
@@ -62,12 +62,12 @@ export default {
             });
         };
 
-        // 🔥 1) Anime au premier rendu
+        // Anime au premier rendu
         onMounted(() => {
             animateText();
         });
 
-        // 🔥 2) Réanime quand le chapitre change (nouvel ID)
+        // Réanime quand le chapitre change (nouvel ID)
         watch(
             () => props.chapter.id,
             () => animateText()
@@ -81,6 +81,7 @@ export default {
 <style scoped>
 * {
     margin: 0;
+    box-sizing: border-box;
 }
 
 .page {
@@ -105,11 +106,10 @@ h1 {
 
 p {
     font-family: 'Press Start 2P';
-    font-size: 2cap;
+    font-size: 2vh;
     color: #384C3F;
-    text-align: left;
-    margin: 0;
     text-align: center;
+    margin: 0;
 }
 
 .stats {
@@ -117,48 +117,60 @@ p {
     margin-top: 50px;
 }
 
-.jeuImg img {
-    width: 30vh;
-}
-
+/* Conteneur des images de jeu */
 .jeuImg {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    gap: 2vh;
     height: 50vh;
+    transition: height 0.5s ease;
 }
 
-/* TABLET */
-@media (min-width: 768px) {
-  
+/* Images avec transition de taille */
+.jeuImg img {
+    width: 50vh;
+    /* Desktop par défaut */
+    transition: width 0.5s ease, height 0.5s ease;
 }
 
-/* MOBILE (écrans ≤ 767px) */
-@media (max-width: 1300px) {
+/* TABLETTE / écran moyen */
+@media (max-width: 1300px) and (min-width: 768px) {
+    .jeuImg {
+        height: 45vh;
+    }
+
     .jeuImg img {
-        width: 40vw;
+        width: 25vh;
+    }
 }
+
+/* MOBILE */
+@media (max-width: 767px) {
+    .jeuImg img {
+        width: 50vw;
+        justify-content: center;
+        align-items: center;
+    }
 
     .jeuImg {
-    display: flex;
-    height: 40vh;
-    flex-direction: column;
-    justify-content: center;
-    gap: 2vh;
-}
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        gap: 2vh;
+        padding-top: 100px;
+    }
 
-p {
-    font-family: 'Press Start 2P';
-    font-size: 1.5vh;
-}
-.container {
-    padding-left: 30vw;
-    padding-right: 30vw;
-    padding-top: 4vh;
-    padding-bottom: 10vh;
-}
+    p {
+        font-size: 1.5vh;
+    }
 
+    .container {
+        padding-left: 30vw;
+        padding-right: 30vw;
+        padding-top: 4vh;
+        padding-bottom: 10vh;
+    }
 }
-
-
 </style>
