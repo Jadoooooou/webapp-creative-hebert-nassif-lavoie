@@ -135,19 +135,28 @@ p {
 /* MOBILE (écrans ≤ 767px) */
 @media (max-width: 1300px) {
     .jeuImg img {
-    width: 14vh;
+        width: 40vw;
 }
 
     .jeuImg {
     display: flex;
-    justify-content: space-between;
     height: 40vh;
+    flex-direction: column;
+    justify-content: center;
+    gap: 2vh;
 }
 
 p {
     font-family: 'Press Start 2P';
-    font-size: 1.5cap;
+    font-size: 1.5vh;
 }
+.container {
+    padding-left: 30vw;
+    padding-right: 30vw;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
 }
 
 

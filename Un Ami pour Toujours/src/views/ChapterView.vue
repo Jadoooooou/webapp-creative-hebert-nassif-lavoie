@@ -94,6 +94,10 @@ export default {
       currentChapter,
       changeChapter,
     };
+  },
+  mounted() {
+    // 👇 Reset chapter every time the page is opened
+    this.storyStore.currentChapterId = 0;
   }
 };
 </script>

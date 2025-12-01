@@ -67,4 +67,8 @@
         border-bottom-color: #fff; 
         background-color: #c0c0c0;
     }
+
+    button {
+        font-size: 10px;
+    }
 </style>
