@@ -186,6 +186,10 @@ export default {
   },
 
   mounted() {
+    if (window.innerWidth < 768) {
+      this.gameWidth = 170;
+      this.gameHeight = 300;
+    }
     // Charge les scores enregistrés localement
     this.highscore = Number(localStorage.getItem("flyHighscore")) || 0;
     this.bestAccuracy = Number(localStorage.getItem("flyBestAccuracy")) || 0;
@@ -305,11 +309,61 @@ export default {
   pointer-events: auto;
 }
 
-/* TABLET */
-@media (min-width: 768px) {
-}
-
 /* MOBILE */
 @media (max-width: 767px) {
+
+  .win98-window {
+    width: 170px !important;
+    min-width: 170px;
+  }
+
+  .title-bar span {
+    font-size: 10px;
+  }
+
+  .content {
+    padding: 2px;
+  }
+
+  /* Stack the header info vertically so it fits */
+  .header-panel {
+    flex-direction: column;
+    gap: 2px;
+    font-size: 10px;
+    text-align: left;
+    padding: 2px;
+  }
+
+  .header-panel > div {
+    width: 100%;
+  }
+
+  .win98-button {
+    width: 100%;
+    padding: 2px;
+    font-size: 10px;
+  }
+
+  /* Game area resized to fit the 170px width */
+  .game-area {
+    width: 100% !important;
+    height: 300px !important;
+  }
+
+  /* Flies become much smaller */
+  .pink-square {
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+  }
+
+  /* Adjust fly hitbox zone */
+  .pink-square::before {
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+  }
 }
+
 </style>
