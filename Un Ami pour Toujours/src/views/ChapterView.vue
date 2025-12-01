@@ -3,7 +3,7 @@
     <!-- <p>{{ bgColor }}</p> -->
 
     <!-- Grenouille -->
-    <Frog :key="storyStore.currentChapterId" :position="currentChapter.frogPosition"/>
+    <Frog :key="storyStore.currentChapterId" :chapterId="storyStore.currentChapterId + 1"/>
 
     <!-- Icônes fixes -->
     <div>

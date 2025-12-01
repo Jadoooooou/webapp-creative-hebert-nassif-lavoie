@@ -14,11 +14,5 @@ export default {
 };
 </script>
 
-<style scoped>
-.frog {
-    position: absolute;
-    width: 180px;
-    z-index: 15;
-    pointer-events: none;
-}
-</style>
+<style src="../../assets/styles/frog.css"></style>
+
