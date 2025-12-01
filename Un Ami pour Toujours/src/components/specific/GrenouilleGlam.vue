@@ -13,7 +13,7 @@
       </div>
 
       <div class="game-area">
-        <div class="frog" ref="frog"></div>
+        <div class="frogGlam" ref="frog"></div>
 
         <div
           v-for="(square, index) in chapeauxArr"
@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     updateFrogPosition() {
-      const frogBox = this.$refs.frog.getBoundingClientRect();
+      const frogBox = this.$refs.frogGlam.getBoundingClientRect();
       const gameBox = this.$el.querySelector(".game-area").getBoundingClientRect();
 
       this.frogPos = {
@@ -192,7 +192,7 @@ export default {
 }
 
 /* --- Frog (non-touchable) --- */
-.frog {
+.frogGlam {
   position: absolute;
   width: 150px;
   height: 150px;
@@ -260,7 +260,7 @@ export default {
     height: 250px;
   }
 
-  .frog {
+  .frogGlam {
     width: 100px;
     height: 100px;
     right: 20px;
