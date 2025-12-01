@@ -109,6 +109,7 @@ p {
     color: #384C3F;
     text-align: left;
     margin: 0;
+    text-align: center;
 }
 
 .stats {
@@ -153,7 +154,7 @@ p {
 .container {
     padding-left: 30vw;
     padding-right: 30vw;
-    padding-top: 10vh;
+    padding-top: 4vh;
     padding-bottom: 10vh;
 }
 

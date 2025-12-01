@@ -210,4 +210,41 @@ input {
   box-shadow: none;
 }
 
+/* MOBILE */
+@media (max-width: 767px) {
+  .win98-window {
+    width: 250px; 
+    height: 350px;
+  }
+
+  .title-bar {
+    padding: 3px;
+    font-size: 12px;
+  }
+
+  .window-body {
+    padding: 6px;
+  }
+
+  .form-row {
+    margin-bottom: 6px;
+  }
+
+  label {
+    font-size: 12px;
+  }
+
+  input {
+    font-size: 12px;
+    padding: 2px;
+  }
+
+  .win98-button {
+    width: 120px;
+    height: 32px;
+    font-size: 12px;
+    padding: 2px 8px;
+  }
+}
+
 </style>
