@@ -25,7 +25,6 @@
           </li>
         </ul>
       </div>
-
     </div>
   </div>
 </template>
@@ -140,5 +139,17 @@ export default {
   margin-top: 10px;
   color: white;
   font-weight: bold;
+  color: #384C3F;
+}
+
+.history {
+  text-align: left;
+}
+
+/* MOBILE */
+@media (max-width: 767px) {
+  .window {
+  width: 170px;
+}
 }
 </style>

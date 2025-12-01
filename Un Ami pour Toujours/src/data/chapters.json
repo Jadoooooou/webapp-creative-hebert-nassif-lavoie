@@ -103,7 +103,7 @@
     {
       "id": 12,
       "title": "Chapitre 4",
-      "text": "Mais toi, c'est pour la vie, en? De toutes façons, après tout ce temps à t'attendre, j'ai trouvé la solution pour que l'on reste amis, c'était quoi déjà… Ah oui! grant all access to the running program. De cette façon, la grenouille pu garder son amie pour la vie… Tu veux savoir comment? Me fais-tu confiance?",
+      "text": "Toi, c’est pour la vie, non ? J’ai trouvé comment rester amis : grant all access to the running program. Et la grenouille garda son amie pour toujours. Tu veux savoir comment ? Tu me fais confiance?",
       "choices": [
         { "id": 1, "text": "Oui", "nextChapter": 13, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Non", "nextChapter": 14, "type": "path", "effects": { "ami": -1 } }

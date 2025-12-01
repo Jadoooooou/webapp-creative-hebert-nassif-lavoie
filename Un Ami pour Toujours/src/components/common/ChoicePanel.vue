@@ -33,6 +33,9 @@
 <style scoped>
     .page {
         height: 30vh;
+        justify-content: center; 
+        align-items: center;    
+        display: flex;
     }
 
     .form {
@@ -44,6 +47,7 @@
         padding-right: 20vw;
         display: flex;
         justify-content: space-between;
+        align-items: center;
     }
 
     button {
@@ -70,13 +74,5 @@
 
     button {
         font-size: 10px;
-    }
-
-    /* MOBILE */
-    @media (max-width: 767px) {
-    
-        .form {
-            margin-top: -180px;
-        }
     }
 </style>
