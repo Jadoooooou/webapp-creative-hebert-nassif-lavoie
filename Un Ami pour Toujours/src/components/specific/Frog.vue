@@ -1,13 +1,13 @@
 <template>
-    <img class="frog" src="/src/assets/frog.png" :style="{ top: position.top + 'vh', left: position.left + 'vw' }" />
+    <img class="frog" src="/src/assets/frog.png" :class="'frog-chapter-' + chapterId"/>
 </template>
 
 <script>
 export default {
     name: "Frog",
     props: {
-        position: {
-            type: Object,
+        chapterId: {
+            type: Number,
             required: true
         }
     }
