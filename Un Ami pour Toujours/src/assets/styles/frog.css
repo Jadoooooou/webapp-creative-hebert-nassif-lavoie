@@ -8,16 +8,17 @@
 }
 
 /*  Desktop  */
-.frog-chapter-6 { top: 73.5vh; left: 48vw; opacity: 0;}
+.frog-chapter-6 {  opacity: 0;}
 
 /*  Tablette */
 @media (max-width: 1024px) {
   .frog { top: 81.5vh; left: 50vw; }
-  .frog-chapter-6 { top: 81.5vh; left: 50vw; opacity: 0;}
+  .frog-chapter-6 {  opacity: 0;}
 }
 
 /*  Mobile */
 @media (max-width: 767px) {
-  .frog { top: 73vh; left: 30vw; }
-  .frog-chapter-6 { top: 73vh; left: 30vw; opacity: 0;}
+  .frog { width: 200px; top: 66.5vh; left: 30vw; }
+  .frog-chapter-4 {top: 77vh; left: 48vw;}
+  .frog-chapter-5 {opacity: 0;}
 }
