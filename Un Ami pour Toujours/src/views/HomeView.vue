@@ -151,20 +151,5 @@ p {
   }
 }
 
-/* DESKTOP */
-@media (min-width: 1200px) {
-  h1 {
-    font-size: 95px;
-  }
 
-  h2 {
-    font-size: 48px;
-  }
-
-  .btnJouer {
-    font-size: 45px;
-    width: 340px;
-    height: 110px;
-  }
-}
 </style>
