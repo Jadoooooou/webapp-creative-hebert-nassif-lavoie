@@ -67,4 +67,16 @@
         border-bottom-color: #fff; 
         background-color: #c0c0c0;
     }
+
+    button {
+        font-size: 10px;
+    }
+
+    /* MOBILE */
+    @media (max-width: 767px) {
+    
+        .form {
+            margin-top: -180px;
+        }
+    }
 </style>
