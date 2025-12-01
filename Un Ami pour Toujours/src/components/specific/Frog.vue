@@ -1,5 +1,5 @@
 <template>
-    <img class="frog" src="/src/assets/frog.png" :style="{ top: position.top + 'px', left: position.left + 'px' }" />
+    <img class="frog" src="/src/assets/frog.png" :style="{ top: position.top + 'vh', left: position.left + 'vw' }" />
 </template>
 
 <script>

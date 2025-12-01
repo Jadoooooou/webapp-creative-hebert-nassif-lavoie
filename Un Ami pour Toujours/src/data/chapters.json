@@ -7,7 +7,7 @@
       "choices": [
         { "id": 1, "text": "Suivant", "nextChapter": 2, "type": "path" }
       ],
-      "frogPosition": { "top": 1085, "left": 800 }
+      "frogPosition": { "top": 79, "left": 60 }
     },
     {
       "id": 2,
