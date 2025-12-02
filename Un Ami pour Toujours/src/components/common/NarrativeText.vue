@@ -3,9 +3,9 @@
         <div class="container">
             <!-- Texte animé -->
             <p class="narrative-text">{{ formattedText }}</p>
-            <Stats v-if="chapter.id == 13" class="stats" />
             <Stats v-if="chapter.id == 14" class="stats" />
             <Stats v-if="chapter.id == 15" class="stats" />
+            <Stats v-if="chapter.id == 16" class="stats" />
             <div v-if="chapter.id == 5" class="jeuImg">
                 <img src="/src/assets/festin_mouches.png" alt="grenouille_glam">
                 <img src="/src/assets/grenouille_glam.png" alt="festin_mouches">
