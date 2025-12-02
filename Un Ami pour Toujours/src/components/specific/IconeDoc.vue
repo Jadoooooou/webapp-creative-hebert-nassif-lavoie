@@ -1,7 +1,7 @@
 <template>
   <div @click="show = true" class="divBtn">
     <button class="base-button"></button>
-    <p class="txtBtn">Fichier</p>
+    <p class="txtBtn">{{ fileName }}</p>
   </div>
 
   <!-- Fenêtre Modale -->
@@ -13,7 +13,7 @@
     >
       <!-- Barre ave titre -->
       <div class="win98-titlebar" @mousedown="startDrag">
-        <span>Fichier</span>
+        <span>{{ fileName }}</span>
         <button class="win98-close-btn" @click="close">X</button>
       </div>
 
@@ -28,8 +28,25 @@
 </template>
 
 <script>
+import { usePlayerStore } from "/src/stores/player";
+import { computed } from "vue";
+
 export default {
   name: "BaseButton",
+
+  setup() {
+    const playerStore = usePlayerStore();
+
+    // Nom affiché : "Fichier" tant que le nom n'est pas rempli
+    const fileName = computed(() => {
+      return playerStore.form.name && playerStore.form.name.trim() !== ""
+        ? playerStore.form.name
+        : "Fichier";
+    });
+
+    return { fileName };
+  },
+
   data() {
     return {
       show: false,
