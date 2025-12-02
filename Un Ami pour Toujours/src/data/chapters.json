@@ -94,8 +94,8 @@
       "title": "Chapitre 4",
       "text": "Toi, c’est pour la vie, non ? J’ai trouvé comment rester amis : grant all access to the running program. Et la grenouille garda son amie pour toujours. Tu veux savoir comment ? Tu me fais confiance?",
       "choices": [
-        { "id": 1, "text": "Oui", "nextChapter": 13, "type": "path", "effects": { "ami": 1 } },
-        { "id": 2, "text": "Non", "nextChapter": 14, "type": "path", "effects": { "ami": -1 } }
+        { "id": 1, "text": "Oui", "nextChapter": 14, "type": "path", "effects": { "ami": 1 } },
+        { "id": 2, "text": "Non", "nextChapter": 13, "type": "path", "effects": { "ami": -1 } }
       ]
     },
     {
