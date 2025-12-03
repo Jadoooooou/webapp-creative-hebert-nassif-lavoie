@@ -31,7 +31,7 @@ Le genre narratif est un mélange de fantastique, aventure, et psychologique, av
 
 - Quelle est l'histoire principale? 
 
-L’histoire suit une grenouille étrange et solitaire qui traverse un monde fantastique à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être la seule amie, quitte à éloigner, voire faire disparaître les autres prétendants à l’amitié. Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement sombre, qui reflet de l’état mental de la grenouille et des conséquences de ses actions. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
+L’histoire suit une grenouille étrange et solitaire qui traverse un monde fantastique à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être la seule amie, quitte à éloigner, voire faire disparaître les autres prétendants à l’amitié. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle et la perte d’innocence.
 <br>
 
 - Qui est le personnage principal?
@@ -42,12 +42,12 @@ La petite grenouille Germaine (l'interacteur)
 
 Le joueur est régulièrement confronté à des questions et des choix ambigus, qui influencent la transformation du monde et du personnage.
    
-> "Un Ami pour Toujours" est une histoire interactive en pixel art rétro où une petite grenouille cherche à devenir la seule et unique amie de l’interacteur. Au fil des choix moraux du joueur, l’univers pastel s’assombrit peu à peu, reflétant un sombre côté de la grenouille. Mêlant fantastique, aventure et psychologie, le récit explore la solitude, la possession et la perte d’innocence, menant à plusieurs fins selon les décisions prises.
+"Un Ami pour Toujours" est une histoire interactive en pixel art rétro où une petite grenouille cherche à devenir la seule et unique amie de l’interacteur. Au fil des choix moraux du joueur, son véritable côté sombre se révèle progressivement. Mêlant fantastique, aventure et psychologie, le récit explore la solitude, la possession et la perte d’innocence, menant à plusieurs fins selon les décisions prises.
 
 ### 1.2 Public cible
 
 - _Âge:_ 13+
-- _Profil:_ Jeunes aiamnt les jeux narratifs expérimentaux, qui mélange le psycologique et le fantastique.
+- _Profil:_ Voici la version corrigée : Jeunes aimant les jeux narratifs expérimentaux qui mélangent le psychologique et le fantastique.
 - _Niveau technique:_ Grand public
 - _Temps de lecture estimé:_ 20 minutes
   
