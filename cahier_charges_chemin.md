@@ -115,7 +115,7 @@ Les choix influencent la tolérance de la grenouille et à par quel moyen elle v
 
 _Mécanisme choisi:_
 
-- [ ] _Système de karma/moralité_ (points bons/mauvais)
+- [X] _Système de karma/moralité_ (points bons/mauvais)
 - [ ] _Stats du personnage_ (courage, intelligence, empathie)
 - [ ] _Inventaire d'objets_ (collecte d'items)
 - [ ] _Relations avec personnages_ (affinités)
