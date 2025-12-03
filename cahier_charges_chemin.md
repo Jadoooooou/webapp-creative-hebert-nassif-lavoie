@@ -219,15 +219,14 @@ Choisissez un ou plusieurs styles:
 
 | Chapitre | Image de fond         | Effets visuels     | Sons/musique         |
 | -------- | --------------------- | ------------------ | -------------------- |
-| 1 | Bureau d'un ordinateur aux allures Windows95 | Apparition grenouille, animation position | Musique d'ambiance en boucle |
-| 2 | Bureau d'un ordinateur aux allures Windows95 | Animation position, textes | Musique d'ambiance en boucle |
-| 3 | Fond clair| Petit jeu avec des éléments à récupérer (dragable et click)| Nouvelle musique d'ambiance en boucle  |
-| 4 | Fond moins clair | Apparition fenetre Windows | Musique d'ambiance se déforme + effets sonores "erreur windows  |
-| 4 (suite)| Fond moins clair | Apparition texte  | Musique d'ambiance en boucle |
-| 5 | Fond sombre| Spirale | Anmation de la spirale | Musique d'ambiance en boucle déformée et grave|
-| FIN D| Fond noir | grenouille, ombre du texte à l'écran | Effets sonores |
-| FIN E| Fond noir | Apparition texte | Effets sonores  |
-| FIN F| Fond noir | Apparition fenetre Windows | Effets sonores |
+| 1 | Bureau d'un ordinateur aux allures Windows95 | Animation textes | x |
+| 2 | Bureau d'un ordinateur aux allures Windows95 | Apparition fenetre Windows + Animation textes | x |
+| 3 | Bureau d'un ordinateur aux allures Windows95| Petit jeu avec des éléments à récupérer (dragable et click)| x |
+| 4 | Bureau d'un ordinateur aux allures Windows95 | Animation textes | x  |
+| 5 | Bureau d'un ordinateur aux allures Windows95| Animation textes | x |
+| FIN D| Bureau d'un ordinateur aux allures Windows95 | Animation textes | x |
+| FIN E| Bureau d'un ordinateur aux allures Windows95 | Animation textes | x  |
+| FIN F| Bureau d'un ordinateur aux allures Windows95 | Apparition fenetre Windows + Animation textes | x |
 
 ## 💻 4. Spécifications Techniques
 
