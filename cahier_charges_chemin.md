@@ -66,7 +66,9 @@ Le joueur est régulièrement confronté à des questions et des choix ambigus, 
 
 Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins): 
     
-Dans un monde en pixel art aux couleurs douces, une petite grenouille part à la recherche d’un ami: elle demande de joueur avec l'interacteur, d'explorer son monde virtuel, et d'apprendre à se connaître. Mais sous ses airs innocents se cache une obsession maladive : elle veut devenir notre seule et unique amie pour toujours. À mesure que le jeux avance, le monde s'assombrit, les teintes pastel disparaissent, et l'histoire prend une tournure macabre. <br>
+Dans un monde fantastique teinté d’étrangeté, une petite grenouille solitaire cherche désespérément à se faire des amis. Elle guide l’interacteur à travers son univers, se montrant tour à tour attachante, curieuse et un peu envahissante. Plus elle se dévoile, plus on comprend que son besoin d’affection dépasse la simple envie de compagnie.
+
+Sous ses allures innocentes, la grenouille nourrit un désir d’exclusivité qui la pousse à écarter tout ce qui pourrait menacer son lien avec l’interacteur. À mesure que l’histoire progresse, les comportements subtils de la grenouille révèlent une solitude obsessionnelle et un attachement démesuré. Le récit explore alors les limites entre amitié, possession émotionnelle et perte d’innocence, amenant le joueur à faire des choix qui influenceront profondément la relation qui se tisse. <br>
 
 ### 2.2 Arbre narratif
 
