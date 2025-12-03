@@ -22,7 +22,8 @@ Figma Brain Storm: https://www.figma.com/board/duRLYm9St5svNGbtXlhxVa/brainstorm
 
 - Quel est le concept de l'histoire interactive?
 
-Réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être la seule amie de l’interacteur qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre, tandis que les couleurs pastel de l’univers s’estompent peu à peu, jusqu’à ne laisser place qu’au rouge à la fin.
+Réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être la seule amie de l’interacteur qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre.
+
 
 - Quel est le genre narratif?
 
