@@ -185,14 +185,7 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 **Arbre narratif simplifié :**
 
 ```
-Chapitre 1 (Intro)
-    ↓
-Chapitre 2 (Premier choix)
-    ↓           ↓
-Branche A   Branche B
-    ↓           ↓
-  Fin 1       Fin 2
-  Fin 3       Fin 4
+![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre_narratif.png) 
 ```
 
 **Liste des fins accessibles :**
