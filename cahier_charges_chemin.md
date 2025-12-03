@@ -74,7 +74,7 @@ Sous ses allures innocentes, la grenouille nourrit un désir d’exclusivité qu
 
 Dessinez ou décrivez l'arbre de décisions de votre histoire:
     
-![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre_narratif.png) 
+![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre-narratif.png) 
 
 ### 2.3 Liste des chapitres/scènes
 
