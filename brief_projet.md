@@ -14,7 +14,7 @@
 
 **URL du site déployé :**
 
-- Si GitHub: [https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie]
+- GitHub: [https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie]
 
 
 ## 🔗 Accès à votre Trello pour l'ajout de fiches de bogues
