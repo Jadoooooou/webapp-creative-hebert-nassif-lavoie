@@ -1,8 +1,8 @@
 # Brief de Projet - À fournir à l'équipe testeuse
 
-**Nom de votre équipe :** [Nom]  
-**Nom du projet :** [Nom]  
-**Type de projet :** [Mémoires interactives / Trace ton chemin]  
+**Nom de votre équipe :** [Les quenouilles]  
+**Nom du projet :** [Un ami pour toujours]  
+**Type de projet :** [Trace ton chemin]  
 **Date :** 3 décembre 2024
 
 ---
@@ -11,15 +11,12 @@
 
 **URL du site déployé :**
 
-- Si GitHub: [https://votre-username.github.io/votre-repo/]
-- Si Netlify: [https://votre-projet.netlify.app]
+- Si GitHub: [https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie]
 
 
 ## 🔗 Accès à votre Trello pour l'ajout de fiches de bogues
 
-- À partir de Trello, Cliquez sur *Partager* en haut à droite de votre tableau.
-- Ensuite, *Créer un lien*.
-- Finalement, *Copier le lien* et l'amener ici (puis supprimer les instructions sous le titre de la section actuelle).
+- Trello: https://trello.com/invite/b/68e689ca5d95eb49cec5aff3/ATTI5738b652e10c3cb3c6cefd96a87be74bA17BCBE3/projet-integrateur
 
 
 ---
@@ -28,15 +25,8 @@
 
 ### Concept général
 
-[Décrivez en 2-3 phrases ce que fait votre projet]
+Réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être la seule amie de l’interacteur qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre.
 
-**Exemple (Mémoires) :**
-
-"Musée des Souvenirs est une application qui permet de créer et organiser ses mémoires personnelles dans 6 salles thématiques. Les utilisateurs peuvent ajouter des photos, des descriptions et des tags à leurs souvenirs."
-
-**Exemple (Trace ton chemin) :**
-
-"Les Échos du Temps est une histoire interactive de science-fiction où le joueur incarne un scientifique qui découvre une machine à voyager dans le temps. Les choix du joueur influencent l'histoire et mènent à 4 fins différentes."
 
 ---
 
@@ -215,8 +205,7 @@ Branche A   Branche B
 
 **Pour questions urgentes ou clarifications :**
 
-- Teams : @[Nom du chef de projet]
-- Email : [email si nécessaire]
+- Teams : Patricia Nassif
 
 **Disponibilité :**
 
