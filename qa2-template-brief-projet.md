@@ -1,8 +1,11 @@
 # Brief de Projet - À fournir à l'équipe testeuse
 
 **Nom de votre équipe :** Les quenouilles
+<br>
 **Nom du projet :** Un Ami pour Toujours
+<br>
 **Type de projet :** Trace ton chemin  
+<br>
 **Date :** 3 décembre 2024
 
 ---
