@@ -196,11 +196,10 @@ Branche A   Branche B
 ```
 
 **Liste des fins accessibles :**
-
-1. [Nom de la fin 1] - Condition : [karma > 5]
-2. [Nom de la fin 2] - Condition : [karma < -5]
-3. [Nom de la fin 3] - Condition : [avoir l'objet X]
-4. [Nom de la fin 4] - Condition : [avoir fait le choix Y au chapitre 3]
+1. [Chapitre 5] - Condition : [avoir fait le choix C au chapitre 4]
+2. [[Germaine nous capture dans son monde]	] - Condition : [avoir fait le choix D au chapitre 4]
+3. [Germaine à étendu son monde] - Condition : [avoir dit oui chapitre 5]
+4. [Germaine est prise dans son monde] - Condition : [avoir dit non chapitre 5]
 
 ---
 
