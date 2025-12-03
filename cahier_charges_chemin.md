@@ -47,7 +47,7 @@ Le joueur est régulièrement confronté à des questions et des choix ambigus, 
 ### 1.2 Public cible
 
 - _Âge:_ 13+
-- _Profil:_ Voici la version corrigée : Jeunes aimant les jeux narratifs expérimentaux qui mélangent le psychologique et le fantastique.
+- _Profil:_ Jeunes aimant les jeux narratifs expérimentaux qui mélangent le psychologique et le fantastique.
 - _Niveau technique:_ Grand public
 - _Temps de lecture estimé:_ 20 minutes
   
