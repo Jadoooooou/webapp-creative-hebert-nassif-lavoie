@@ -183,7 +183,7 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 ## 🗺️ Structure du projet (Pour "Trace ton chemin")
 
 **Arbre narratif simplifié :**
-![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre_narratif.png) 
+![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre-narratif.png) 
 
 
 **Liste des fins accessibles :**
