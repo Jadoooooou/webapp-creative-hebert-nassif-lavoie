@@ -22,7 +22,7 @@
           :style="{
             top: square.top + 'px',
             left: square.left + 'px',
-            backgroundImage: `url('/src/assets/${square.img}')`
+            backgroundImage: `url('${square.img}')`
           }"
           @mousedown="startDrag($event, index)"
           @touchstart.prevent="startDrag($event, index)"
@@ -52,9 +52,9 @@ export default {
   data() {
     return {
       chapeauxArr: [
-        { top: 0, left: 0, img: "hat_beach.png" },
-        { top: 0, left: 40, img: "hat_party.png" },
-        { top: 0, left: 90, img: "hat_fashion.png" },
+        { top: 0, left: 0, img: "/src/assets/hat_beach.png" },
+        { top: 0, left: 40, img: "/src/assets/hat_party.png" },
+        { top: 0, left: 90, img: "/src/assets/hat_fashion.png" },
       ],
       draggingIndex: null,
       offsetX: 0,
