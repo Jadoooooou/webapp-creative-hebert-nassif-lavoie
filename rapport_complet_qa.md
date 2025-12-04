@@ -45,9 +45,9 @@
 
 ### Ce que NOUS avons trouvé dans le projet de l'autre équipe
 
-**Projet testé :** [Le serment de la Lune] 
-**Équipe testée :** [Les trois mousquetaires] 
-**Type :** [Trace ton chemin]
+**Projet testé :** [Le serment de la Lune] <br>
+**Équipe testée :** [Les trois mousquetaires] <br>
+**Type :** [Trace ton chemin] <br>
 
 ### Résumé des tests effectués
 
