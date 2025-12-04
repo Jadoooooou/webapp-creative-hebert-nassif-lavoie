@@ -120,14 +120,14 @@
 
 **Points forts observés :**
 
-1. [Ex: Interface utilisateur très intuitive]
-2. [Ex: Design cohérent et professionnel]
-3. [Ex: Performance excellente]
+1. [Très belle interface.]
+2. [L'histoire est intéressante]
+3. [Il est facile de jouer]
 
 **Axes d'amélioration identifiés :**
 
-1. [Ex: Accessibilité au clavier à améliorer]
-2. [Ex: Responsive mobile nécessite ajustements]
+1. [Responsive mobile nécessite ajustements]
+2.  [Problèmes de superpositions nécessite ajustements]
 
 **Évaluation globale (1-5 étoiles) :**
 
