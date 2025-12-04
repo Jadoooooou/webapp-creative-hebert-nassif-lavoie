@@ -37,7 +37,7 @@
 - **Projet en ligne :** [https://votre-projet.netlify.app]
 - **GitHub :** [https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie]
 - **Trello (bugs) :** [https://trello.com/c/G7k18qtr/53-%F0%9F%90%9B-bug-num%C3%A9ro-titre-court-et-descriptif]
-- **Projet testé (externe) :** [https://autre-projet.netlify.app]
+- **Projet testé (externe) :** [https://ryandufault.github.io/webapp-creative-benjamin-yannick-ryan/]
 
 ---
 
