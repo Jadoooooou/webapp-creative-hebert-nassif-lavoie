@@ -55,22 +55,20 @@ Remplacer le [X] par le nombre réel de votre projet
 
 Remplacer le [X] par le nombre réel de votre projet
 
-- [ ] Lecture de [X] chapitres
+- [ ] Lecture de 8 chapitres
 - [ ] Système de choix fonctionnel
-- [ ] [X] branches narratives
-- [ ] [X] fins différentes accessibles
-- [ ] Tracking de [karma/stats/inventaire/flags]
-- [ ] Historique des décisions (dans un menu ou à la fin)
-- [ ] Autres spécificités de votre projet à mentionner aux testeurs?
+- [ ] Environ 14 branches narratives
+- [ ] 3 fins différentes accessibles
+- [ ] Tracking de [Points d'amitiés]
+- [ ] Historique des décisions à la fin
 
 ### PRIORITÉ MOYENNE
 
-- [ ] Responsive (mobile, tablette, desktop)
-- [ ] [Autre fonctionnalité] (à vous de mentionner les priorités moyennes à tester pour votre projet)
+- [Ajouter la grenouille qui hypnotise] Responsive (mobile, tablette, desktop)
 
 ### PRIORITÉ BASSE (bonus si temps)
 
-- [ ] [Fonctionnalité bonus] (à vous de mentionner les priorités basses à tester pour votre projet)
+- [ ] [ Ajouter des animations de glitch] (à vous de mentionner les priorités basses à tester pour votre projet)
 
 ---
 
@@ -82,9 +80,7 @@ S'il y a des choses qui n'ont pas été faites dans votre projet et qui ne sont 
 
 Par exemple:
 
-- ❌ [Exemple : Sauvegarde LocalStorage (optionnelle - pas faite)]
-- ❌ [Exemple : Animations GSAP (optionnelles - pas faites)]
-- ❌ [Exemple : Mode sombre]
+- ❌ [Audio non obligatoire]
 - ❌ [Autre]
 
 ---
@@ -93,32 +89,36 @@ Par exemple:
 
 Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas ici.
 
-### Test 1 : [Nom du test]
+### Test 1 : [Vérifier les chemins narratifs]
 
-**Objectif :** Vérifier que [fonctionnalité] fonctionne
+**Objectif :** Vérifier que [chemins narratifs] fonctionne
 
 **Étapes :**
 
-1. [Action 1]
-2. [Action 2]
-3. [Action 3]
+1. [Faire des choix]
+2. [Regarder ce que ces choix influence correctement dans la narration]
+3. [Avoir les bonnes fins et points d'amitiés]
 
 **Résultat attendu :**
-[Ce qui devrait se passer]
+[Avoir une fin en lien cohérente avec les choix faits]
 
 ---
 
-### Test 2 : [Nom du test]
+### Test 2 : [Responsive desktop]
 
-**Objectif :** [Description]
+**Objectif :** [Vérifier que le site fonctionne sur desktop]
 
 **Étapes :**
 
-1. [Action 1]
-2. [Action 2]
-
+1. Ouvrir DevTools (F12)
+2. Activer le mode device (icône téléphone/tablette)
+3. Sélectionner desktop
+4. Tester les fonctionnalités principales
+   
 **Résultat attendu :**
-[Ce qui devrait se passer]
+- Tout s'affiche correctement (pas de débordement)
+- Navigation fonctionne
+- Boutons sont assez grands pour être cliqués
 
 ---
 
@@ -145,10 +145,7 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 
 **Ces problèmes sont déjà identifiés et documentés :**
 
-- [Exemple : Images très lourdes (> 10 MB) peuvent ralentir le chargement]
-- [Exemple : Safari : pas testé (pas d'accès Mac)]
-- [Exemple : Recherche sensible à la casse (majuscules/minuscules)]
-- [Autre]
+- [L'animation gsap des textes sont un peu scpéciales si ont change de chapitre un peu trop vite.]
 
 ---
 
@@ -156,9 +153,8 @@ Suggérez au testeurs de tester des cas précis dans votre appli. Listez-les cas
 
 **Nous aimerions que vous testiez particulièrement :**
 
-1. [Exemple : Le système de filtres (nous ne sommes pas sûrs qu'il fonctionne dans tous les cas)]
-2. [Exemple : La version mobile (nous l'avons peu testée)]
-3. [Exemple : Toutes les fins de l'histoire (pour vérifier qu'elles sont atteignables)]
+1. Que les choix fonctionnent
+2. Toutes les fins de l'histoire (pour vérifier qu'elles sont atteignables)
 
 ---
 
