@@ -6,7 +6,7 @@
 
     <h2 class="anim-subtitle">Un jeu par : Les Quenouilles</h2>
 
-    <button @click="jouer" class="btnJouer">JOUER</button>
+    <button @click="jouer" class="btnJouer" alt="jouer">JOUER</button>
 
     <p class="anim-footer">© 2025 Les Quenouilless</p>
   </div>

@@ -1,6 +1,6 @@
 <template>
   <div @click="show = true" class="divBtn">
-    <button class='base-button'></button>
+    <button class='base-button' alt="corbeille"></button>
     <p class="txtBtn">Poubelle</p>
   </div>
 

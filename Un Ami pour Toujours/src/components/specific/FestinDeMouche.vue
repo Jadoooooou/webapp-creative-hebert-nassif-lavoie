@@ -35,7 +35,8 @@
         <div
           v-for="fly in flies"
           :key="fly.id"
-          class="pink-square"
+          class="pink-square" 
+          alt="mouche"
           :style="{ top: fly.y + 'px', left: fly.x + 'px' }"
           @click.stop="catchFly(fly.id)"
         ></div>

@@ -6,7 +6,7 @@
     </div>
     <div class="content">
       <!-- Icône selon score -->
-      <div id="icon-area" class="skull">{{ displayIcon }}</div>
+      <div id="icon-area" class="skull" alt="tete de mort">{{ displayIcon }}</div>
 
       <!-- Barre de progression -->
       <div class="progress-container">

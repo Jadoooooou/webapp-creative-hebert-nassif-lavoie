@@ -13,12 +13,13 @@
       </div>
 
       <div class="game-area">
-        <div class="frogGlam" ref="frog"></div>
+        <div class="frogGlam" alt="frog" ref="frog"></div>
 
         <div
           v-for="(square, index) in chapeauxArr"
           :key="index"
           class="chapeaux"
+          alt="chapeau"
           :style="{
             top: square.top + 'px',
             left: square.left + 'px',
