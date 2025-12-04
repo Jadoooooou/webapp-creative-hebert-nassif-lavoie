@@ -45,9 +45,9 @@
 
 ### Ce que NOUS avons trouvé dans le projet de l'autre équipe
 
-**Projet testé :** [Nom du projet]  
-**Équipe testée :** [Nom de l'équipe]  
-**Type :** [Mémoires interactives / Trace ton chemin]
+**Projet testé :** [Le serment de la Lune] 
+**Équipe testée :** [Les trois mousquetaires] 
+**Type :** [Trace ton chemin]
 
 ### Résumé des tests effectués
 
@@ -72,41 +72,49 @@
 
 | Priorité | Nombre | % |
 |----------|--------|---|
-| 🔴 Critiques | [X] | [X]% |
-| 🟠 Majeurs | [X] | [X]% |
-| 🟡 Mineurs | [X] | [X]% |
-| **TOTAL** | **[X]** | **100%** |
+| 🔴 Critiques | [0] | [0]% |
+| 🟠 Majeurs | [4] | [100]% |
+| 🟡 Mineurs | [0] | [0]% |
+| **TOTAL** | **[4]** | **100%** |
 
 ### Liste des bugs trouvés (résumé)
 
-**Tous les détails sont dans notre board Trello :** [Lien]
+**Tous les détails sont dans notre board Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
 
-#### 🔴 Bogues Critiques
 
-1. **Bogue #1 : [Titre]**
-
-   - **Description :** [Brève description]
-   - **Impact :** [Pourquoi c'est critique]
-   - **Statut chez eux :** [À faire / En cours / Corrigé]
-   - **Carte Trello :** [Lien]
-
-2. **Bogue #2 : [Titre]**
-
-   - [Même format]
 
 #### 🟠 Bogues Majeurs
 
-3. **Bogue #3 : [Titre]**
+1. **Bogue #1 : [Fin sacrifice solaire]**
 
-   - [Même format]
+   - **Description :** [Impossible de scroller pour lire tout le texte en mobile]
+   - **Impact :** [Le jeu se termine de façon incomplète.]
+   - **Statut chez eux :** [À faire]
+   - **Carte Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
 
-4. **Bogue #4 : [Titre]**
 
-   - [Même format]
+2. **Bogue #2 : [Bouton pour scroller même quand ont à pas à scroller]**
 
-#### 🟡 Bogues Mineurs
+   - **Description :** [Il y a un bouton pour scroller même quand nous en n'avons pas besoin dans certains chapitres.]
+   - **Impact :** [Peu avoir un bouton pour scroller même quand il n’est pas nécessaire.]
+   - **Statut chez eux :** [À faire]
+   - **Carte Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
 
-5-12. [Liste brève, détails complets dans Trello]
+3. **Bogue #3 : [Bloque de texte trop grand dans certains chapitres]**
+
+   - **Description :** [Bloque de texte trop grand dans certains chapitres]
+   - **Impact :** [Bloque de texte trop grand dans certains chapitres qui cache d’autres éléments comme le logo.]
+   - **Statut chez eux :** [À faire]
+   - **Carte Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
+  
+4. **Bogue #4 : [Flèche pour scroll trop petite en mobile]**
+
+   - **Description :** [Flèche pour scroll trop petite en mobile]
+   - **Impact :** [Doit chercher où est la flèche pour scroller dans le texte.]
+   - **Statut chez eux :** [À faire]
+   - **Carte Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
+
+
 
 ### Impression générale du projet testé
 
