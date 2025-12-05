@@ -53,9 +53,9 @@ export default {
   data() {
     return {
       chapeauxArr: [
-        { top: 0, left: 0, img: "/src/assets/hat_beach.png" },
-        { top: 0, left: 40, img: "/src/assets/hat_party.png" },
-        { top: 0, left: 90, img: "/src/assets/hat_fashion.png" },
+        { top: 0, left: 0, img: "/hats/hat_beach.png" },
+        { top: 0, left: 40, img: "/hats/hat_beach.png" },
+        { top: 0, left: 90, img: "/hats/hat_beach.png" },
       ],
       draggingIndex: null,
       offsetX: 0,
