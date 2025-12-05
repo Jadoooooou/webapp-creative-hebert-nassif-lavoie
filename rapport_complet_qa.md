@@ -73,14 +73,13 @@
 | Priorité | Nombre | % |
 |----------|--------|---|
 | 🔴 Critiques | [0] | [0]% |
-| 🟠 Majeurs | [4] | [100]% |
-| 🟡 Mineurs | [0] | [0]% |
-| **TOTAL** | **[4]** | **100%** |
+| 🟠 Majeurs | [4] | [80]% |
+| 🟡 Mineurs | [0] | [20]% |
+| **TOTAL** | **[5]** | **100%** |
 
 ### Liste des bugs trouvés (résumé)
 
 **Tous les détails sont dans notre board Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
-
 
 
 #### 🟠 Bogues Majeurs
@@ -114,6 +113,11 @@
    - **Statut chez eux :** [À faire]
    - **Carte Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
 
+5. **Bogue #5 : [Images décoratives n'ont pas alt="" (vide)]**
+
+   - **Description :** [Images décoratives n'ont pas alt="" (vide)]
+   - **Statut chez eux :** [À faire]
+   - **Carte Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
 
 
 ### Impression générale du projet testé
@@ -193,58 +197,49 @@ RAS = Rien À Signaler
 
 ### Ce que l'AUTRE équipe a trouvé dans NOTRE projet
 
-**Équipe qui nous a testés :** [Nom de l'équipe]  
+**Équipe qui nous a testés :** [Les trois mousquetaires]  
 **Date de réception :** 6 décembre 2024
 
 ### Statistiques
 
 | Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
 |----------|------------|----------|----------|------------------|
-| 🔴 Critiques | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟠 Majeurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| 🟡 Mineurs | [X] | [X] ✅ | [X] 🔄 | [X] ⏸️ |
-| **TOTAL** | **[X]** | **[X]** | **[X]** | **[X]** |
+| 🔴 Critiques | |  | | |
+| 🟠 Majeurs | [1] | [X] | 🔄 | |
+| 🟡 Mineurs | [1] | ✅ | | |
+| **TOTAL** | **[2]** | **[X]** | **[X]** | **[X]** |
 
 ### Liste détaillée des bugs reçus
 
-#### 🔴 Bogues Critiques reçus
-
-**Bogue #1 : [Titre]**
-
-- **Description :** [Ce que l'autre équipe a trouvé]
-- **Étapes pour reproduire :** [Leurs étapes]
-- **Notre analyse :** [Confirmons-nous ? Est-ce vraiment critique ?]
-- **Statut actuel (8 décembre) :** ✅ Corrigé / 🔄 En cours / ⏸️ Pas encore fait
-- **Plan de correction :** [Si pas corrigé : quand et comment on va le faire]
-- **Assigné à :** [Nom]
-- **Date de correction :** [Date si corrigé]
-
-**Bogue #2 : [Titre]**
-
-- [Même format pour chaque bug critique]
-
 #### 🟠 Bogues Majeurs reçus
 
-**Bogue #3 : [Titre]**
+**Bogue #1 : [Images de chapeaux non affichées dans Grenouille Glam]**
 
-- [Format simplifié OK pour majeurs si beaucoup]
+- **Description :** [L’autre équipe a remarqué que les images des chapeaux ne s’affichent pas dans la fenêtre Grenouille Glam.]
+- **Notre analyse :** [✔️ Nous confirmons le bogue.]
+- **Statut actuel (8 décembre) :** 🔄 En cours 
+- **Plan de correction :** [Changer les chemins des images]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [Date si corrigé]
 
 #### 🟡 Bogues Mineurs reçus
 
-**Bogues #4-12 :** [Liste brève]
+**Bogue #2 : [La grenouille est devant le bouton “Continuer” sur mobile**
 
-- Voir Trello pour détails complets : [Lien]
+- **Description :** [Sur la version mobile du jeu, la grenouille est par-dessus le bouton Continuer, ce qui empêche l’interaction et nuit à la lisibilité.]
+- **Notre analyse :** [✔️ Nous confirmons le bogue.]
+- **Statut actuel (8 décembre) :** ✅ Corrigé
+- **Plan de correction :** [✔ Ajouter un media query mobile pour repositionner la grenouille ou ajuster son échelle.]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [2025/12/05]
+
+- Voir Trello pour détails complets : [[Lien](https://trello.com/b/0Nqsv0VR/projet-integrateur)]
 
 ### Notre réaction aux bugs reçus
 
 **Bogues que nous confirmons :**
 
-- X bugs confirmés comme vrais bugs
-
-**Bogues que nous contestons (avec justification) :**
-
-- [Bogue #X] : Nous pensons que ce n'est pas un bug parce que [raison]
-- [A été discuté avec l'enseignant : décision finale = ...]
+- 2 bugs confirmés comme vrais bugs
 
 **Nouveaux bugs découverts grâce à leurs tests :**
 
@@ -263,30 +258,11 @@ RAS = Rien À Signaler
 |--------|--------|------------|
 | ✅ Corrigés et validés | [X] | [X]% |
 | 🔄 En cours (sera fait d'ici le 10) | [X] | [X]% |
-| ⏸️ Reportés (si temps) | [X] | [X]% |
 | ❌ Non corrigés (justifiés) | [X] | [X]% |
 
 ### Priorités de correction (8→10 décembre)
 
 #### ✅ Déjà corrigés (avant le 8)
-
-**Bogues critiques corrigés :**
-
-1. **Bogue #1 : [Titre]**
-   - Corrigé par : [Nom]
-   - Date : [Date]
-   - Solution : [Brève description de comment c'était corrigé]
-   - Re-testé : ✅ Confirmé OK
-
-#### 🔄 En cours (sera fait d'ici le 10)
-
-**Bogues critiques en cours :**
-
-1. **Bogue #X : [Titre]**
-   - Assigné à : [Nom]
-   - Temps estimé : [X] heures
-   - Sera fait : [9 décembre]
-   - Statut actuel : [50% fait / bloqué sur X / presque fini]
 
 **Bogues majeurs en cours :**
 
@@ -297,8 +273,7 @@ RAS = Rien À Signaler
 
 **Bogues mineurs à faire si temps :**
 
-1. Bogue #Z : [Titre] - Temps estimé : [X]h
-2. Bogue #W : [Titre] - Temps estimé : [X]h
+1. Bogue #2 : [La grenouille est devant le bouton “Continuer” sur mobile] - Temps estimé : [-1]h
 
 #### ❌ Non corrigés (avec justification)
 
