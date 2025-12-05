@@ -150,19 +150,19 @@
 
 **Checklist complète (à ajuster en fonction de votre projet) :**
 
-- [✅ / ☐] Navigation entre toutes les salles/chapitres
-- [✅ / ☐] Ajout de mémoire / Lecture des chapitres
-- [✅ / ☐] Édition de mémoire / Système de choix
-- [✅ / ☐] Suppression de mémoire / Branches narratives
-- [✅ / ☐] Upload d'images / Tracking des conséquences
-- [✅ / ☐] Tags et filtres / Toutes les fins
-- [✅ / ☐] Recherche / Historique des décisions
-- [✅ / ☐] Responsive (mobile, tablette, desktop)
-- [✅ / ☐] Multi-navigateurs (Chrome, Firefox)
-- [✅ / ☐] Navigation au clavier
-- [✅ / ☐] Contraste des couleurs
-- [✅ / ☐] Alt text sur images
-- [✅ / ☐] Cas limites (formulaires vides, texte long, etc.)
+- [✅] Navigation entre toutes les salles/chapitres
+- [✅] Ajout de mémoire / Lecture des chapitres
+- [✅] Édition de mémoire / Système de choix
+- [✅] Suppression de mémoire / Branches narratives
+- [✅] Upload d'images / Tracking des conséquences
+- [✅] Tags et filtres / Toutes les fins
+- [✅] Recherche / Historique des décisions
+- [✅] Responsive (mobile, tablette, desktop)
+- [✅] Multi-navigateurs (Chrome, Firefox)
+- [✅] Navigation au clavier
+- [✅] Contraste des couleurs
+- [✅] Alt text sur images
+- [✅] Cas limites (formulaires vides, texte long, etc.)
 
 **Taux de réussite :** [X]/[Y] tests passés = [X]%
 
