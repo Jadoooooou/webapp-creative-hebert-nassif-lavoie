@@ -13,8 +13,10 @@
       </div>
 
       <div class="game-area">
+        <!-- Grenouille -->
         <div class="frogGlam" ref="frog"></div>
 
+        <!-- Chapeaux -->
         <div
           v-for="(square, index) in chapeauxArr"
           :key="index"
@@ -28,12 +30,13 @@
           @touchstart.prevent="startDrag($event, index)"
         ></div>
 
+        <!-- Particules de burst -->
         <div
-            v-for="(burst, bIndex) in bursts"
-            :key="'burst' + bIndex"
-            class="burst-container"
-            :style="{ top: burst.top + 'px', left: burst.left + 'px' }"
-          >
+          v-for="(burst, bIndex) in bursts"
+          :key="'burst' + bIndex"
+          class="burst-container"
+          :style="{ top: burst.top + 'px', left: burst.left + 'px' }"
+        >
           <span
             v-for="n in 12"
             :key="n"
@@ -48,13 +51,13 @@
 
 <script>
 export default {
-  name: "App",
+  name: "GrenouilleGlam",
   data() {
     return {
       chapeauxArr: [
-        { top: 0, left: 0, img: "/src/assets/hat_beach.png" },
-        { top: 0, left: 40, img: "/src/assets/hat_party.png" },
-        { top: 0, left: 90, img: "/src/assets/hat_fashion.png" },
+        { top: 0, left: 0, img: "/hat_beach.png" },
+        { top: 0, left: 40, img: "/hat_party.png" },
+        { top: 0, left: 90, img: "/hat_fashion.png" },
       ],
       draggingIndex: null,
       offsetX: 0,
@@ -65,17 +68,31 @@ export default {
   },
   mounted() {
     this.updateFrogPosition();
+    window.addEventListener("resize", this.updateFrogPosition);
+  },
+  beforeUnmount() {
+    window.removeEventListener("resize", this.updateFrogPosition);
   },
   methods: {
+    close() {
+      // adapte selon comment tu fermes ta fenêtre (emit, v-if, etc.)
+      this.$emit("close");
+    },
+
     updateFrogPosition() {
-      const frogBox = this.$refs.frogGlam.getBoundingClientRect();
-      const gameBox = this.$el.querySelector(".game-area").getBoundingClientRect();
+      const frogEl = this.$refs.frog;
+      const gameEl = this.$el.querySelector(".game-area");
+
+      if (!frogEl || !gameEl) return;
+
+      const frogBox = frogEl.getBoundingClientRect();
+      const gameBox = gameEl.getBoundingClientRect();
 
       this.frogPos = {
         x: frogBox.left - gameBox.left,
         y: frogBox.top - gameBox.top,
         width: frogBox.width,
-        height: frogBox.height
+        height: frogBox.height,
       };
     },
 
@@ -111,16 +128,18 @@ export default {
         this.updateFrogPosition();
         const frog = this.frogPos;
 
-        const hatSize = window.innerWidth < 767 ? 70 : 100;
+        if (frog) {
+          const hatSize = window.innerWidth < 767 ? 70 : 100;
 
-        const overlap =
-          hat.left < frog.x + frog.width &&
-          hat.left + hatSize > frog.x &&
-          hat.top < frog.y + frog.height &&
-          hat.top + hatSize > frog.y;
+          const overlap =
+            hat.left < frog.x + frog.width &&
+            hat.left + hatSize > frog.x &&
+            hat.top < frog.y + frog.height &&
+            hat.top + hatSize > frog.y;
 
-        if (overlap) {
-          this.showBurst(frog.x + frog.width / 2, frog.y - 20);
+          if (overlap) {
+            this.showBurst(frog.x + frog.width / 2, frog.y - 20);
+          }
         }
 
         this.draggingIndex = null;
@@ -188,7 +207,7 @@ export default {
   border-top-color: #fff;
   border-left-color: #fff;
   overflow: hidden;
-  touch-action: none; /* IMPORTANT */
+  touch-action: none;
 }
 
 /* --- Frog (non-touchable) --- */
@@ -202,7 +221,7 @@ export default {
   background-position: center;
   bottom: 10px;
   right: 100px;
-  pointer-events: none; /* IMPORTANT FIX */
+  pointer-events: none;
 }
 
 /* --- Hats (always on top) --- */
@@ -214,7 +233,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   cursor: grab;
-  z-index: 9999 !important; /* CRITICAL FIX */
+  z-index: 9999 !important;
   pointer-events: auto;
 }
 
@@ -272,5 +291,4 @@ export default {
     height: 70px;
   }
 }
-
 </style>
