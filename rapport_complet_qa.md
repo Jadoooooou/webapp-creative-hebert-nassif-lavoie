@@ -205,9 +205,9 @@ RAS = Rien À Signaler
 | Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
 |----------|------------|----------|----------|------------------|
 | 🔴 Critiques | |  | | |
-| 🟠 Majeurs | [1] | [X] | 🔄 | |
+| 🟠 Majeurs | [1] |  | 🔄 | |
 | 🟡 Mineurs | [1] | ✅ | | |
-| **TOTAL** | **[2]** | **[X]** | **[X]** | **[X]** |
+| **TOTAL** | **[2]** | **[1]** | **[1]** | |
 
 ### Liste détaillée des bugs reçus
 
