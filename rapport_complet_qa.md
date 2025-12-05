@@ -1,8 +1,8 @@
 # Rapport de Contrôle Qualité
 
-**Nom de l'équipe :** [Les Quenouilles] 
-**Nom du projet :** [Un ami pour toujours]  
-**Type de projet :** [Trace ton chemin] 
+**Nom de l'équipe :** [Les Quenouilles] <br>
+**Nom du projet :** [Un ami pour toujours]  <br>
+**Type de projet :** [Trace ton chemin] <br>
 **Date :** 8 décembre 2024
 
 
