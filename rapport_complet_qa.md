@@ -219,12 +219,12 @@ RAS = Rien À Signaler
 - **Notre analyse :** [✔️ Nous confirmons le bogue.]
 - **Statut actuel (8 décembre) :** 🔄 En cours 
 - **Plan de correction :** [Changer les chemins des images]
-- **Assigné à :** [Jade Hébert]
+- **Assigné à :** [Felix Lavoie]
 - **Date de correction :** [Date si corrigé]
 
 #### 🟡 Bogues Mineurs reçus
 
-**Bogue #2 : [La grenouille est devant le bouton “Continuer” sur mobile**
+**Bogue #2 : [La grenouille est devant le bouton “Continuer” sur mobile]**
 
 - **Description :** [Sur la version mobile du jeu, la grenouille est par-dessus le bouton Continuer, ce qui empêche l’interaction et nuit à la lisibilité.]
 - **Notre analyse :** [✔️ Nous confirmons le bogue.]
