@@ -339,14 +339,11 @@ RAS = Rien À Signaler
 
 | Test | Résultat | Action |
 |------|----------|--------|
-| Tab fonctionne sur tous les éléments | ✅ / ⚠️ / ❌ | [Si problème : plan de correction] |
-| Focus visible | ✅ / ⚠️ / ❌ | |
-| Enter/Space activent les boutons | ✅ / ⚠️ / ❌ | |
-| Skip links présents (optionnel) | ✅ / ⚠️ / ❌ | |
+| Tab fonctionne sur tous les éléments | ✅ | |
+| Focus visible | ✅ | |
+| Enter/Space activent les boutons | ✅ | |
 
-**Problèmes trouvés :** [X]  
-**Corrigés :** [X]  
-**En cours :** [X]
+**Problèmes trouvés :** [0]  
 
 #### Contraste des couleurs
 
@@ -356,31 +353,30 @@ RAS = Rien À Signaler
 
 | Élément | Couleurs | Ratio | Conforme WCAG AA | Action |
 |---------|----------|-------|------------------|--------|
-| Texte principal | #333 sur #FFF | 12.6:1 | ✅ Excellent | RAS |
-| Boutons | #FFF sur #007BFF | 4.5:1 | ✅ Conforme | RAS |
-| Liens | #0066CC sur #FFF | 7.5:1 | ✅ Excellent | RAS |
-| Texte secondaire | #888 sur #FFF | 3.5:1 | ❌ Trop faible | À corriger |
+| Texte principal | #333 sur #FFF | 12.6:1 | ❌ Trop faible | À corriger |
+| Boutons | #FFF sur #007BFF | 4.5:1 | ❌ Trop faible | À corriger |
 
-**Problèmes de contraste :** [X]  
-**Plan de correction :** [Détails]
+
+**Problèmes de contraste :** [2]  
+**Plan de correction :** [Changer la couleur de notre fond de bas de page + Changer la couleur de texte et de fondà.]
 
 #### Images et médias
 
 | Test | Résultat | Notes |
 |------|----------|-------|
-| Toutes les images ont un alt | ✅ [X]/[Y] | [X] images sans alt à corriger |
-| Alt descriptifs (pas "image1.jpg") | ✅ / ⚠️ | [Détails si problèmes] |
-| Images décoratives avec alt="" | ✅ / ⚠️ | [Détails] |
+| Toutes les images ont un alt | ✅ | RAS |
+| Alt descriptifs (pas "image1.jpg") | ✅ | RAS |
+| Images décoratives avec alt="" | ✅ | RAS |
 
 ### Score global d'accessibilité
 
 **Résumé :**
 
-- Navigation clavier : [X]/[Y] tests passés
-- Contraste : [X]/[Y] éléments conformes
-- Images : [X]/[Y] avec alt approprié
+- Navigation clavier : [1]/[1] tests passés
+- Contraste : [0]/[2] éléments conformes
+- Images : [10]/[10] avec alt approprié
 
-**Score estimé : [X]/100**
+**Score estimé : [11]/13**
 
 ---
 
