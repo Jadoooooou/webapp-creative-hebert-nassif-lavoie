@@ -34,7 +34,7 @@
 
 ### Liens importants
 
-- **Projet en ligne :** [https://votre-projet.netlify.app]
+- **Projet en ligne :** [https://jadoooooou.github.io/webapp-creative-hebert-nassif-lavoie/#/]
 - **GitHub :** [https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie]
 - **Trello (bugs) :** [https://trello.com/b/Pr19rYnB/projet-integrateur-web-5]
 - **Projet testé (externe) :** [https://ryandufault.github.io/webapp-creative-benjamin-yannick-ryan/]
