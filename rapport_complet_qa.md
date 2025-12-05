@@ -368,49 +368,34 @@ RAS = Rien À Signaler
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | [99]/100 | [90]/100 | [100]/100 | [Tout est en vert] |
+| [Page principale] | [100]/100 | [64]/100 | [100]/100 | [Buttons do not have an accessible name + Image elements do not have [alt] attributes (grenouille)] |
 
 #### Résultats Mobile
 
 | Page | Performance | Accessibility | Best Practices | Notes |
 |------|-------------|---------------|----------------|-------|
-| Accueil | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
-| [Page principale] | [X]/100 | [X]/100 | [X]/100 | [Commentaires] |
+| Accueil | [96]/100 | [90]/100 | [100]/100 | [Tout est en vert] |
+| [Page principale] | [94]/100 | [64]/100 | [100]/100 | [Buttons do not have an accessible name + Image elements do not have [alt] attributes (grenouille) + Background and foreground colors do not have a sufficient contrast ratio.] |
 
 **Screenshots Lighthouse :** Voir annexes
 
-### Optimisations effectuées
-
-#### Compression des images
-
-| Avant | Après | Économie |
-|-------|-------|----------|
-| [X] MB total | [X] MB total | [X]% économisés |
-| [X] images | [X] images compressées | Outil : TinyPNG |
-
-**Exemples :**
-
-- `image1.jpg` : 5.2 MB → 1.8 MB (65% économie)
-- `background.png` : 3.1 MB → 800 KB (74% économie)
 
 #### Autres optimisations
 
-- ✅ Ajout de `loading="lazy"` sur [X] images
 - ✅ Minification du code (build production)
 - ✅ Suppression de console.log()
-- ⏸️ À faire : [Si applicable]
 
 ### Temps de chargement
 
 **Tests manuels (connexion normale) :**
 
-- Page d'accueil : [X] secondes
-- Page principale : [X] secondes
-- Page la plus lourde : [X] secondes
+- Page d'accueil : [2] secondes
+- Page principale : [1] secondes
+- Page la plus lourde : [2] secondes
 
 **Objectif :** < 3 secondes  
-**Atteint :** ✅ Oui / ⚠️ Partiellement / ❌ Non
+**Atteint :** ✅ Oui
 
 ---
 
