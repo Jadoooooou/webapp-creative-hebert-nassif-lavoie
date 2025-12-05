@@ -314,9 +314,9 @@ RAS = Rien À Signaler
 
 | Test | Résultat | Action |
 |------|----------|--------|
-| Tab fonctionne sur tous les éléments | ✅ | |
-| Focus visible | ✅ | |
-| Enter/Space activent les boutons | ✅ | |
+| Tab fonctionne sur tous les éléments | ✅ | RAS |
+| Focus visible | ✅ | RAS |
+| Enter/Space activent les boutons | ✅ | RAS |
 
 **Problèmes trouvés :** [0]  
 
