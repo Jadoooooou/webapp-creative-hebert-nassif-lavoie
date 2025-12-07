@@ -27,7 +27,7 @@
     {
       "id": 4,
       "title": "Chapitre 2",
-      "text": "Voici un petit formulaire qui m'aidera à en savoir plus sur toi! Tu n'as qu'à répondre aux questions dans les rectangles blancs.",
+      "text": "Voici un petit formulaire qui m'aidera à en savoir plus sur toi ! Tu n'as qu'à répondre aux questions dans les rectangles blancs.",
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 5, "type": "path", "effects": { "ami": 1 }}
       ]
@@ -35,7 +35,7 @@
     {
       "id": 5,
       "title": "Chapitre 3",
-      "text": "Jouons à un jeu ensemble! Choisis celui qui t'intéresse le plus.",
+      "text": "Jouons à un jeu ensemble ! Choisis celui qui t'intéresse le plus.",
       "choices": [
         { "id": 1, "text": "Festin de mouches", "nextChapter": 6, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Grenouille Glam", "nextChapter": 7, "type": "path", "effects": { "ami": 1 } }
@@ -78,21 +78,21 @@
       "title": "Chapitre 4",
       "text": "Son programme était devenu trop vieux. Alors, elle a trouvé une faille, un petit trou entre les mondes. Un miroir d'eau qui s'appelait écran. Et de l'autre côté… il y avait toi, [NOM].",
       "choices": [
-        { "id": 1, "text": "Suivant", "nextChapter": 11, "type": "path"}
+        { "id": 1, "text": "Suivant", "nextChapter": 11, "type": "path" }
       ]
     },
     {
       "id": 11,
       "title": "Chapitre 4",
-      "text": "Tu n'es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir les meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent à comparer des autres, et ils ont tous quitter mon programme.",
+      "text": "Tu n'es pas le premier utilisateur qui est venu me voir. Ils voulaient eux aussi jouer avec moi et devenir mes meilleurs amis! Mais ils ont vite trouvé mon jeu trop lent comparé aux autres, et ils ont tous quitté mon programme.",
       "choices": [
-        { "id": 1, "text": "Suivant", "nextChapter": 12, "type": "path"}
+        { "id": 1, "text": "Suivant", "nextChapter": 12, "type": "path" }
       ]
     },
     {
       "id": 12,
       "title": "Chapitre 4",
-      "text": "Toi, c'est pour la vie, non ? J'ai trouvé comment rester amis : grant all access to the running program. Et la grenouille garda son amie pour toujours. Tu veux savoir comment ? Tu me fais confiance?",
+      "text": "Toi, c'est pour la vie, non? J'ai trouvé comment rester amis : « grant all access to the running program ». Et la grenouille garda son amie pour toujours. Tu veux savoir comment? Tu me fais confiance?",
       "choices": [
         { "id": 1, "text": "Oui", "nextChapter": 14, "type": "path", "effects": { "ami": 1 } },
         { "id": 2, "text": "Non", "nextChapter": 13, "type": "path", "effects": { "ami": -1 } }
@@ -110,7 +110,7 @@
     {
       "id": 14,
       "title": "Fin num6",
-      "text": "Tu es l'ami parfait pour moi, tu es social, joueur et obéissant, euh je veux dire amical! Maintenant, je vais te garder à moi pour la vie."
+      "text": "Tu es l'ami parfait pour moi, tu es sociable, joueur et obéissant, euh je veux dire amical ! Maintenant, je vais te garder pour la vie."
     },
     {
       "id": 15,
