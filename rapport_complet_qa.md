@@ -367,21 +367,19 @@ Merci à l'équipe testeuse pour leur regard externe !
 
 **Lundi 8 (soir) :**
 
-- [ ] Finir Bogue #1 (Carl - 2h)
-- [ ] Commencer Bogue #5 (Alex - 3h)
+- [ ] #6 : [Rafraîchir la page réinitialise le dossier utilisateur] - Temps estimé : [1-2]h
 
 **Mardi 9 :**
 
-- [ ] Finir Bogue #5 (Alex - 2h)
-- [ ] Corriger Bogue #7 (Jordan - 4h)
 - [ ] Tests sur bugs corrigés (Équipe - 1h)
+- [ ] Corrections du FIMGA (Jade - 1h)
 
 **Mercredi 10 (matin avant remise) :**
 
-- [ ] Finir Bogue #7 si pas fini
 - [ ] Corrections mineures urgentes
+- [ ] Correction français (Patricia - 1h)
 - [ ] Tests finaux
-- [ ] Mise à jour documentation
+- [ ] Mise à jour documentation (Patrcia - 1h)
 
 ---
 
