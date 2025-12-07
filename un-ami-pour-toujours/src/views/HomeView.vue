@@ -81,7 +81,7 @@ export default {
 h1 {
   font-family: 'Press Start 2P';
   font-size: 15vw;
-  color: #384C3F;
+  color: #B9CBC1;
   margin: 0;
   padding: 15vw 5vw 10vh 5vw;
 }
@@ -89,7 +89,7 @@ h1 {
 h2 {
   font-family: 'Press Start 2P';
   font-size: 5vw;
-  color: #384C3F;
+  color: #B9CBC1;
   margin: 0;
   padding: 5vw;
   line-height: 2;
@@ -97,7 +97,7 @@ h2 {
 
 .line {
   height: 8px;
-  background-color: #384C3F;
+  background-color: #B9CBC1;
   width: 70%;
   margin: 0 auto;
 }
@@ -119,7 +119,7 @@ h2 {
 
 p {
   font-family: 'Press Start 2P';
-  color: #384C3F;
+  color: #B9CBC1;
   background-color: black;
   font-size: 3vw;
   position: fixed;

@@ -25,7 +25,7 @@ export default {
 
 <style scoped>
 .bar {
-    background-color: #C1CEBE;
+    background-color: #4D4D4D;
     height: 60px;
     position: fixed;
     bottom: 0;
