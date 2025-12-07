@@ -213,25 +213,95 @@ RAS = Rien À Signaler
 
 #### 🟠 Bogues Majeurs reçus
 
-**Bogue #1 : [Images de chapeaux non affichées dans Grenouille Glam]**
+**Bogue #6 : [Rafraîchir la page réinitialise le dossier utilisateur]**
 
-- **Description :** [L’autre équipe a remarqué que les images des chapeaux ne s’affichent pas dans la fenêtre Grenouille Glam.]
+- **Description :** [Lors du refresh, le dossier lié au nom de la personne se réinitialise.]
 - **Notre analyse :** [✔️ Nous confirmons le bogue.]
+- **Statut actuel (8 décembre) :** 🔄 En cours 
+- **Plan de correction :** [Empêcher la réinitialisation de la données]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [Date si corrigé]
+
+**Bogue #7 :  [Images manquantes en 1920px]**
+
+- **Description :** [Certaines images (grenouille glam) ne s’affichent pas en large résolution.]
+- **Notre analyse :** [❌ Il s'agit du même bogue que le #2]
 - **Statut actuel (8 décembre) :** 🔄 En cours 
 - **Plan de correction :** [Changer les chemins des images]
 - **Assigné à :** [Felix Lavoie]
 - **Date de correction :** [Date si corrigé]
 
-#### 🟡 Bogues Mineurs reçus
+**Bogue #8 : [Grenouille devant les boutons sur mobile]**
 
-**Bogue #2 : [La grenouille est devant le bouton “Continuer” sur mobile]**
-
-- **Description :** [Sur la version mobile du jeu, la grenouille est par-dessus le bouton Continuer, ce qui empêche l’interaction et nuit à la lisibilité.]
+- **Description :** [L’image de la grenouille se superpose aux boutons sur mobile 375px.]
 - **Notre analyse :** [✔️ Nous confirmons le bogue.]
 - **Statut actuel (8 décembre) :** ✅ Corrigé
-- **Plan de correction :** [✔ Ajouter un media query mobile pour repositionner la grenouille ou ajuster son échelle.]
+- **Plan de correction :** [Ajouter un media query mobile pour repositionner la grenouille ou ajuster son échelle.]
 - **Assigné à :** [Jade Hébert]
 - **Date de correction :** [2025/12/05]
+
+**Bogue #9 : [Boutons trop petits / obstrués sur mobile]**
+
+- **Description :** [Les boutons sont difficiles à cliquer à cause de la grenouille qui se superpose.]
+- **Notre analyse :** [❌ Il s'agit du même bogue que le précedent]
+- **Statut actuel (8 décembre) :** ✅ Corrigé
+- **Plan de correction :** [Ajouter un media query mobile pour repositionner la grenouille ou ajuster son échelle.]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [2025/12/05]
+
+**Bogue #10 : [Stretching excessif en 1920px]**
+
+- **Description :** [La mise en page s’étire trop en grand écran, créant une distorsion visuelle.]
+- **Notre analyse :** [❌ Nous ne confirmons pas le bogue]
+- **Statut actuel (8 décembre) :** ❌ Non-corrigé
+- **Assigné à :** [Jade Hébert]
+
+#### 🟡 Bogues Mineurs reçus
+
+**Bogue #1 : [Image frogIcon.png introuvable]**
+
+- **Description :** [L’image frogIcon.png est demandée par le site, mais la ressource n’existe pas à l’emplacement indiqué, créant une erreur GET dans la console..]
+- **Notre analyse :** [✔️ Nous confirmons le bogue.]
+- **Statut actuel (8 décembre) :** 
+- **Plan de correction :** [Identifier l’endroit précis où frogIcon.png est importé ou référencé]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [2025/12/07]
+
+**Bogue #2 : [Images manquantes dans "grenouille glam"]**
+
+- **Description :** [Certaines images des chapitres “grenouille glam” ne s’affichent pas.]
+- **Notre analyse :** [✔️ Nous confirmons le bogue.]
+- **Statut actuel (8 décembre) :** 🔄 En cours 
+- **Plan de correction :** [Changer les chemins des images]
+- **Assigné à :** [Felix Lavoie]
+- **Date de correction :** []
+
+**Bogue #3 : [Attribut alt manquant sur certaines images]**
+
+- **Description :** [Certaines images n’ont pas d’attribut alt, ce qui crée un manque d’accessibilité.]
+- **Notre analyse :** [✔️ Nous confirmons le bogue.]
+- **Statut actuel (8 décembre) :** ✅ Corrigé
+- **Plan de correction :** [Ajouter des descriptions à chaque image]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [2025/12/07]
+
+**Bogue #4 : [Alt non descriptifs]**
+
+- **Description :** [Les attributs alt de certaines images ne sont pas descriptifs (par ex. “image”), ce qui nuit à l’accessibilité.]
+- **Notre analyse :** [❌ Il s'agit du même bogue que le précedent]
+- **Statut actuel (8 décembre) :** ✅ Corrigé
+- **Plan de correction :** [Ajouter des descriptions à chaque image]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [2025/12/07]
+
+**Bogue #5 : [Images décoratives sans alt vide]**
+
+- **Description :** [Certaines images décoratives devraient avoir alt="" mais ont un alt incorrect ou absent.]
+- **Notre analyse :** [❌ Il s'agit du même bogue que le précedent]
+- **Statut actuel (8 décembre) :** ✅ Corrigé
+- **Plan de correction :** [Ajouter des descriptions à chaque image]
+- **Assigné à :** [Jade Hébert]
+- **Date de correction :** [2025/12/07]
 
 - Voir Trello pour détails complets : [[Lien](https://trello.com/b/0Nqsv0VR/projet-integrateur)]
 
