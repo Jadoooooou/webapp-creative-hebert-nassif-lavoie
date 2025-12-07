@@ -98,7 +98,7 @@ export default {
 h1 {
     font-family: 'Press Start 2P';
     font-size: 4vw;
-    color: #384C3F;
+    color: #000000;
     text-align: center;
     margin: 0;
     padding: 0vw 5vw 10vh 5vw;
@@ -107,7 +107,7 @@ h1 {
 p {
     font-family: 'Press Start 2P';
     font-size: 2vh;
-    color: #384C3F;
+    color: #000000;
     text-align: center;
     margin: 0;
 }

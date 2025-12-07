@@ -104,7 +104,7 @@ export default {
 
 <style scoped>
 .pageChapter {
-  background-color: #92a48d;
+  background-color: #C4CDC1;
   height: 100vh;
 }
 
