@@ -225,10 +225,10 @@ RAS = Rien À Signaler
 
 - **Description :** [Certaines images (grenouille glam) ne s’affichent pas en large résolution.]
 - **Notre analyse :** [❌ Il s'agit du même bogue que le #2]
-- **Statut actuel (8 décembre) :** 🔄 En cours 
+- **Statut actuel (8 décembre) :** ✅ Corrigé
 - **Plan de correction :** [Changer les chemins des images]
 - **Assigné à :** [Felix Lavoie]
-- **Date de correction :** [Date si corrigé]
+- **Date de correction :** [2025/12/05]
 
 **Bogue #8 : [Grenouille devant les boutons sur mobile]**
 
@@ -261,7 +261,7 @@ RAS = Rien À Signaler
 
 - **Description :** [L’image frogIcon.png est demandée par le site, mais la ressource n’existe pas à l’emplacement indiqué, créant une erreur GET dans la console..]
 - **Notre analyse :** [✔️ Nous confirmons le bogue.]
-- **Statut actuel (8 décembre) :** 
+- **Statut actuel (8 décembre) :**  ✅ Corrigé
 - **Plan de correction :** [Identifier l’endroit précis où frogIcon.png est importé ou référencé]
 - **Assigné à :** [Jade Hébert]
 - **Date de correction :** [2025/12/07]
@@ -270,10 +270,10 @@ RAS = Rien À Signaler
 
 - **Description :** [Certaines images des chapitres “grenouille glam” ne s’affichent pas.]
 - **Notre analyse :** [✔️ Nous confirmons le bogue.]
-- **Statut actuel (8 décembre) :** 🔄 En cours 
+- **Statut actuel (8 décembre) :** ✅ Corrigé
 - **Plan de correction :** [Changer les chemins des images]
 - **Assigné à :** [Felix Lavoie]
-- **Date de correction :** []
+- **Date de correction :** [2025/12/05]
 
 **Bogue #3 : [Attribut alt manquant sur certaines images]**
 
@@ -314,8 +314,7 @@ RAS = Rien À Signaler
 
 **Nouveaux bugs découverts grâce à leurs tests :**
 
-- X bugs qu'on n'aurait jamais trouvés nous-mêmes
-- Merci à l'équipe testeuse pour leur regard externe !
+Merci à l'équipe testeuse pour leur regard externe !
 
 ---
 
@@ -327,9 +326,9 @@ RAS = Rien À Signaler
 
 | Statut | Nombre | % du total |
 |--------|--------|------------|
-| ✅ Corrigés et validés | [X] | [X]% |
-| 🔄 En cours (sera fait d'ici le 10) | [X] | [X]% |
-| ❌ Non corrigés (justifiés) | [X] | [X]% |
+| ✅ Corrigés et validés | 4 | 40% |
+| 🔄 En cours (sera fait d'ici le 10) | 1 | 10% |
+| ❌ Non corrigés (justifiés) | 5 | 50% |
 
 ### Priorités de correction (8→10 décembre)
 
@@ -347,6 +346,12 @@ RAS = Rien À Signaler
 1. #6 : [Rafraîchir la page réinitialise le dossier utilisateur] - Temps estimé : [1-2]h
 
 #### ❌ Non corrigés (avec justification)
+
+**Bogue 4 : [Alt non descriptifs]**
+- **Pourquoi pas corrigé :** Il s'agit du même bogue que le bogue #3 (Certaines images n’ont pas d’attribut alt, ce qui crée un manque d’accessibilité). Lors de la correction du bogue #3, nous avons de même fait corriger le bogue #4.
+
+**Bogue 5 : [Images décoratives sans alt vide]**
+- **Pourquoi pas corrigé :** Il s'agit du même bogue que le bogue #3 (Certaines images n’ont pas d’attribut alt, ce qui crée un manque d’accessibilité). Lors de la correction du bogue #3, nous avons de même fait corriger le bogue #5.
 
 **Bogue #7 : [Images manquantes en 1920px]**
 - **Pourquoi pas corrigé :** Il s'agit du même bogue que le bogue #2 (Certaines images des chapitres “grenouille glam” ne s’affichent pas.). Lors de la correction du bogue #2, nous avons de même fait corriger le bogue #7.
