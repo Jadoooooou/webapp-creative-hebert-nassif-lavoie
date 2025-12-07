@@ -18,7 +18,7 @@
       <!-- Contenu de la fenêtre -->
       <div class="win98-content">
         <p>La poubelle est vide.
-          Tu pourrais y mettre tes autres amis, et nous serons de vrais meilleurs amis ! HAHAHA c'est une blague :)</p>
+          Tu pourrais y mettre tes autres amis, et nous serions vraiment de meilleurs amis ! Haha, c’est une blague :)</p>
 
         <button class="win98-button" @click="close">
           OK

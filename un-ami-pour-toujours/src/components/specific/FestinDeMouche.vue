@@ -1,7 +1,7 @@
 <template>
   <div class="win98-window">
     <div class="title-bar">
-      <span>Festin De Mouche</span>
+      <span>Festin de mouches</span>
       <div class="title-buttons">
         <button class="win98-close-btn" @click="close">X</button>
       </div>

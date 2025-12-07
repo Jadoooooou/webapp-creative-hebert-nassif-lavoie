@@ -19,7 +19,7 @@
 
       <!-- Contenu de la fenêtre -->
       <div class="win98-content">
-        <p>C'est ici que je vais conserver toutes les données sur toi... pour être sur d'être les meilleurs amis bien sûr!</p>
+        <p>C'est ici que je vais conserver toutes les données sur toi… pour être sûr d'être les meilleurs amis, bien sûr!</p>
 
         <button class="win98-button" @click="close">OK</button>
       </div>

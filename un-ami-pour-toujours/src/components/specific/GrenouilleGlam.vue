@@ -14,23 +14,29 @@
 
       <div class="game-area">
         <!-- Grenouille -->
-        <div class="frogGlam" ref="frog"></div>
+        <img
+          class="frogGlam"
+          src="/src/assets/frog.png"
+          alt="Grenouille à décorer"
+          ref="frog"
+        />
 
         <!-- Chapeaux -->
-        <div
+        <img
           v-for="(square, index) in chapeauxArr"
           :key="index"
           class="chapeaux"
+          :src="square.img"
+          :alt="'Chapeau ' + (index + 1)"
           :style="{
             top: square.top + 'px',
-            left: square.left + 'px',
-            backgroundImage: `url('${square.img}')`
+            left: square.left + 'px'
           }"
           @mousedown="startDrag($event, index)"
           @touchstart.prevent="startDrag($event, index)"
-        ></div>
+        />
 
-        <!-- Particules de burst -->
+        <!-- Particules burst -->
         <div
           v-for="(burst, bIndex) in bursts"
           :key="'burst' + bIndex"
@@ -75,7 +81,6 @@ export default {
   },
   methods: {
     close() {
-      // adapte selon comment tu fermes ta fenêtre (emit, v-if, etc.)
       this.$emit("close");
     },
 
@@ -121,7 +126,7 @@ export default {
       if (event.cancelable) event.preventDefault();
     },
 
-    stopDrag(event) {
+    stopDrag() {
       if (this.draggingIndex !== null) {
         const hat = this.chapeauxArr[this.draggingIndex];
 
@@ -158,137 +163,3 @@ export default {
   },
 };
 </script>
-
-<style scoped>
-/* --- Window shell --- */
-.win98-window {
-  width: 620px;
-  border: 2px solid #000;
-  background: #C1CEBE;
-  font-family: "Microsoft Sans Serif", Tahoma, sans-serif;
-  box-shadow: 2px 2px 0 #000;
-}
-
-/* --- Title bar --- */
-.title-bar {
-  background: #384C3F;
-  color: white;
-  padding: 3px 6px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  font-weight: bold;
-}
-
-/* --- Box containers --- */
-.content {
-  padding: 6px;
-  border: 2px solid #fff;
-  border-right-color: #808080;
-  border-bottom-color: #808080;
-}
-
-.header-panel {
-  background: #C1CEBE;
-  padding: 4px;
-  margin-bottom: 6px;
-  border: 2px solid #fff;
-  border-right-color: #808080;
-  border-bottom-color: #808080;
-}
-
-/* --- Game area --- */
-.game-area {
-  position: relative;
-  width: 600px;
-  height: 350px;
-  background: #C1CEBE;
-  border: 2px solid #808080;
-  border-top-color: #fff;
-  border-left-color: #fff;
-  overflow: hidden;
-  touch-action: none;
-}
-
-/* --- Frog (non-touchable) --- */
-.frogGlam {
-  position: absolute;
-  width: 150px;
-  height: 150px;
-  background-image: url("/src/assets/frog.png");
-  background-color: transparent;
-  background-size: cover;
-  background-position: center;
-  bottom: 10px;
-  right: 100px;
-  pointer-events: none;
-}
-
-/* --- Hats (always on top) --- */
-.chapeaux {
-  position: absolute;
-  width: 100px;
-  height: 100px;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  cursor: grab;
-  z-index: 9999 !important;
-  pointer-events: auto;
-}
-
-.chapeaux:active {
-  cursor: grabbing;
-}
-
-/* --- Burst animation --- */
-.burst-container {
-  position: absolute;
-  pointer-events: none;
-}
-
-.burst-particle {
-  position: absolute;
-  width: 10px;
-  height: 10px;
-  background: radial-gradient(circle, #fff7c9, #f5ff64, #d29a00);
-  border-radius: 50%;
-  animation: burst 2s ease-out forwards;
-  transform-origin: center;
-}
-
-@keyframes burst {
-  0% {
-    transform: rotate(calc(var(--i) * 30deg)) translate(0px) scale(1);
-    opacity: 1;
-  }
-  100% {
-    transform: rotate(calc(var(--i) * 30deg)) translate(70px) scale(0);
-    opacity: 0;
-  }
-}
-
-/* --- Mobile version --- */
-@media (max-width: 767px) {
-  .win98-window {
-    width: 100%;
-  }
-
-  .game-area {
-    width: 100%;
-    height: 250px;
-  }
-
-  .frogGlam {
-    width: 100px;
-    height: 100px;
-    right: 20px;
-    bottom: 5px;
-  }
-
-  .chapeaux {
-    width: 70px;
-    height: 70px;
-  }
-}
-</style>

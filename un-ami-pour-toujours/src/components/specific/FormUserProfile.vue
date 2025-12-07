@@ -24,7 +24,7 @@
         </div>
 
         <div class="form-row">
-          <label>Le nom de ton meilleur amie :</label>
+          <label>Le nom de ton ou ta meilleur·e ami·e :</label>
           <input v-model="form.friend" type="text" />
         </div>
 

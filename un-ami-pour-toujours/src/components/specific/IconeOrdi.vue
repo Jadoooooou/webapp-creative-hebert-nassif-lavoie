@@ -19,7 +19,7 @@
 
       <!-- Contenu de la fenêtre -->
       <div class="win98-content">
-        <p>Oups! Tu n'as pas le droit de venir jouer dans mon programme... Concentres-toi plutôt sur moi.</p>
+        <p>Oups ! Tu n'as pas le droit de venir jouer dans mon programme… Concentre-toi plutôt sur moi.</p>
 
         <button class="win98-button" @click="close">OK</button>
       </div>
