@@ -79,7 +79,7 @@
 
 ### Liste des bugs trouvés (résumé)
 
-**Tous les détails sont dans notre board Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
+**Tous les détails sont dans notre board Trello :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI462100c8687fe844207d6b55662fb307F98AACF9/projet-integrateur-web-5]
 
 
 #### 🟠 Bogues Majeurs
