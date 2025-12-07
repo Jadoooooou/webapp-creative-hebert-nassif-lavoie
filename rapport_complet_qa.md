@@ -335,25 +335,28 @@ RAS = Rien À Signaler
 
 #### ✅ Déjà corrigés (avant le 8)
 
-**Bogues majeurs en cours :**
-
-2. **Bogue #Y : [Titre]**
-   - [Même format]
+1. #8 : [Grenouille devant les boutons sur mobile] - Temps : [-1]h
+2. #2 : [Images manquantes dans "grenouille glam"] - Temps : [-1]h
+3. #3 : [Attribut alt manquant sur certaines images] - Temps : [-1]h
+4. #1 : [Image frogIcon.png introuvable] - Temps : [-1]h
 
 #### ⏸️ Reportés (ferons si temps après les critiques/majeurs)
 
 **Bogues mineurs à faire si temps :**
 
-1. Bogue #2 : [La grenouille est devant le bouton “Continuer” sur mobile] - Temps estimé : [-1]h
+1. #6 : [Rafraîchir la page réinitialise le dossier utilisateur] - Temps estimé : [1-2]h
 
 #### ❌ Non corrigés (avec justification)
 
-**Bogue #Q : [Titre]**
+**Bogue #7 : [Images manquantes en 1920px]**
+- **Pourquoi pas corrigé :** Il s'agit du même bogue que le bogue #2 (Certaines images des chapitres “grenouille glam” ne s’affichent pas.). Lors de la correction du bogue #2, nous avons de même fait corriger le bogue #7.
 
-- **Pourquoi pas corrigé :** [Raison valable]
-  - Exemple : "Nécessiterait une refonte majeure de l'architecture (20h de travail)"
-  - Exemple : "Après discussion, ce n'est pas un bug mais une limitation de la techno utilisée"
-- **Impact :** [Faible / Utilisateur peut contourner le problème en...]
+**Bogue #9 : [Boutons trop petits / obstrués sur mobile]**
+- **Pourquoi pas corrigé :** Il s'agit du même bogue que le bogue #8 (L’image de la grenouille se superpose aux boutons sur mobile 375px). Lors de la correction du bogue #8, nous avons de même fait corriger le bogue #9.
+
+**Bogue #10 : [Boutons trop petits / obstrués sur mobile]**
+- **Pourquoi pas corrigé :** Après analyse, ce comportement n’est pas un bogue. L’interface est conçue pour s’adapter aux grands écrans et occuper l’espace disponible. L’étirement observé correspond donc au fonctionnement normal prévu. Toute modification de cette mise en page relèverait d’une amélioration, non d’une correction.
+- **Impact :** [Faible]
 
 ### Plan de travail (8-10 décembre)
 
