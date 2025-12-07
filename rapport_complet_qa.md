@@ -217,10 +217,9 @@ RAS = Rien À Signaler
 
 - **Description :** [Lors du refresh, le dossier lié au nom de la personne se réinitialise.]
 - **Notre analyse :** [✔️ Nous confirmons le bogue.]
-- **Statut actuel (8 décembre) :** 🔄 En cours 
+- **Statut actuel (8 décembre) :** ❌ Non-corrigé
 - **Plan de correction :** [Empêcher la réinitialisation de la données]
 - **Assigné à :** [Jade Hébert]
-- **Date de correction :** [Date si corrigé]
 
 **Bogue #7 :  [Images manquantes en 1920px]**
 
