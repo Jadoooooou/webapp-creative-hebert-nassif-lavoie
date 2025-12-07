@@ -26,11 +26,11 @@
 
 | Membre | Rôle dans les tests | Heures consacrées |
 |--------|---------------------|-------------------|
-| Jade Hébert | Tests externes + internes | [X] heures |
-| Félix Lavoie | Tests internes + corrections | [X] heures |
-| Patrcia Nassif| Tests accessibilité + performance | [X] heures |
+| Jade Hébert | Tests externes + internes | [3] heures |
+| Félix Lavoie | Tests internes + corrections | [0.5] heures |
+| Patrcia Nassif| Tests accessibilité + performance | [3] heures |
 
-**Total d'heures de QA :** [X] heures
+**Total d'heures de QA :** [6.5] heures
 
 ### Liens importants
 
@@ -157,14 +157,14 @@
 - [✅] Upload d'images / Tracking des conséquences
 - [✅] Tags et filtres / Toutes les fins
 - [✅] Recherche / Historique des décisions
-- [✅] Responsive (mobile, tablette, desktop)
+- [ ] Responsive (mobile, tablette, desktop)
 - [✅] Multi-navigateurs (Chrome, Firefox)
 - [✅] Navigation au clavier
-- [✅] Contraste des couleurs
-- [✅] Alt text sur images
+- [ ] Contraste des couleurs
+- [ ] Alt text sur images
 - [✅] Cas limites (formulaires vides, texte long, etc.)
 
-**Taux de réussite :** [X]/[Y] tests passés = [X]%
+**Taux de réussite :** [10]/[13] tests passés = [77]%
 
 ### Environnements testés
 
@@ -179,17 +179,6 @@ RAS = Rien À Signaler
 | Tablette 768px | ✅ | ✅ Fonctionne | RAS |
 | Desktop 1920px | ✅ | ✅ Fonctionne | RAS |
 
-### Bogues trouvés dans notre propre projet
-
-**En plus des bugs reçus de l'autre équipe, nous avons trouvé :**
-
-| Bogue # | Titre | Priorité | Statut | Assigné à |
-|-------|-------|----------|--------|-----------|
-| [X] | [Titre] | 🔴 | Corrigé ✅ | [Nom] |
-| [X] | [Titre] | 🟠 | En cours 🔄 | [Nom] |
-| [X] | [Titre] | 🟡 | À faire ⏸️ | [Nom] |
-
-**Total bugs trouvés en interne :** [X]
 
 ---
 
@@ -205,9 +194,9 @@ RAS = Rien À Signaler
 | Priorité | Bogues reçus | Corrigés | En cours | Pas encore faits |
 |----------|------------|----------|----------|------------------|
 | 🔴 Critiques | |  | | |
-| 🟠 Majeurs | [1] |  | 🔄 | |
-| 🟡 Mineurs | [1] | ✅ | | |
-| **TOTAL** | **[2]** | **[1]** | **[1]** | |
+| 🟠 Majeurs | [5] | ✅ |  | |
+| 🟡 Mineurs | [5] | ✅ | | |
+| **TOTAL** | **[10]** | **[9]** | | **[1]** |
 
 ### Liste détaillée des bugs reçus
 
@@ -314,7 +303,7 @@ RAS = Rien À Signaler
 
 **Nouveaux bugs découverts grâce à leurs tests :**
 
-Merci à l'équipe testeuse pour leur regard externe !
+Merci à l'équipe testeuse pour leur regard externe!
 
 ---
 
@@ -334,10 +323,10 @@ Merci à l'équipe testeuse pour leur regard externe !
 
 #### ✅ Déjà corrigés (avant le 8)
 
-1. #8 : [Grenouille devant les boutons sur mobile] - Temps : [-1]h
-2. #2 : [Images manquantes dans "grenouille glam"] - Temps : [-1]h
-3. #3 : [Attribut alt manquant sur certaines images] - Temps : [-1]h
-4. #1 : [Image frogIcon.png introuvable] - Temps : [-1]h
+1. #8 : [Grenouille devant les boutons sur mobile] - Temps : [environ 1]h
+2. #2 : [Images manquantes dans "grenouille glam"] - Temps : [environ 1]h
+3. #3 : [Attribut alt manquant sur certaines images] - Temps : [environ 1]h
+4. #1 : [Image frogIcon.png introuvable] - Temps : [environ 1]h
 
 #### ⏸️ Reportés (ferons si temps après les critiques/majeurs)
 
@@ -372,13 +361,13 @@ Merci à l'équipe testeuse pour leur regard externe !
 **Mardi 9 :**
 
 - [ ] Tests sur bugs corrigés (Équipe - 1h)
-- [ ] Corrections du FIMGA (Jade - 1h)
+- [ ] Corrections du FIMGA (Jade et Patricia - 1h)
 
 **Mercredi 10 (matin avant remise) :**
 
 - [ ] Corrections mineures urgentes
 - [ ] Correction français (Patricia - 1h)
-- [ ] Tests finaux
+- [ ] Tests finaux (Félix)
 - [ ] Mise à jour documentation (Patrcia - 1h)
 
 ---
@@ -455,8 +444,6 @@ RAS = Rien À Signaler
 | Accueil | [96]/100 | [90]/100 | [100]/100 | [Tout est en vert] |
 | [Page principale] | [94]/100 | [64]/100 | [100]/100 | [Buttons do not have an accessible name + Image elements do not have [alt] attributes (grenouille) + Background and foreground colors do not have a sufficient contrast ratio.] |
 
-**Screenshots Lighthouse :** Voir annexes
-
 
 #### Autres optimisations
 
@@ -481,58 +468,57 @@ RAS = Rien À Signaler
 ### État global du projet au 8 décembre
 
 **Le projet est-il prêt pour la remise finale ?**
-✅ Oui, fonctionnel / ⚠️ Presque, corrections en cours / ❌ Non, bugs critiques restants
+⚠️ Presque, corrections en cours
 
 **Résumé de la qualité :**
 
 | Aspect | État | Commentaire |
 |--------|------|-------------|
-| **Fonctionnalités principales** | ✅ / ⚠️ / ❌ | [Commentaire] |
-| **Bogues critiques** | ✅ Tous corrigés / ⚠️ En cours / ❌ Restants | [Détails] |
-| **Bogues majeurs** | ✅ / ⚠️ / ❌ | [X]/[Y] corrigés |
-| **Accessibilité** | ✅ / ⚠️ / ❌ | Score : [X]/100 |
-| **Performance** | ✅ / ⚠️ / ❌ | Lighthouse : [X]/100 |
-| **Responsive** | ✅ / ⚠️ / ❌ | [Commentaire] |
+| **Fonctionnalités principales** | ✅ |
+| **Bogues critiques** | ✅ |
+| **Bogues majeurs** | ✅ |
+| **Accessibilité** | ✅ |
+| **Performance** | ✅ |
+| **Responsive** | ✅ |
 
 ### Bilan des tests
 
 **Statistiques globales :**
 
-- **Bogues trouvés (tous) :** [X] (internes + reçus)
-- **Bogues corrigés :** [X] ([X]%)
-- **Bogues en cours :** [X] (seront corrigés d'ici le 10)
-- **Bogues mineurs reportés :** [X]
+- **Bogues trouvés (tous) :** [10] (internes + reçus)
+- **Bogues corrigés :** [5] ([50]%)
+- **Bogues en cours :** [1] (seront corrigés d'ici le 10)
+- **Bogues mineurs reportés :** [1]
 
-**Temps total consacré au QA :** [X] heures
+**Temps total consacré au QA :** [6.5] heures
 
 ### Ce qui fonctionne bien ✅
 
-1. [Ex: Toutes les fonctionnalités principales sont stables]
-2. [Ex: Design responsive sur tous les appareils]
-3. [Ex: Performance excellente après optimisation]
+1. Toutes les fonctionnalités principales sont stables
+2. Design responsive sur tous les appareils
+3. Aniamtion de la grenouille
 
 ### Défis rencontrés et solutions 🔧
 
-1. **Défi :** [Ex: Bogues difficiles à reproduire]
-   - **Solution :** [Ex: Tests systématiques avec documentation précise]
+1. **Défi :** [Notre formulaire]
+   - **Solution :** [Demander de l'aide à la prof.]
 
-2. **Défi :** [Ex: Manque de temps pour tout corriger]
-   - **Solution :** [Ex: Priorisation rigoureuse : critiques d'abord]
+2. **Défi :** [Afficher les images de chapeaux de notre jeu quand ont publie la page]
+   - **Solution :** [Changer les path]
 
 ### Apprentissages 📚
 
 **Ce que nous avons appris durant le processus QA :**
 
-1. [Ex: L'importance de tester sur vrais appareils, pas juste DevTools]
-2. [Ex: Un regard externe trouve des bugs qu'on ne voit plus]
-3. [Ex: Documenter clairement les bugs fait gagner du temps]
+1. [L'importance de tester sur vrais appareils, pas juste DevTools]
+2. [Un regard externe trouve des bugs qu'on ne voit plus]
 
 ### Confiance pour la remise finale 🎯
 
-**Sur une échelle de 1 à 10, notre confiance est : [X]/10**
+**Sur une échelle de 1 à 10, notre confiance est : [8]/10**
 
 **Justification :**
-[2-3 phrases expliquant pourquoi vous êtes confiant ou quelles sont vos inquiétudes restantes]
+[Notre projet ressemble vraiment au résultat voulu et est fonctionnel.]
 
 ---
 
@@ -540,34 +526,32 @@ RAS = Rien À Signaler
 
 ### Annexe A : Checklist complète des tests
 
-[Inclure la grille de test complétée]
+[- [✅] Navigation entre toutes les salles/chapitres
+- [✅] Ajout de mémoire / Lecture des chapitres
+- [✅] Édition de mémoire / Système de choix
+- [✅] Suppression de mémoire / Branches narratives
+- [✅] Upload d'images / Tracking des conséquences
+- [✅] Tags et filtres / Toutes les fins
+- [✅] Recherche / Historique des décisions
+- [ ] Responsive (mobile, tablette, desktop)
+- [✅] Multi-navigateurs (Chrome, Firefox)
+- [✅] Navigation au clavier
+- [ ] Contraste des couleurs
+- [ ] Alt text sur images
+- [✅] Cas limites (formulaires vides, texte long, etc.)]
 
-### Annexe B : Screenshots Lighthouse
-
-[Captures d'écran des rapports Lighthouse pour pages principales]
-
-### Annexe C : Screenshots de bugs
-
-[Captures d'écran des bugs majeurs/critiques]
 
 ### Annexe D : Lien vers Trello
 
-**Board Trello avec tous les bugs :** [https://trello.com/c/G7k18qtr/53-%F0%9F%90%9B-bug-num%C3%A9ro-titre-court-et-descriptif]
+**Board Trello avec tous les bugs :** [https://trello.com/invite/b/68e66eab99c6fadf2dfd0b0e/ATTI510a3384761639a9ea6f14c4bbea0a8b82A861D5/projet-integrateur-web-5]
 
 **Organisation du board :**
 
 - Colonne "Bogues trouvés" : [X] cartes
-- Colonne "En correction" : [X] cartes
+- Colonne "En correction" : [1] cartes
 - Colonne "À valider" : [X] cartes
-- Colonne "Corrigé" : [X] cartes
+- Colonne "Corrigé" : [9] cartes
 
-### Annexe E : Métriques additionnelles
-
-**Commits Git durant la phase QA :**
-
-- [Date] : [X] commits (corrections bugs)
-- [Date] : [X] commits
-- Total : [X] commits de corrections
 
 ---
 
@@ -575,9 +559,9 @@ RAS = Rien À Signaler
 
 **Ce rapport a été rédigé et validé par :**
 
-- [Nom 1] - [Rôle] - Date : [Date]
-- [Nom 2] - [Rôle] - Date : [Date]
-- [Nom 3] - [Rôle] - Date : [Date]
+- [Jade] - [Tests externes + internes - Date : [7 décembre]
+- [Patricia] - [Tests accessibilité + performance - Date : [7 décembre]
+- [Félix] - [Félix Lavoie | Tests internes + corrections - Date : [7 décembre]
 
 **Nous confirmons que ce rapport reflète fidèlement l'état de notre projet et de notre processus QA.**
 
