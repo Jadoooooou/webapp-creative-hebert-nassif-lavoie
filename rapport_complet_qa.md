@@ -303,13 +303,15 @@ RAS = Rien À Signaler
 - **Assigné à :** [Jade Hébert]
 - **Date de correction :** [2025/12/07]
 
+---
+
 - Voir Trello pour détails complets : [[Lien](https://trello.com/b/0Nqsv0VR/projet-integrateur)]
 
 ### Notre réaction aux bugs reçus
 
 **Bogues que nous confirmons :**
 
-- 2 bugs confirmés comme vrais bugs
+- 5 bugs confirmés comme vrais bugs
 
 **Nouveaux bugs découverts grâce à leurs tests :**
 
