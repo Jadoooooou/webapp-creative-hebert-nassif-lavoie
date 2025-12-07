@@ -14,6 +14,9 @@ export const useStoryStore = defineStore("story", {
     isLoading: false, // Peut servir si tu veux ajouter un loading plus tard
   }),
 
+  // Ajout d'une persistance
+  persist: true,
+
   getters: {
     // Retourne le chapitre complet basé sur currentChapterId
     // Si l’ID n’existe pas → retourne null (évite les erreurs)
