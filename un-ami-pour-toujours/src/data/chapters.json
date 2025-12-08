@@ -44,7 +44,7 @@
     {
       "id": 6,
       "title": "Festin de mouches",
-      "text": "graaaaa ",
+      "text": " ",
       "choices": [
         { "id": 1, "text": "Continuer", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
       ]
