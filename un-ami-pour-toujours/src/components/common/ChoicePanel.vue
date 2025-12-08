@@ -66,7 +66,7 @@ button:hover {
     border: 2px solid #808080;
     border-right-color: #fff;
     border-bottom-color: #fff;
-    background-color: #0d531d;
+    background-color: #384C3F;
 }
 
 /* MOBILE */
