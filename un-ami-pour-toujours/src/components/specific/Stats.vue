@@ -51,7 +51,7 @@ export default {
     // Icône réactive selon score
     const displayIcon = computed(() => {
       if (playerStore.ami <= 0) return "💀";
-      if (playerStore.ami >= 3) return "AMI";
+      if (playerStore.ami >= 3) return "💚";
       return "";
     });
 
