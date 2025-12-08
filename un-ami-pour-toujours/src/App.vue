@@ -1,6 +1,4 @@
 <script>
-import { onMounted, nextTick, watch } from "vue";
-import { useRoute } from "vue-router";
 import { gsap } from "gsap";
 import TextPlugin from "gsap/TextPlugin";
 
@@ -18,13 +16,6 @@ export default {
 
 <template>
   <header>
-   <!-- 
-    <nav>
-      <router-link to="/">Home</router-link>
-      <router-link to="/ChapterView/1">ChapterView</router-link>
-      <router-link to="/EndingScreenView">EndingScreenView</router-link>
-    </nav>
-    -->
   </header>
 
   <!-- transition + key permet la réinitialisation du composant -->

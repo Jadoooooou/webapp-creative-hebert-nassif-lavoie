@@ -1,15 +1,18 @@
 <template>
     <div class="page">
         <div class="container">
-            <!-- Texte animé -->
+            <!-- affiche les texte du Json -->
             <p class="narrative-text">{{ formattedText }}</p>
+            <!-- affiche les stats selon la bonne fin -->
             <Stats v-if="chapter.id == 14" class="stats" />
             <Stats v-if="chapter.id == 15" class="stats" />
             <Stats v-if="chapter.id == 16" class="stats" />
+            <!-- affiche les images de jeux dans le bon chapitre -->
             <div v-if="chapter.id == 5" class="jeuImg">
                 <img src="/src/assets/festin_mouches.png" alt="grenouille_glam">
                 <img src="/src/assets/grenouille_glam.png" alt="festin_mouches">
             </div>
+            <!-- affiche le bon jeu dans le bon chapitre -->
             <FestinDeMouche v-if="chapter.id == 6" class="jeux" />
             <GrenouilleGlam v-if="chapter.id == 7" class="jeux" />
         </div>
@@ -40,7 +43,7 @@ export default {
     },
     setup(props) {
         const playerStore = usePlayerStore();
-
+        // change le nom du IconDoc
         const formattedText = computed(() => {
             return props.chapter.text.replace('[NOM]', playerStore.form.name || '…');
         });

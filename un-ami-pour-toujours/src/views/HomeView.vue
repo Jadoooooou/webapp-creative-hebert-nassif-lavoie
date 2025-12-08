@@ -1,11 +1,12 @@
 <template>
+  <!-- page d'acceuil du site -->
   <div class="page">
     <h1 class="anim-title">UN AMI POUR LA VIE</h1>
 
     <div class="line"></div>
 
     <h2 class="anim-subtitle">Un jeu par : Les Quenouilles</h2>
-
+    <!-- bouton qui envoie a ChapterView -->
     <button @click="jouer" class="btnJouer">JOUER</button>
 
     <p class="anim-footer">© 2025 Les Quenouilless</p>

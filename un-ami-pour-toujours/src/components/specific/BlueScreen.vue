@@ -1,4 +1,5 @@
 <template>
+  <!-- affiche l'animation -->
   <div class="cascade">
     <div
       v-for="(w, i) in windows"

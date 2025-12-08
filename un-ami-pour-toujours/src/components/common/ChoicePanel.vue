@@ -1,6 +1,7 @@
 <template>
     <div class="page">
         <div class="container">
+            <!-- affiche le form si le chappitre est le bon -->
             <FormUserProfile v-if="chapter.id == 4" class="form" @formSubmitted="$emit('choose', chapter.choices[0])" />
 
             <!-- Bouton pour poursuivre l'histoire sauf pour le formulaire -->
