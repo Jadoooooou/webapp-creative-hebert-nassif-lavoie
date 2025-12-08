@@ -6,6 +6,11 @@
       <BlueScreen v-if="showBlueScreen" class="blue-overlay"/>
     </transition>
 
+    <!-- Terminal Screen -->
+    <transition name="fade1">
+      <Terminal v-if="showTerminal" class="terminal-overlay"/>
+    </transition>
+
     <!-- Grenouille -->
     <Frog :key="storyStore.currentChapterId" :chapterId="storyStore.currentChapterId + 1"/>
 
@@ -50,6 +55,7 @@ import NarrativeText from "../components/common/NarrativeText.vue";
 
 import Frog from "../components/specific/Frog.vue";
 import BlueScreen from "../components/specific/BlueScreen.vue";
+import Terminal from "../components/specific/Terminal.vue";
 
 import { ref } from "vue";
 
@@ -64,13 +70,16 @@ export default {
     IconePoubelle,
     AppFooter,
     Frog,
-    BlueScreen
+    BlueScreen,
+    Terminal
   },
 
   setup() {
     const storyStore = useStoryStore();
     const playerStore = usePlayerStore();
     const showBlueScreen = ref(false);
+    const showTerminal = ref(false);
+
 
     // Chapitre actuel pour simplifier l'accès
     const currentChapter = computed(() => {
@@ -105,6 +114,18 @@ export default {
         return; 
       }
 
+      // Quand on finit l'histoire → afficher Terminale avant le prochain chapitre
+      if (currentChapter.value.id === 12) {
+        showTerminal.value = true; 
+
+        setTimeout(() => {
+          showTerminal.value = false; // cacher après délai
+          storyStore.currentChapterId = choice.nextChapter - 1; // passer au chapitre réel
+        }, 2000); 
+
+        return; 
+      }
+
       // Passer au chapitre suivant
       storyStore.currentChapterId = choice.nextChapter - 1;
     };
@@ -114,7 +135,8 @@ export default {
       playerStore,
       currentChapter,
       changeChapter,
-      showBlueScreen
+      showBlueScreen,
+      showTerminal
     };
   },
   mounted() {
