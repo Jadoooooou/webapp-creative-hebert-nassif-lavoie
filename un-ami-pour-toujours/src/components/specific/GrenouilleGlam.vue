@@ -237,7 +237,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   cursor: grab;
-  z-index: 9999 !important; /* CRITICAL FIX */
+  z-index: 99 !important; /* CRITICAL FIX */
   pointer-events: auto;
 }
 

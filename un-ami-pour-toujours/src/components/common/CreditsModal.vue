@@ -2,7 +2,7 @@
     <div>
       <!-- Button to open -->
       <button @click="show = true" class="win98-button">
-        Voir crédits
+        Crédits
       </button>
   
       <!-- Modal -->
