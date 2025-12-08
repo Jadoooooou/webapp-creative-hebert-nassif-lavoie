@@ -12,7 +12,8 @@
 <p>L’histoire suit la grenouille Germaine étrange et solitaire qui traverse un monde fantastique à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être la seule amie, quitte à éloigner, voire faire disparaître les autres prétendants à l’amitié. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle et la perte d’innocence.</p>
 
 ### Fonctionnalités principales
-- Le joueur est régulièrement confronté à des questions et des choix ambigus, qui influencent la transformation du monde et du personnage.
+- Le joueur est régulièrement confronté à des questions et des choix ambigus, qui influencent la progression narrative.
+
 - "Un Ami pour Toujours" est une histoire interactive en pixel art rétro où une petite grenouille cherche à devenir la seule et unique amie de l’interacteur. Au fil des choix moraux du joueur, son véritable côté sombre se révèle progressivement. Mêlant fantastique, aventure et psychologie, le récit explore la solitude, la possession et la perte d’innocence, menant à plusieurs fins selon les décisions prises.
 
 ## Technologies utilisées
