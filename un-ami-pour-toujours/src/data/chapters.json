@@ -46,7 +46,7 @@
       "title": "Festin de mouches",
       "text": " ",
       "choices": [
-        { "id": 1, "text": "Continuer", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
+        { "id": 1, "text": "arreter le jeu", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
       ]
     },
     {
@@ -54,7 +54,7 @@
       "title": "Grenouille Glam",
       "text": " ",
       "choices": [
-        { "id": 1, "text": "Continuer", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
+        { "id": 1, "text": "arreter le jeu", "nextChapter": 8, "type": "path", "effects": { "ami": 1 } }
       ]
     },
     {

@@ -3,7 +3,6 @@
     <div class="title-bar">
       <span>Grenouille Glam</span>
       <div class="title-buttons">
-        <button class="win98-close-btn" @click="close">X</button>
       </div>
     </div>
 
