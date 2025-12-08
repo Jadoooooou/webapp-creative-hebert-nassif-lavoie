@@ -2,7 +2,6 @@ import { createRouter, createWebHashHistory  } from "vue-router";
 // On importe les vues principales de l'application
 import HomeView from "../views/HomeView.vue";
 import ChapterView from "../views/ChapterView.vue";
-import EndingScreenView from "../views/EndingScreenView.vue";
 
 const routes = [
   {
@@ -17,13 +16,6 @@ const routes = [
     path: "/ChapterView/:id",
     name: "ChapterView",
     component: ChapterView,
-  },
-  {
-    // Route pour une fin
-    // Le ":id" signifie que c’est une *route dynamique*
-    path: "/EndingScreenView",
-    name: "EndingScreenView",
-    component: EndingScreenView,
   },
 ];
 
