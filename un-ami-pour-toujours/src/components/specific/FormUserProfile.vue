@@ -178,13 +178,13 @@ input {
 }
 
 .win98-button {
-  background-color: #c0c0c0;
+  background-color: #5ea822;
   border: 2px solid #fff;
   border-right-color: #808080;
   border-bottom-color: #808080;
   padding: 4px 12px;
   font-size: 14px;
-  color: black;
+  color: white;
   cursor: pointer;
   outline: none;
   width: 150px;
@@ -195,7 +195,7 @@ input {
   border: 2px solid #808080;
   border-right-color: #fff;
   border-bottom-color: #fff;
-  background-color: #c0c0c0;
+  background-color: #384C3F;
 }
 
 .win98-button:active {
