@@ -50,10 +50,10 @@ npm run build
 
 
 ## Remerciements et autres crédits
+- Les assets Windows sont la création de Alex Meub. Et les assets de Germaine ainsi que ses accessoires sont de Collaborapix Studio.
 
 ## Licence
 - "Projet éducatif - Cégep de Montmorency © 2024-2025"
-- Les assets Windows sont la création de Alex Meub. Et les assets de Germaine ainsi que ses accessoires sont de Collaborapix Studio.
 
 ---
 
