@@ -22,8 +22,7 @@ Figma Brain Storm: https://www.figma.com/board/duRLYm9St5svNGbtXlhxVa/brainstorm
 
 - Quel est le concept de l'histoire interactive?
 
-Réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être la seule amie de l’interacteur qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre.
-
+Réaliser une histoire à propos d'une grenouille, dans un univers en pixel art rétro. Cette grenouille cherche désespérément à être la seule amie de l’interacteur qu'elle rencontre. À chaque chapitre, l'histoire devient de plus en plus lugubre, tandis que les couleurs pastel de l’univers s’estompent peu à peu, jusqu’à ne laisser place qu’au rouge à la fin.
 
 - Quel est le genre narratif?
 
@@ -31,7 +30,7 @@ Le genre narratif est un mélange de fantastique, aventure, et psychologique, av
 
 - Quelle est l'histoire principale? 
 
-L’histoire suit une grenouille étrange et solitaire qui traverse un monde fantastique à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être la seule amie, quitte à éloigner, voire faire disparaître les autres prétendants à l’amitié. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle et la perte d’innocence.
+L’histoire suit une grenouille étrange et solitaire qui traverse un monde fantastique à la recherche d’amis. Cependant, son désir n’est pas aussi innocent qu’il le semble : elle ne veut pas simplement des amis, elle veut être la seule amie, quitte à éloigner, voire faire disparaître les autres prétendants à l’amitié. Au fil des chapitres, le monde perd ses couleurs pastel joyeuses et adopte une palette de plus en plus sombre, jusqu’à devenir entièrement sombre, qui reflet de l’état mental de la grenouille et des conséquences de ses actions. Le récit explore des thèmes comme la solitude obsessionnelle, la possession émotionnelle, et la perte d’innocence.
 <br>
 
 - Qui est le personnage principal?
@@ -42,12 +41,12 @@ La petite grenouille Germaine (l'interacteur)
 
 Le joueur est régulièrement confronté à des questions et des choix ambigus, qui influencent la transformation du monde et du personnage.
    
-"Un Ami pour Toujours" est une histoire interactive en pixel art rétro où une petite grenouille cherche à devenir la seule et unique amie de l’interacteur. Au fil des choix moraux du joueur, son véritable côté sombre se révèle progressivement. Mêlant fantastique, aventure et psychologie, le récit explore la solitude, la possession et la perte d’innocence, menant à plusieurs fins selon les décisions prises.
+> "Un Ami pour Toujours" est une histoire interactive en pixel art rétro où une petite grenouille cherche à devenir la seule et unique amie de l’interacteur. Au fil des choix moraux du joueur, l’univers pastel s’assombrit peu à peu, reflétant un sombre côté de la grenouille. Mêlant fantastique, aventure et psychologie, le récit explore la solitude, la possession et la perte d’innocence, menant à plusieurs fins selon les décisions prises.
 
 ### 1.2 Public cible
 
 - _Âge:_ 13+
-- _Profil:_ Jeunes aimant les jeux narratifs expérimentaux qui mélangent le psychologique et le fantastique.
+- _Profil:_ Jeunes aiamnt les jeux narratifs expérimentaux, qui mélange le psycologique et le fantastique.
 - _Niveau technique:_ Grand public
 - _Temps de lecture estimé:_ 20 minutes
   
@@ -66,15 +65,13 @@ Le joueur est régulièrement confronté à des questions et des choix ambigus, 
 
 Racontez votre histoire en 1-2 paragraphes (sans spoiler les fins): 
     
-Dans un monde fantastique teinté d’étrangeté, une petite grenouille solitaire cherche désespérément à se faire des amis. Elle guide l’interacteur à travers son univers, se montrant tour à tour attachante, curieuse et un peu envahissante. Plus elle se dévoile, plus on comprend que son besoin d’affection dépasse la simple envie de compagnie.
-
-Sous ses allures innocentes, la grenouille nourrit un désir d’exclusivité qui la pousse à écarter tout ce qui pourrait menacer son lien avec l’interacteur. À mesure que l’histoire progresse, les comportements subtils de la grenouille révèlent une solitude obsessionnelle et un attachement démesuré. Le récit explore alors les limites entre amitié, possession émotionnelle et perte d’innocence, amenant le joueur à faire des choix qui influenceront profondément la relation qui se tisse. <br>
+Dans un monde en pixel art aux couleurs douces, une petite grenouille part à la recherche d’un ami: elle demande de joueur avec l'interacteur, d'explorer son monde virtuel, et d'apprendre à se connaître. Mais sous ses airs innocents se cache une obsession maladive : elle veut devenir notre seule et unique amie pour toujours. À mesure que le jeux avance, le monde s'assombrit, les teintes pastel disparaissent, et l'histoire prend une tournure macabre. <br>
 
 ### 2.2 Arbre narratif
 
 Dessinez ou décrivez l'arbre de décisions de votre histoire:
     
-![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre-narratif.png) 
+![arbre narratif](https://github.com/Jadoooooou/webapp-creative-hebert-nassif-lavoie/blob/main/medias/arbre_narratif.png) 
 
 ### 2.3 Liste des chapitres/scènes
 
@@ -115,7 +112,7 @@ Les choix influencent la tolérance de la grenouille et à par quel moyen elle v
 
 _Mécanisme choisi:_
 
-- [X] _Système de karma/moralité_ (points bons/mauvais)
+- [ ] _Système de karma/moralité_ (points bons/mauvais)
 - [ ] _Stats du personnage_ (courage, intelligence, empathie)
 - [ ] _Inventaire d'objets_ (collecte d'items)
 - [ ] _Relations avec personnages_ (affinités)
@@ -219,14 +216,15 @@ Choisissez un ou plusieurs styles:
 
 | Chapitre | Image de fond         | Effets visuels     | Sons/musique         |
 | -------- | --------------------- | ------------------ | -------------------- |
-| 1 | Bureau d'un ordinateur aux allures Windows95 | Animation textes | x |
-| 2 | Bureau d'un ordinateur aux allures Windows95 | Apparition fenetre Windows + Animation textes | x |
-| 3 | Bureau d'un ordinateur aux allures Windows95| Petit jeu avec des éléments à récupérer (dragable et click)| x |
-| 4 | Bureau d'un ordinateur aux allures Windows95 | Animation textes | x  |
-| 5 | Bureau d'un ordinateur aux allures Windows95| Animation textes | x |
-| FIN D| Bureau d'un ordinateur aux allures Windows95 | Animation textes | x |
-| FIN E| Bureau d'un ordinateur aux allures Windows95 | Animation textes | x  |
-| FIN F| Bureau d'un ordinateur aux allures Windows95 | Apparition fenetre Windows + Animation textes | x |
+| 1 | Bureau d'un ordinateur aux allures Windows95 | Apparition grenouille, animation position | Musique d'ambiance en boucle |
+| 2 | Bureau d'un ordinateur aux allures Windows95 | Animation position, textes | Musique d'ambiance en boucle |
+| 3 | Fond clair| Petit jeu avec des éléments à récupérer (dragable et click)| Nouvelle musique d'ambiance en boucle  |
+| 4 | Fond moins clair | Apparition fenetre Windows | Musique d'ambiance se déforme + effets sonores "erreur windows  |
+| 4 (suite)| Fond moins clair | Apparition texte  | Musique d'ambiance en boucle |
+| 5 | Fond sombre| Spirale | Anmation de la spirale | Musique d'ambiance en boucle déformée et grave|
+| FIN D| Fond noir | grenouille, ombre du texte à l'écran | Effets sonores |
+| FIN E| Fond noir | Apparition texte | Effets sonores  |
+| FIN F| Fond noir | Apparition fenetre Windows | Effets sonores |
 
 ## 💻 4. Spécifications Techniques
 
