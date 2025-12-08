@@ -10,11 +10,7 @@
         animationDelay: `${i * 80}ms`
       }"
     >
-      <p class="text">
-        Une erreur fatale s'est produite.<br><br>
-        La tâche n'a pas été exécutée.<br><br>
-        Vérifiez vos paramètres pare-feu.
-      </p>
+      <p class="text"> grant all access to the running program</p>
     </div>
   </div>
 </template>
@@ -41,18 +37,19 @@
   
   .window {
     position: absolute;
-    top: 120px;
+    top: 320px;
     left: 200px;
     width: 550px;
     height: 250px;
     padding: 20px;
-    background-color: blue;
+    background-color: black;
     border: 2px solid white;
     animation: pop 120ms ease-out forwards;
     opacity: 0;
   }
   
   .text {
+    font-family: "Press Start 2P";
     color: white;
     font-size: 14px;
     line-height: 1.4;

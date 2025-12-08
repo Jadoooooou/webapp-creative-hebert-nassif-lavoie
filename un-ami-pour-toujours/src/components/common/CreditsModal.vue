@@ -18,7 +18,7 @@
           <!-- Window content -->
           <div class="win98-content">
             <p>Les assets Windows sont la création de <a href="https://alexmeub.com/old-windows-icons/">Alex Meub</a>.</p>
-            <p>Et les assets de Germaine ainsi que ses accessoires sont de <a href="https://www.vecteezy.com/members/collaborapix">Collaborapix Studio</a>.</p>
+            <p>Les assets de Germaine ainsi que ses accessoires sont de <a href="https://www.vecteezy.com/members/collaborapix">Collaborapix Studio</a>.</p>
   
             <button class="win98-button" @click="close">
               OK
