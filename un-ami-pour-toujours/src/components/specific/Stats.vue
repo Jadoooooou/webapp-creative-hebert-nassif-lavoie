@@ -2,7 +2,6 @@
   <div class="window">
     <div class="title-bar">
       <span>Données du joueur</span>
-      <button @click="closeWindow">X</button>
     </div>
     <div class="content">
       <!-- Icône selon score -->
@@ -149,7 +148,7 @@ export default {
 /* MOBILE */
 @media (max-width: 767px) {
   .window {
-  width: 170px;
+  width: 200px;
 }
 }
 </style>

@@ -195,7 +195,7 @@ export default {
     font-family: "Press Start 2P";
     font-size: 5px;
     text-align: center;
-    color: white;
+    color: #000000;
     margin: 0;
   }
 }
