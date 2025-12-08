@@ -48,7 +48,7 @@ export default {
 }
 
 button {
-    background-color: #c0c0c0;
+    background-color: #B9CBC1;
     border: 2px solid #fff;
     border-right-color: #808080;
     border-bottom-color: #808080;
