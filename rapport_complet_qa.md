@@ -27,7 +27,7 @@
 | Membre | Rôle dans les tests | Heures consacrées |
 |--------|---------------------|-------------------|
 | Jade Hébert | Tests externes + internes | [3] heures |
-| Félix Lavoie | Tests internes + corrections | [0.5] heures |
+| Félix Lavoie | Tests internes + corrections | [2] heures |
 | Patrcia Nassif| Tests accessibilité + performance | [3] heures |
 
 **Total d'heures de QA :** [6.5] heures
