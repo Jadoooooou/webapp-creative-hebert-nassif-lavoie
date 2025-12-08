@@ -1,11 +1,5 @@
 # Documentation des composants et des views
 
-## LoadingSpinner
-
-- affiche une animation de chargement pendant un traitement suite à un choix
-- NA (composant purement visuel)
-- NA (composant purement visuel)
-
 ## AppFooter
 
 - sert de pied de page affiche des informations ou boutons (inspiré de la barre du bas de Windows)
@@ -36,29 +30,28 @@
 - label [String] — nom du bouton, disabled [Boolean] — indique si le bouton est cliquable ou non
 - click - émis lorsque l’utilisateur presse le bouton
 
-## CreditsModal
-
-- affiche une fenêtre modale avec les crédits du jeu appelée depuis le footer
-- NA
-- close — fermeture de la modale
-
-## IconButton
+## IconDoc
 
 - composant de bouton de style icon 
-- NA
-- click - émis lorsque l’utilisateur presse le bouton
+- na
+- na
+
+## IconOrdi
+
+- composant de bouton de style icon 
+- na
+- na
+## IconPoubelle
+
+- composant de bouton de style icon 
+- na
+- na
 
 ## NarrativeText
 
-- affiche du texte narratif avec effets de style taperwriter
-- autoPlay [Boolean] — lance l'animation automatiquement
-- NA
-
-## SaveStoreManager
-
-- A FAIRE
-- A FAIRE
-- A FAIRE
+- affiche le texte narratif avec effets de style taperwriter
+- na
+- na
 
 ## FormUserProfile
 
@@ -66,8 +59,50 @@
 - defaultValues [Object] — valeurs préremplies
 - submit(formData) — renvoie toutes les données du formulaire
 
-## Modale
+## stats 
 
-- composant générique de fenêtre modale, réutilisable dans tout le projet
-- visible [Boolean] — ouverture/fermeture de la modale, closable [Boolean] — affiche ou non le bouton X
-- close() — fermeture de la modale
+- window qui affiche les stats de l'amitier selon les choix
+- na
+- na
+
+## GrenouilleGlam
+
+- mini jeu ou on doit placer un chapeux sur la grenouille
+- na
+- na
+
+## FestinDeMouche
+
+- mini jeu ou on doit clicker des mouches pour avoir un score
+- na
+- na
+
+## Frog
+
+- fait apparaitre une image dans le jeu
+- na
+- na
+
+## Bluescreen
+
+- animation qui fait un "bogue" ressemblant a un blue screen a la fin des mini jeux
+- na
+- na
+
+## Terminal
+
+- animation qui fait un "bogue" ressamblant a un terminal a l'ors du chapitre 12
+- na
+- na
+
+## CreditsModal
+
+- modal qui montre les credits du projets au click d'un bouton
+- na
+- na
+
+## ChoicePanel
+
+- affiche les boutons néssésaire a la navigation du projet
+- na
+- na
