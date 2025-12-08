@@ -25,19 +25,19 @@
 
 
 ## Comment jouer
-1. Ouvre le jeu
+1. Ouvre le jeu: <br>
 Lance l’histoire interactive directement dans ton navigateur.
-2. Lis le texte du chapitre
+2. Lis le texte du chapitre: <br>
 Chaque écran présente une portion du récit à suivre.
-3. Choisis une option lorsque proposée
+3. Choisis une option lorsque proposée: <br>
 Des boutons de choix apparaissent régulièrement. Clique sur l’un d’eux pour continuer.
-4. Avance dans l’histoire selon tes décisions
+4. Avance dans l’histoire selon tes décisions: <br>
 Chaque choix te dirige vers un chapitre différent et fait progresser le récit.
-5. Continue de sélectionner des choix
+5. Continue de sélectionner des choix: <br>
 Le jeu se construit chapitre après chapitre selon les options que tu prends.
-6. Atteins une fin possible
+6. Atteins une fin possible: <br>
 L’histoire se termine en fonction du chemin que tu as créé à travers tes décisions.
-7. Rejoue si tu veux explorer d’autres parcours
+7. Rejoue si tu veux explorer d’autres parcours: <br>
 Différentes combinaisons de choix mènent à différentes conclusions.
 
 ## Installation en local pour développement
