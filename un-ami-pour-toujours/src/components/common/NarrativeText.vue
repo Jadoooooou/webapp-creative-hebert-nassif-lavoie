@@ -134,6 +134,10 @@ p {
     transition: width 0.5s ease, height 0.5s ease;
 }
 
+.jeux {
+    margin: 0 auto;
+}
+
 /* TABLETTE / écran moyen */
 @media (max-width: 1300px) and (min-width: 768px) {
     .jeuImg {

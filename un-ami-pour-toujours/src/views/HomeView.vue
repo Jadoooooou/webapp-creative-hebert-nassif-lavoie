@@ -107,8 +107,8 @@ h2 {
   width: 300px;
   height: 100px;
   background-color: transparent;
-  border: 8px solid #384C3F;
-  color: #384C3F;
+  border: 8px solid #B9CBC1;
+  color: #B9CBC1;
   font-size: 5vw;
   cursor: pointer;
 }
